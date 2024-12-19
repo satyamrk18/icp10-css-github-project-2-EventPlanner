@@ -1,1 +1,38 @@
-/* link to all pages */
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.top
+{
+    height: 30px;
+    background-color: rgba(176, 109, 27, 0.66);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #088178;
+    font-weight: 600;
+    flex-wrap:wrap ;
+}
+.logo
+{     
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.logo img
+{
+    height: 200px;
+}
+.navbar ul
+{
+ display: flex;
+ justify-content: center;
+ gap: 100px;
+ list-style-type: none;
+ flex-wrap: wrap;
+ color: #088178;
+ font-weight:900;
+ font-size: 25px;
+}
