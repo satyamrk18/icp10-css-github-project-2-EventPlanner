@@ -1,19 +1,27 @@
-body{
+*{
     margin: 0px;
     padding: 0px;
 }
-
-.top
-{
-    height: 30px;
-    background-color: rgba(176, 109, 27, 0.66);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #088178;
-    font-weight: 600;
-    flex-wrap:wrap ;
+.top{
+    position: sticky;
+    top:0px;
 }
+.top p
+{
+    display: flex;
+    height: 30px;
+    background-color: rgb(198, 139, 61);
+    color: #088178;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0px;
+    
+}
+
+
 .logo
 {     
     align-items: center;
@@ -25,14 +33,76 @@ body{
 {
     height: 200px;
 }
+.navbar
+{
+    position: sticky;
+    top:50px;
+}
 .navbar ul
 {
  display: flex;
  justify-content: center;
- gap: 100px;
+ justify-content: space-around;
  list-style-type: none;
  flex-wrap: wrap;
  color: #088178;
  font-weight:900;
  font-size: 25px;
+ padding:25px ;
 }
+/* phone */
+@media (max-width:600px)
+{ 
+    .top img{
+        height: 30px;
+        width: 30px;
+      display: flex;
+      position: relative;
+    }
+    .top button{
+        
+
+    }
+    .navbar ul 
+    {
+        display: none;
+    }
+ #nav-pop
+{
+ background-color: rgb(198, 139, 61);;
+ position: fixed;
+margin-top: 30px;
+height: 100vh;
+width: 150px;
+font-size: 25px;
+list-style-type: none;
+line-height: 100px;
+border: 1px solid black;
+padding-left: 10px;
+}
+
+ 
+}
+/* tablet */
+@media (min-width:601px) and (max-width:800px)
+{
+  .top img {
+     display: none;
+  }
+  #nav-pop
+  {
+    display: none;
+  }
+}
+/* laptop */
+@media (min-width:801px) and (max-width:2000px)
+{
+ .top img {
+    display: none;
+ }
+ #nav-pop
+  {
+    display: none;
+  }
+}
+
