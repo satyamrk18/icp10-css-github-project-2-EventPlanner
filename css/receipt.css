@@ -7,3 +7,13 @@ img{
     margin: 0 auto;
     height: 150px;
 }
+
+.receipt-container{
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid gray;
+    box-shadow: 0 0 10px rgba( 0, 0, 0, 0.4 );
+   
+}
