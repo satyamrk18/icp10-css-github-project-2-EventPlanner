@@ -22,3 +22,10 @@ img{
     background-color: #f1d1c2;
 
 }
+
+.color-box{
+    height: 10px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #5d776c;
+}
