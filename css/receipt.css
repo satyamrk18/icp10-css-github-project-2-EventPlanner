@@ -6,6 +6,7 @@ img{
     display: block;
     margin: 0 auto;
     height: 150px;
+    padding: 20px ;
 }
 
 .receipt-container{
@@ -32,4 +33,11 @@ img{
 
 span{
     background-color: #ebceca;
+    padding: 10px;
+}
+
+.title{
+    text-align: center;
+    color: #5d776c;
+    margin: 40px;
 }
