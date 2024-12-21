@@ -6,6 +6,126 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>Event Planner</title>
 </head>
+<style>
+  
+  .logo {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  
+  
+}
+.logo img {
+  height: 150px;
+  z-index: -1;
+  
+}
+.navbar {
+  position: sticky;
+  top: 35px;
+}
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  list-style-type: none;
+  flex-wrap: wrap;
+  color: #088178;
+  font-weight: 900;
+  font-size: 25px;
+  padding: 25px 50px;
+}
+/* phone */
+@media (max-width: 600px) {
+  
+  .navbar ul {
+    display: none;
+  }
+  .top input {
+    display: none;
+  }
+  #nav-pop {
+    background-color: rgb(198, 139, 61);
+    position: fixed;
+    margin-top: 45px;
+    height: 100vh;
+    width: 150px;
+    font-size: 25px;
+    list-style-type: none;
+    line-height: 100px;
+    border: 1px solid black;
+    padding-left: 10px;
+    font-weight: 600;
+    border: none;
+  }
+  .burger {
+    position: fixed;
+    top: 10px;
+    left: 10px; 
+    z-index: 1000; 
+  }
+
+  .burger button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+  }
+
+  .burger img {
+    height: 25px;
+    width: 25px;
+  }
+  #login
+  {
+    margin-right: 20px;
+  }
+  #search-icon
+  {
+    margin-left: 15px;
+  }
+  .top label {
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  #search-icon
+  {
+    display: none;
+  }
+}
+/* tablet */
+@media (min-width: 601px) and (max-width: 800px) {
+  .top img {
+    display: none;
+  }
+  #nav-pop {
+    display: none;
+  }
+  .burger{
+    display: none;
+  }
+}
+/* laptop */
+@media (min-width: 801px) and (max-width: 2000px) {
+  #b img {
+    display: none;
+  }
+  #nav-pop {
+    display: none;
+  }
+  .burger {
+    display: none;
+  }
+  .navbar ul li
+  {
+    margin-left: 100px;
+    
+  }
+}
+
+</style>
 <body>
   <div class="top">
     <div class="heading">
