@@ -4,33 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Playwrite+AU+VIC+Guides&family=Playwrite+IE+Guides&display=swap" rel="stylesheet">
     <title>Event Planner</title>
   </head>
   <style>
-    .logo {
-      align-items: center;
-      display: flex;
-      justify-content: center;
-      position: relative;
-    }
-    .logo img {
-      height: 150px;
-      z-index: -1;
-    }
+    
 
-    .navbar {
-      position: sticky;
-      top: 35px;
+    .navbar
+    {
+      background-image: url("././image/home_img/download\ \(2\).jpeg");
+    }
+    .navbar ul
+    {
+  position: relative;
+  top:150px;
+    }
+    .navbar img{
+      height: 150px;
+    padding-left: 10px;
+    position: relative;
+    bottom: 10px;
+    left:10px;
+    }
+    .navbar ul li
+    {
+      padding: 10px;
+      display: flex;
+      align-items: center;
     }
     .navbar ul {
       display: flex;
       justify-content: center;
+      justify-content: space-evenly;
       list-style-type: none;
       color: #088179bd;
-      font-weight: 900;
+      
       font-size: 25px;
-      padding: 25px 50px;
+      font-family:"crimson Pro";
+      padding-top:  15px;
       cursor: pointer;
       transition: 0.3s;
    
@@ -39,9 +52,9 @@
       transition: 0.2s;
       text-decoration: underline;
       text-underline-offset: 7px;
-      text-decoration-thickness: 4px;
+      text-decoration-thickness: 3px;
       color: #088178;
-    }
+    } */
     .poster img 
     { 
       width: 100%;
@@ -52,6 +65,44 @@
     {
       opacity: 0.7;
     }
+    .na{
+height: 100px;
+    }
+    .container-1
+    {
+      display: flex;
+      height: 400px;
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+    }
+    .container{
+   display: flex;
+   margin-top: 25px;
+   width: 70%;
+   height: 450px;
+   display: flex;
+   justify-content: center;
+   gap:50px;
+   position: relative;
+   top:130px;
+  
+   
+}
+.container img{
+ width: 20%;
+height: 100%;
+object-fit: cover;
+border-radius: 10px;
+transition: all ease-in-out 0.5s;
+
+
+}
+.container img:hover
+{
+    width:40%;
+    
+}
     /* phone */
     @media (max-width: 600px) {
       .navbar ul {
@@ -61,7 +112,7 @@
         display: none;
       }
       #nav-pop {
-        background-color: rgb(198, 139, 61);
+        background-color: rgba(198, 139, 61, 0.694);
         position: fixed;
         margin-top: 45px;
         height: 100vh;
@@ -73,6 +124,7 @@
         padding-left: 10px;
         font-weight: 600;
         border: none;
+        font-family: "crimson Pro";
       }
       .burger {
         position: fixed;
@@ -108,8 +160,36 @@
       }
       .poster img 
       {
-        display: ;
+        display:none ;
       }
+      .container-1
+      {
+        height: 500px;
+      }
+      .container
+      {
+        display: flex;
+        flex-wrap:wrap ;
+        height: px;
+      }
+   .container img
+   {
+    width:40%;
+ height: 60%;
+ transition: all ease-in-out 0.5s;
+   }
+   .container img:hover
+{   gap:0px;
+    width:50%;
+
+}
+#img1
+{
+  display: none;
+}
+
+      
+      
     }
     /* tablet */
     @media (min-width: 601px) and (max-width: 800px) {
@@ -140,10 +220,6 @@
     }
   </style>
   <body>
-    <div class="poster">
-
-      <img src="././image/home_img/poster1.jpg" alt="poster1" id="p1">
-    </div>
     <div class="top">
       <div class="heading">
         <div class="burger">
@@ -168,24 +244,27 @@
         </form>
       </div>
     </div>
-
-    <!-- logo -->
-
-    <div class="logo">
-      <img src="./icons/logo.png" />
-    </div>
+<!-- navbar -->
     <div class="navbar">
-      <div class="nav-contain">
-        <ul>
-          <li>HOME</li>
-          <li>SHOP</li>
-          <li>BLOG</li>
-          <li>ABOUT</li>
-          <li>CONTACT</li>
-        </ul>
-      </div>
+     <ul>
+      <li>home</li>
+      <li>contact</li>
+      <img src="././icons/logo.png">
+      <li>contact</li>
+      <li>log in</li>
+     </ul>
     </div>
-    <!-- poster -->
+<div class="container-1">
+
+    <div class="container" >
+    <img src="./image/home_img/img1.jpeg" id="img1">
+    <!-- <img src="./image/home_img/img2.jpeg" id="img2"> -->
+    <img src="./image/home_img/img3.jpg" id="img3">
+    <img src="./image/home_img/img4.jpeg" id="img4">
+    <img src="./image/home_img/img5.jpeg" id="img5"> 
+    <img src="./image/home_img/img6.jpeg" id="img6"> 
+</div>
+</div>
 
     <pre>
 
