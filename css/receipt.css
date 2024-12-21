@@ -39,11 +39,23 @@ span{
 .title{
     text-align: center;
     color: #5d776c;
-    margin: 40px;
+    margin: 40px 0 80px 0;
+    font-size: 25px;
 }
 
 .detail{
     display: flex;
     justify-content: space-around;
     margin: 20px 0;
+    font-size: 20px;
+}
+
+.detail-key{
+    color: gray;
+}
+
+.detail-value{
+    font-weight: bold;
+    border-bottom: 1px dashed gray;
+    width: 200px;
 }
