@@ -41,3 +41,9 @@ span{
     color: #5d776c;
     margin: 40px;
 }
+
+.detail{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
