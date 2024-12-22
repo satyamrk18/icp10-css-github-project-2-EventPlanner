@@ -4,34 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Playwrite+AU+VIC+Guides&family=Playwrite+IE+Guides&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Playwrite+AU+VIC+Guides&family=Playwrite+IE+Guides&display=swap"
+      rel="stylesheet"
+    />
     <title>Event Planner</title>
   </head>
   <style>
-    
-
-    .navbar
-    {
+    .navbar {
       background-image: url("././image/home_img/download\ \(2\).jpeg");
     }
-    
-   
-    .navbar ul
-    {
-  position: relative;
-  top:150px;
+
+    .navbar ul {
+      position: relative;
+      top: 150px;
     }
-    .navbar img{
+    .navbar img {
       height: 150px;
-    padding-left: 10px;
-    position: relative;
-    bottom: 10px;
-    left:10px;
+      padding-left: 10px;
+      position: relative;
+      bottom: 10px;
+      left: 10px;
     }
-    .navbar ul li
-    {
+    .navbar ul li {
       padding: 10px;
       display: flex;
       align-items: center;
@@ -44,94 +41,150 @@
       list-style-type: none;
       color: #088179bd;
       font-size: 25px;
-      font-family:"crimson Pro";
-      padding-top:  15px;
+      font-family: "crimson Pro";
+      padding-top: 15px;
       cursor: pointer;
       transition: 0.3s;
       font-weight: 600;
-   
     }
     .navbar ul li:hover {
       transition: 0.2s;
       padding: 7px;
-      font-size:27px ;
+      font-size: 27px;
       text-decoration: underline;
       text-underline-offset: 7px;
       text-decoration-thickness: 3px;
       color: #088178;
-    } 
-   
-    .container-1
-    {
+    }
+
+    .container-1 {
       display: flex;
       height: 620px;
       display: flex;
       justify-content: space-evenly;
       flex-wrap: wrap;
-      background-color: rebeccapurple;
     }
-    .container{
-   display: flex;
-   margin-top: 25px;
-   width: 70%;
-   height: 450px;
-   display: flex;
-   justify-content: center;
- 
-   gap:50px;
-   position: relative;
-   top:130px;
-  
-}
-.container img{
- width: 20%;
-height: 100%;
-object-fit: cover;
-border-radius: 10px;
-transition: all ease-in-out 0.5s;
-}
-.container img:hover
-{
-    width:40%;
-    
-}
-.box
-{   
-  display: flex;
-  height: 500px;
-  width: 70%;
-  border: 2px solid black;
-  margin-top: 50px;
-  margin-left: 50px;
-  justify-content: flex-end;
-  align-items: center;
+    .container {
+      display: flex;
+      margin-top: 25px;
+      width: 70%;
+      height: 450px;
+      display: flex;
+      justify-content: center;
 
-}
-.inner-box
-{
-  display: flex;
-  height: 350px;
-  width: 30%;
-  border: 2px solid black;
-  position:absolute;
-  right:150px;
- 
-}
-.header
-{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: red;
-  margin-top: 10px;
-}
-#H1 {
- font-size: 70px;
-}
+      gap: 50px;
+      position: relative;
+      top: 130px;
+    }
+    .container img {
+      width: 20%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 10px;
+      transition: all ease-in-out 0.5s;
+    }
+    .container img:hover {
+      width: 40%;
+    }
+    .box {
+      display: flex;
+      height: 500px;
+      width: 70%;
+      border: 1px solid rgba(0, 0, 0, 0.135);
+      margin-top: 50px;
+      margin-left: 50px;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      flex-wrap: wrap;
+      background-color:#0881791e;
+      box-shadow: 0 2px 5px;
+      cursor: pointer;
+      transition: 0.9s;
+    }
+    .box:hover{
+      transition: box-shaow 0.9s;
+      box-shadow: 0 7px 12px;
+    }
+    .box h1 {
+      font-size: 100px;
+      position: absolute;
+      top: 10px;
+      display: flex;
+      justify-content: center;
+      font-size: 50px;
+      margin: 0;
+      z-index: 1;
+    }
+    .inner-box {
+      display: flex;
+      height: 400px;
+      width: 40%;
+      border: 1px solid rgb(0, 0, 0);
+      position: relative;
+      left: 400px;
+      top: 150px;
+      background-image: url("./image/home_img/p1.jpg");
+      background-size: cover;
+      background-position: center;
+      box-shadow: inset 0 0 0 10px rgb(255, 255, 255);
+      transition: 0.3s;
+    }
+    .inner-box:hover{
+      transition: all ease-in-out 0.5s;
+      filter: brightness(0.7);
+    }
+    .header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: red;
+      margin-top: 10px;
+    }
+    #H1 {
+      font-size: 70px;
+    }
+    #H3 {
+      display: flex;
+      padding-top: 60px;
+      padding-left: 20px;
+      margin-right: 180px;
+      position: absolute;
+      top: 40px;
+    }
+    .job {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      top: 100px;
+      right: 100px;
+    }
+    .job h2 {
+      line-height: 50px;
+    }
+    .back-img {
+      height: 400px;
+      width: 400px;
+      background-size: cover;
+      background-position: center;
+      position: absolute;
+      left: 90%;
+      margin-left: 50px;
+      bottom: 130px;
+      background-image: url("image/home_img/p2.jpg");
+      box-shadow: inset 0 0 0 10px rgb(255, 255, 255);
+      border: 1px solid rgb(0, 0, 0);
+      transition: 0.3s;
+    }
+    
+    .back-img:hover{
+      transition: all ease-in-out 0.5s;
+      filter: brightness(0.7);
+    }
     /* phone */
     @media (max-width: 600px) {
-      .navbar ul li{
+      .navbar ul li {
         display: none;
       }
       .top input {
@@ -184,38 +237,29 @@ transition: all ease-in-out 0.5s;
       #search-icon {
         display: none;
       }
-      .poster img 
-      {
-        display:none ;
+      .poster img {
+        display: none;
       }
-      .container-1
-      {
+      .container-1 {
         height: 500px;
       }
-      .container
-      {
+      .container {
         display: flex;
-        flex-wrap:wrap ;
+        flex-wrap: wrap;
         height: px;
       }
-   .container img
-   {
-    width:40%;
- height: 60%;
- transition: all ease-in-out 0.5s;
-   }
-   .container img:hover
-{   gap:0px;
-    width:50%;
-
-}
-#img1
-{
-  display: none;
-}
-
-      
-      
+      .container img {
+        width: 40%;
+        height: 60%;
+        transition: all ease-in-out 0.5s;
+      }
+      .container img:hover {
+        gap: 0px;
+        width: 50%;
+      }
+      #img1 {
+        display: none;
+      }
     }
     /* tablet */
     @media (min-width: 601px) and (max-width: 800px) {
@@ -246,6 +290,10 @@ transition: all ease-in-out 0.5s;
     }
   </style>
   <body>
+    <script
+      src="https://kit.fontawesome.com/64b4f5a37c.js"
+      crossorigin="anonymous"
+    ></script>
     <div class="top">
       <div class="heading">
         <div class="burger">
@@ -269,37 +317,68 @@ transition: all ease-in-out 0.5s;
         </form>
       </div>
     </div>
-<!-- navbar -->
+    <!-- navbar -->
     <div class="navbar">
-     <ul>
-      <li>ABOUT</li>
-      <li>SERVICES</li>
-      <img src="././icons/logo.png">
-      <li>GALLERY</li>
-      <li>CONTACT</li>
-     </ul>
+      <ul>
+        <li>ABOUT</li>
+        <li>SERVICES</li>
+        <img src="././icons/logo.png" />
+        <li>GALLERY</li>
+        <li>CONTACT</li>
+      </ul>
     </div>
-<div class="container-1">
-
-    <div class="container" >
-    <img src="./image/home_img/img1.jpeg" id="img1">
-    <!-- <img src="./image/home_img/img2.jpeg" id="img2"> -->
-    <img src="./image/home_img/img3.jpg" id="img3">
-    <img src="./image/home_img/img4.jpeg" id="img4">
-    <img src="./image/home_img/img5.jpeg" id="img5"> 
-    <img src="./image/home_img/img6.jpeg" id="img6"> 
-</div>
-</div>
-<div class="header">
-<pre id="H1">I AM SATYAM</pre>
-<pre id="H2">Providing Curated Luxury Events for the Pacific NW & Beyond</pre>
-
-</div>
-<div class="box">
-<div class="inner-box">
-
-</div>
-</div>
+    <div class="container-1">
+      <div class="container">
+        <img src="./image/home_img/img1.jpeg" id="img1" />
+        <!-- <img src="./image/home_img/img2.jpeg" id="img2"> -->
+        <img src="./image/home_img/img3.jpg" id="img3" />
+        <img src="./image/home_img/img4.jpeg" id="img4" />
+        <img src="./image/home_img/img5.jpeg" id="img5" />
+        <img src="./image/home_img/img6.jpeg" id="img6" />
+      </div>
+    </div>
+    <div class="header">
+      <pre id="H1">I AM SATYAM</pre>
+      <pre id="H2">
+Providing Curated Luxury Events for the Pacific NW & Beyond</pre
+      >
+    </div>
+    <div class="box">
+      <div class="back-img"></div>
+      <h1 id="H1">I am satyam</h1>
+      <h3 id="H3">
+        we believe that every event is an opportunity to create lasting
+        memories. We bring together creativity, precision, and dedication to
+        transform visions into unforgettable experiences. Whether it's a
+        corporate conference, a wedding, or a large-scale festival, our team
+        works tirelessly to ensure every detail is perfect. As part of our team,
+        you'll have the chance to contribute to events that make an impact and
+        leave a lasting impression.
+      </h3>
+      <div class="job">
+        <h2>
+          <i class="fa-solid fa-arrow-right" style="color: #8b9890"></i>
+          &nbsp;Event Planner
+        </h2>
+        <h2>
+          <i class="fa-solid fa-arrow-right" style="color: #8b9890"></i>
+          &nbsp;Event Coordinator
+        </h2>
+        <h2>
+          <i class="fa-solid fa-arrow-right" style="color: #8b9890"></i>
+          &nbsp;Event Marketing Specialist
+        </h2>
+        <h2>
+          <i class="fa-solid fa-arrow-right" style="color: #8b9890"></i>
+          &nbsp;Wedding Planner
+        </h2>
+        <h2>
+          <i class="fa-solid fa-arrow-right" style="color: #8b9890"></i>
+          &nbsp;Corporate Event Manager
+        </h2>
+      </div>
+      <div class="inner-box"></div>
+    </div>
 
     <pre>
 
