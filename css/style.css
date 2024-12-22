@@ -19,7 +19,7 @@ body {
 .top {
   display: flex;
   height: 45px;
-  background-color: rgb(198, 139, 61);
+  background-color: rgba(217, 166, 38, 0.605);
   color: #5d776c;
   width: 100%;
   flex-wrap: wrap;

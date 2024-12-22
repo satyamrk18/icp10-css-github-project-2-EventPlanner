@@ -16,6 +16,8 @@
     {
       background-image: url("././image/home_img/download\ \(2\).jpeg");
     }
+    
+   
     .navbar ul
     {
   position: relative;
@@ -37,44 +39,36 @@
     .navbar ul {
       display: flex;
       justify-content: center;
+      position: relative;
       justify-content: space-evenly;
       list-style-type: none;
       color: #088179bd;
-      
       font-size: 25px;
       font-family:"crimson Pro";
       padding-top:  15px;
       cursor: pointer;
       transition: 0.3s;
+      font-weight: 600;
    
     }
     .navbar ul li:hover {
       transition: 0.2s;
+      padding: 7px;
+      font-size:27px ;
       text-decoration: underline;
       text-underline-offset: 7px;
       text-decoration-thickness: 3px;
       color: #088178;
-    } */
-    .poster img 
-    { 
-      width: 100%;
-      height: 400px;
-    }
-    
-    #p1
-    {
-      opacity: 0.7;
-    }
-    .na{
-height: 100px;
-    }
+    } 
+   
     .container-1
     {
       display: flex;
-      height: 400px;
+      height: 620px;
       display: flex;
       justify-content: space-evenly;
       flex-wrap: wrap;
+      background-color: rebeccapurple;
     }
     .container{
    display: flex;
@@ -83,11 +77,11 @@ height: 100px;
    height: 450px;
    display: flex;
    justify-content: center;
+ 
    gap:50px;
    position: relative;
    top:130px;
   
-   
 }
 .container img{
  width: 20%;
@@ -95,17 +89,49 @@ height: 100%;
 object-fit: cover;
 border-radius: 10px;
 transition: all ease-in-out 0.5s;
-
-
 }
 .container img:hover
 {
     width:40%;
     
 }
+.box
+{   
+  display: flex;
+  height: 500px;
+  width: 70%;
+  border: 2px solid black;
+  margin-top: 50px;
+  margin-left: 50px;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+.inner-box
+{
+  display: flex;
+  height: 350px;
+  width: 30%;
+  border: 2px solid black;
+  position:absolute;
+  right:150px;
+ 
+}
+.header
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  margin-top: 10px;
+}
+#H1 {
+ font-size: 70px;
+}
     /* phone */
     @media (max-width: 600px) {
-      .navbar ul {
+      .navbar ul li{
         display: none;
       }
       .top input {
@@ -228,16 +254,15 @@ transition: all ease-in-out 0.5s;
           </button>
           <div id="nav-pop" popover>
             <ul>
-              <li>HOME</li>
-              <li>SHOP</li>
               <li>ABOUT</li>
-              <li>BLOG</li>
+              <li>SERVICES</li>
+              <li>GALLERY</li>
               <li>CONTACT</li>
             </ul>
           </div>
         </div>
         <form>
-          <label id="head">Elevate Your Events, Elevate Your Dreams</label>
+          <label id="head">Elevate Your Events, Elevate Your Dreams...!</label>
           <input id="search" type="text" name="name" placeholder="search..." />
           <img src="././icons/search.png" alt="search img" id="search-icon" />
           <img src="././icons/account.png" alt="person image" id="login" />
@@ -247,11 +272,11 @@ transition: all ease-in-out 0.5s;
 <!-- navbar -->
     <div class="navbar">
      <ul>
-      <li>home</li>
-      <li>contact</li>
+      <li>ABOUT</li>
+      <li>SERVICES</li>
       <img src="././icons/logo.png">
-      <li>contact</li>
-      <li>log in</li>
+      <li>GALLERY</li>
+      <li>CONTACT</li>
      </ul>
     </div>
 <div class="container-1">
@@ -263,6 +288,16 @@ transition: all ease-in-out 0.5s;
     <img src="./image/home_img/img4.jpeg" id="img4">
     <img src="./image/home_img/img5.jpeg" id="img5"> 
     <img src="./image/home_img/img6.jpeg" id="img6"> 
+</div>
+</div>
+<div class="header">
+<pre id="H1">I AM SATYAM</pre>
+<pre id="H2">Providing Curated Luxury Events for the Pacific NW & Beyond</pre>
+
+</div>
+<div class="box">
+<div class="inner-box">
+
 </div>
 </div>
 
