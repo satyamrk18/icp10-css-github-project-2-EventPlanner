@@ -1,0 +1,61 @@
+body{
+    background-color:  #eeeee4;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    height: 150px;
+    padding: 20px ;
+}
+
+.receipt-container{
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid gray;
+    box-shadow: 0 0 10px rgba( 0, 0, 0, 0.4 );
+   
+}
+
+.receipt-header{
+    background-color: #f1d1c2;
+
+}
+
+.color-box{
+    height: 10px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #5d776c;
+}
+
+span{
+    background-color: #ebceca;
+    padding: 10px;
+}
+
+.title{
+    text-align: center;
+    color: #5d776c;
+    margin: 40px 0 80px 0;
+    font-size: 25px;
+}
+
+.detail{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.detail-key{
+    color: gray;
+}
+
+.detail-value{
+    font-weight: bold;
+    border-bottom: 1px dashed gray;
+    width: 200px;
+}
