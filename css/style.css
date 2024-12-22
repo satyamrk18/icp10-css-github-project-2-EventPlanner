@@ -4,3 +4,8 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: #f1d1c2;
+}
