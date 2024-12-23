@@ -188,9 +188,16 @@
       top: 100px;
       right: 100px;
       font-family:'Crimson Pro', serif;
+      color: rgba(0, 0, 0, 0.68);
     }
     .job h2 {
       line-height: 50px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .job h2:hover
+    {
+color: rgba(0, 0, 0, 0.877);
     }
     .back-img {
       height: 400px;
@@ -287,6 +294,27 @@
         width: 50%;
       }
       #img1 {
+        display: none;
+      }
+      /* heading */
+      .header{
+        position: relative;
+      top:300px;
+      }
+      #H1{
+        font-size:25px;
+        position: absolute;
+      }
+      #H2
+      {
+        position: absolute;
+        top:10px;
+       margin: 5px;
+       word-spacing: 5px;
+      }
+      
+      /* carrier */
+      .box{
         display: none;
       }
     }
