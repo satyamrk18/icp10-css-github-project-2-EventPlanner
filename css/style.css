@@ -18,13 +18,15 @@ body {
 .top {
   display: flex;
   height: 45px;
-  background-color: rgba(217, 166, 38, 0.605);
+  background-color:#dfbc61;
   color: #5d776c;
   width: 100%;
   flex-wrap: wrap;
   position: sticky;
   top: 0px;
-  font-family: "crimson Pro";
+  font-family: "myfont", sans-serif;
+  word-spacing: 10px;
+  font-weight: normal;
   
 }
 .top input {
