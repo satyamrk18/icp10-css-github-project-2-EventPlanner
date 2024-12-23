@@ -1,11 +1,10 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-family: sans-serif;
+
 }
 body {
-  background-color: #ecbba7a6;
-
+ background-color: #d6f2e3ab;
 }
 .top {
   position: sticky;
@@ -14,17 +13,20 @@ body {
   align-items: center;
   justify-content: center;
   filter:drop-shadow(0px 0px 8px rgb(198, 139, 61)) ;
+  z-index: 1;
 }
 .top {
   display: flex;
   height: 45px;
-  background-color: rgb(198, 139, 61);
+  background-color:#dfbc61;
   color: #5d776c;
   width: 100%;
   flex-wrap: wrap;
   position: sticky;
   top: 0px;
-  
+  font-family: "myfont", sans-serif;
+  word-spacing: 10px;
+  font-weight: normal;
   
 }
 .top input {
@@ -47,14 +49,15 @@ body {
 .top label {
   padding-left: px;
   font-size: 20px;
-  font-weight:900;
+  font-weight:600;
 color:  #088178;
 }
 #search::placeholder
 { 
-  font-size: 15px;
+  font-size: 18px;
   padding-left: 15px;
   color: rgba(0, 0, 0, 0.726);
+  font-family: "crimson Pro";
 }
 #search-icon
 {
@@ -103,7 +106,7 @@ color:  #088178;
     display: none;
   }
   #nav-pop {
-    background-color: rgb(198, 139, 61);
+    background-color: rgba(198, 139, 61, 0.598);
     position: fixed;
     margin-top: 45px;
     height: 100vh;
@@ -115,6 +118,7 @@ color:  #088178;
     padding-left: 10px;
     font-weight: 600;
     border: none;
+    font-family: "crimson Pro";
   }
   .burger {
     position: fixed;
