@@ -1,0 +1,16 @@
+.main_heading{
+    padding-left: 20px;
+    color: #00b3b3;
+    font-size: 55px;
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.paragraph{
+    margin-left: 12px;
+    margin-right: 10px;
+    color: black;
+    font-size: 30px;
+}
