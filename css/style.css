@@ -6,7 +6,7 @@
 }
 body {
   font-family: Arial, sans-serif;
-  background-color:  #f1d1c2;
+  background-color: #f1d1c2;
   color: #333;
 }
 
@@ -16,7 +16,7 @@ h1, h2 {
 .pricing-section {
   text-align: center;
   padding: 50px 20px;
- background-color: #d6f2e3ab;
+ background-color:#ebceca;
 }
 .pricing-title {
   font-size: 2.5em;
@@ -27,6 +27,7 @@ h1, h2 {
   font-size: 1.2em;
   margin-bottom: 40px;
   color:#5d776c;
+  background-color: #ebceca #f1d1c2;
 }
 
 .pricing-container {
@@ -43,16 +44,7 @@ h1, h2 {
   width: 300px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
-  height: 40px;
-  background-color:#dfbc61;
-  color: #5d776c;
-  width: 100%;
-  flex-wrap: wrap;
-  position: sticky;
-  top: 0px;
-  font-family: "myfont", sans-serif;
-  word-spacing: 10px;
-  font-weight: normal;
+ 
 }
 .pricing-card:hover {
   transform: translateY(-10px);
@@ -62,11 +54,12 @@ h1, h2 {
   font-size: 1.8em;
   margin-bottom: 15px;
   color: #333;
+  background-color: #ebceca #f1d1c2;
 }
 
 .package-price {
   font-size: 2.2em;
-  color: #ff6347; 
+  color:#5d776c #ebceca; 
   margin-bottom: 20px;
 }
 
@@ -74,7 +67,8 @@ h1, h2 {
   list-style-type: none;
   text-align: left;
   font-size: 1em;
-  color: #555;
+  color: #333;
+  background-color: #ebceca;
 }
 
 .package-details li {
