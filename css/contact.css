@@ -1,7 +1,8 @@
 .container{
-    margin:0px;
-    padding:0px;
-    box-sizing:border-box;
-    font-family:sans-serif;
-    background-color:#ebceca ;
+    height:300px;
+    width:900px;
+    margin:50px auto;
+    border-radius:10px;
+    display:flex;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
