@@ -1,18 +1,16 @@
-<<<<<<< HEAD
+
 . {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-=======
 * {
   margin: 0px;
   padding: 0px;
 
->>>>>>> 37eefaecd69c0161efc19eeeee2a1fb735fa68a6
+
 }
 
 body {
-<<<<<<< HEAD
   font-family: Arial, sans-serif;
   background-color:  #f1d1c2;
   color: #333;
@@ -24,7 +22,6 @@ h1, h2 {
 .pricing-section {
   text-align: center;
   padding: 50px 20px;
-=======
  background-color: #d6f2e3ab;
 }
 .top {
@@ -35,7 +32,6 @@ h1, h2 {
   justify-content: center;
   filter:drop-shadow(0px 0px 8px rgb(198, 139, 61)) ;
   z-index: 1;
->>>>>>> 37eefaecd69c0161efc19eeeee2a1fb735fa68a6
 }
 
 .pricing-title {
@@ -51,7 +47,6 @@ h1, h2 {
 
 .pricing-container {
   display: flex;
-<<<<<<< HEAD
   justify-content: space-around;
   flex-wrap: wrap;
   gap: 30px;
@@ -60,11 +55,10 @@ h1, h2 {
   background-color:#ebceca #f1d1c2;
   border: 1px solid #5d776c;
   border-radius: 8px;
-  padding: 30px;
+  padding: 40px;
   width: 300px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
-=======
   height: 45px;
   background-color:#dfbc61;
   color: #5d776c;
@@ -125,14 +119,11 @@ color:  #088178;
 {
   height: 30px;
   width: 30px;
->>>>>>> 37eefaecd69c0161efc19eeeee2a1fb735fa68a6
 }
 
 .pricing-card:hover {
   transform: translateY(-10px);
 }
-<<<<<<< HEAD
-=======
 #login:hover
 {
   height: 30px;
@@ -140,7 +131,6 @@ color:  #088178;
 }
 /* phone */
 @media (max-width: 600px) {
-  
   .navbar ul {
     display: none;
   }
@@ -168,7 +158,6 @@ color:  #088178;
     left: 10px; 
     z-index: 1000; 
   }
->>>>>>> 37eefaecd69c0161efc19eeeee2a1fb735fa68a6
 
 .package-title {
   font-size: 1.8em;
