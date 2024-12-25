@@ -6,7 +6,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f1d1c2 #5d776c;
+  background-color:  #f1d1c2;
   color: #333;
 }
 
@@ -26,7 +26,7 @@ h1, h2 {
 .pricing-subtitle {
   font-size: 1.2em;
   margin-bottom: 40px;
-  color: #666;
+  color:#5d776c;
 }
 
 .pricing-container {
@@ -36,8 +36,8 @@ h1, h2 {
   gap: 30px;
 }
 .pricing-card {
-  background-color: #fff;
-  border: 1px solid #ddd;
+  background-color:#ebceca #f1d1c2;
+  border: 1px solid #5d776c;
   border-radius: 8px;
   padding: 30px;
   width: 300px;
