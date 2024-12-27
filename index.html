@@ -299,29 +299,35 @@
         padding-bottom: 100px;
         top: 20px;
         background-size: cover;
-        background-position:center ;
+        background-position: center;
         animation: backgroundChange 25s infinite;
       }
       @keyframes backgroundChange {
-       0%, 17% {
-        background-image: url("./image/home_img/img1.jpeg");
+        0%,
+        17% {
+          background-image: url("./image/home_img/img1.jpeg");
+        }
+        20%,
+        33% {
+          background-image: url("./image/home_img/img2.jpeg");
+        }
+        40%,
+        48% {
+          background-image: url("./image/home_img/img3.jpg");
+        }
+        60%,
+        65% {
+          background-image: url("./image/home_img/img4.jpeg");
+        }
+        80%,
+        81% {
+          background-image: url("./image/home_img/img5.jpeg");
+        }
+        100%,
+        100% {
+          background-image: url("./image/home_img/img6.jpeg");
+        }
       }
-      20%, 33% {
-        background-image: url("./image/home_img/img2.jpeg");
-      }
-      40%, 48% {
-        background-image: url("./image/home_img/img3.jpg");
-      }
-      60%, 65% {
-        background-image: url("./image/home_img/img4.jpeg");
-      }
-      80%, 81% {
-        background-image: url("./image/home_img/img5.jpeg");
-      }
-      100%, 100% {
-        background-image: url("./image/home_img/img6.jpeg");
-      }
-    }
       .container img {
         display: none;
       }
@@ -346,6 +352,75 @@
       .box {
         display: none;
       }
+      .carrier-phone {
+        height: 500px;
+        width: 100%;
+        position: relative;
+        top: 250px;
+        z-index: -1;
+      }
+      .cont {
+        height: 90%;
+        width: 90%;
+        display: flex;
+        margin: 25px;
+       position: absolute;
+       background-color: #4edcd312;
+      box-shadow: 2px 2px 5px;
+      cursor: pointer;
+      transition: 0.9s;
+      border: 1px solid rgba(0, 0, 0, 0.135);
+      }
+      .cont:hover
+      {
+        transition: box-shaow 0.9s;
+      box-shadow: 5px 7px 12px;
+      }
+      .img1
+      {
+        height: 150px;
+        width: 150px;
+        background-color: #088178;
+        border: 1px solid rgb(0, 0, 0);
+        position: absolute;
+        top:50px;
+        right: 0px;
+        bottom: 100px;
+        background-image: url("image/home_img/p1.jpg");
+        background-size: cover;
+        background-position: center;
+        box-shadow: inset 0 0 0 10px rgb(255, 255, 255);
+        cursor: pointer;
+        transition: 0.3s;
+      }
+      .img1:hover
+      {
+        transition: all ease-in-out 0.5s;
+        filter: brightness(0.7);
+        /* hover effect remain */
+      }
+      .img2
+      {
+        height: 150px;
+        width: 150px;
+        background-color: #088178;
+        border: 1px solid black;
+        position: absolute;
+        bottom:50px;
+        right: 0px;
+        bottom: 100px;
+        background-image: url("image/home_img/p2.jpg");
+        background-size: cover;
+        background-position: center;
+        box-shadow: inset 0 0 0 10px rgb(255, 255, 255);
+        cursor: pointer;
+      }
+      .img2:hover
+      {
+        transition: all ease-in-out 0.5s;
+        filter: brightness(0.7);
+      }
+
     }
     /* tablet */
     @media (min-width: 601px) and (max-width: 800px) {
@@ -356,6 +431,9 @@
         display: none;
       }
       .burger {
+        display: none;
+      }
+      .carrier-phone {
         display: none;
       }
     }
@@ -372,6 +450,9 @@
       }
       .navbar ul li {
         margin-left: 100px;
+      }
+      .carrier-phone {
+        display: none;
       }
     }
   </style>
@@ -465,9 +546,20 @@ Providing Curated Luxury Events for the Pacific NW & Beyond</pre
       </div>
       <div class="inner-box"></div>
     </div>
+    <div class="carrier-phone">
+      <div class="cont">
+        <h1>info</h1>
+      </div>
+      <div class="img1">
+
+      </div>
+      <div class="img2">
+
+      </div>
+      
+    </div>
 
     <pre>
-
 
 
       
