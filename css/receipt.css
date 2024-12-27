@@ -59,3 +59,9 @@ span{
     border-bottom: 1px dashed gray;
     width: 200px;
 }
+
+.signature{
+    text-align: right;
+    margin: 50px;
+    color: gray;
+}
