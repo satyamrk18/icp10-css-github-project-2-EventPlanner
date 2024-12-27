@@ -14,16 +14,18 @@
   </head>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
 
   <style>
     @import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Playwrite+AU+VIC+Guides&family=Playwrite+CO+Guides&family=Playwrite+IE+Guides&family=Yatra+One&display=swap");
-    @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;600;700&display=swap');
-
+    @import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;600;700&display=swap");
   </style>
   <style>
     .navbar {
-      background-image: url("././image/home_img/main3-Photoroom.jpg");
+      background-image: url("././image/home_img/flower_poster.jpg");
       position: relative;
     }
 
@@ -160,12 +162,12 @@
       font-family: "myfont", sans-serif;
       font-weight: 900;
       word-spacing: 10px;
-      color:#ccaf66;
+      color: #ccaf66;
     }
     #H2 {
       font-size: 15px;
       line-height: 20px;
-      font-family:'Crimson Pro', serif;
+      font-family: "Crimson Pro", serif;
       word-spacing: 4px;
       color: #ccaf66;
       word-spacing: 8px;
@@ -178,7 +180,7 @@
       position: absolute;
       top: 40px;
       font-weight: 600;
-      font-family:'Crimson Pro', serif;
+      font-family: "Crimson Pro", serif;
       line-height: 25px;
     }
     .job {
@@ -187,10 +189,16 @@
       position: relative;
       top: 100px;
       right: 100px;
-      font-family:'Crimson Pro', serif;
+      font-family: "Crimson Pro", serif;
+      color: rgba(0, 0, 0, 0.68);
     }
     .job h2 {
       line-height: 50px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .job h2:hover {
+      color: rgba(0, 0, 0, 0.877);
     }
     .back-img {
       height: 400px;
@@ -269,24 +277,73 @@
       .poster img {
         display: none;
       }
+      /* poster */
       .container-1 {
-        height: 500px;
+        display: flex;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        top: 130px;
       }
       .container {
         display: flex;
+        justify-content: center;
+        align-items: center;
         flex-wrap: wrap;
-        height: px;
+        width: 90%;
+        height: 200px;
+        border-radius: 10px 10px 10px 10px;
+        overflow: hidden;
+        position: relative;
+        padding-bottom: 100px;
+        top: 20px;
+        background-size: cover;
+        background-position:center ;
+        animation: backgroundChange 25s infinite;
       }
+      @keyframes backgroundChange {
+       0%, 17% {
+        background-image: url("./image/home_img/img1.jpeg");
+      }
+      20%, 33% {
+        background-image: url("./image/home_img/img2.jpeg");
+      }
+      40%, 48% {
+        background-image: url("./image/home_img/img3.jpg");
+      }
+      60%, 65% {
+        background-image: url("./image/home_img/img4.jpeg");
+      }
+      80%, 81% {
+        background-image: url("./image/home_img/img5.jpeg");
+      }
+      100%, 100% {
+        background-image: url("./image/home_img/img6.jpeg");
+      }
+    }
       .container img {
-        width: 40%;
-        height: 60%;
-        transition: all ease-in-out 0.5s;
+        display: none;
       }
-      .container img:hover {
-        gap: 0px;
-        width: 50%;
+
+      /* heading */
+      .header {
+        position: relative;
+        top: 180px;
       }
-      #img1 {
+      #H1 {
+        font-size: 25px;
+        position: absolute;
+      }
+      #H2 {
+        position: absolute;
+        top: 10px;
+        margin: 5px;
+        word-spacing: 5px;
+      }
+
+      /* carrier */
+      .box {
         display: none;
       }
     }
@@ -327,7 +384,7 @@
       <div class="heading">
         <div class="burger">
           <button id="burger-button" popovertarget="nav-pop">
-            <img src="./icons/burger-menu.png" alt="Menu" id="b" />
+            <img src="./icons/burger_menu.png" alt="Menu" id="b" />
           </button>
           <div id="nav-pop" popover>
             <ul>
@@ -359,7 +416,7 @@
     <div class="container-1">
       <div class="container">
         <img src="./image/home_img/img1.jpeg" id="img1" />
-        <!-- <img src="./image/home_img/img2.jpeg" id="img2"> -->
+        <img src="./image/home_img/img2.jpeg" id="img2" />
         <img src="./image/home_img/img3.jpg" id="img3" />
         <img src="./image/home_img/img4.jpeg" id="img4" />
         <img src="./image/home_img/img5.jpeg" id="img5" />
