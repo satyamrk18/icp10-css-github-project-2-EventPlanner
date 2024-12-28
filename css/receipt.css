@@ -100,3 +100,51 @@ span{
     font-size: 25px;
     padding: 30px 0;
 }
+
+@media screen and (max-width:520px) {
+    img{
+       
+        height: 80px;
+       
+    }
+
+    span{
+        padding: 5px;
+    }
+    
+    .title{
+        font-size: 15px;
+    }
+
+    .detail-key{
+        font-size: 10px;
+    }
+    
+    .detail-value{
+        font-size: 10px;
+        width: 100px;
+    }
+
+    .signature{
+       font-size: 10px;
+    }
+    
+    .stamp{
+        height: 70px;
+    }   
+    
+    .receipt-body{
+        height: 400px;
+    }
+
+    .receipt-footer p{
+        font-size: 8px;
+    }
+
+    .receipt-end{
+        height: 20px;
+        font-size: 15px;
+    }
+
+    
+}
