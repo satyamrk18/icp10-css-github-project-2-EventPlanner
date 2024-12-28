@@ -15,19 +15,21 @@ h1, h2 {
 }
 .pricing-section {
   text-align: center;
-  padding: 50px 20px;
- background-color:#ebceca;
+  padding: 30px;
+ background-color:white;
+ margin-top: 60px;
 }
 .pricing-title {
   font-size: 2.5em;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  background-color: white;
 }
 
 .pricing-subtitle {
   font-size: 1.2em;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   color:#5d776c;
-  background-color: #ebceca #f1d1c2;
+  background-color:white;
 }
 
 .pricing-container {
@@ -69,6 +71,19 @@ h1, h2 {
   font-size: 1em;
   color: #333;
   background-color: #ebceca;
+  box-sizing: border-box;
+  
+}
+.button-container{
+  background-color:#ebceca #f1d1c2;
+  color: white;
+  font-size: 20px;
+  padding: 15px 30px;
+  border: #333;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease,transform 0.3s ease;
+
 }
 
 .package-details li {
