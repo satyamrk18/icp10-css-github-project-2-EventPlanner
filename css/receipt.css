@@ -91,3 +91,12 @@ span{
 .receipt-footer{
     border-top: 2px dashed grey;
 }
+
+.receipt-end{
+    height: 60px;
+    background-color: #f1d1c2;
+    color: #5d776c;
+    text-align: center;
+    font-size: 25px;
+    padding: 30px 0;
+}
