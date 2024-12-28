@@ -5,3 +5,18 @@
     margin-bottom: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
+.services-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #ebceca ;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.service {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+}
