@@ -10,14 +10,14 @@
       href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Playwrite+AU+VIC+Guides&family=Playwrite+IE+Guides&display=swap"
       rel="stylesheet"
     />
-    <title>Event Planner</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;600;700&display=swap"
-    rel="stylesheet"
-  />
+  <title>Event Planner</title>
 
   <style>
     @import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Playwrite+AU+VIC+Guides&family=Playwrite+CO+Guides&family=Playwrite+IE+Guides&family=Yatra+One&display=swap");
@@ -79,7 +79,7 @@
     .container {
       display: flex;
       margin-top: 25px;
-      width: 70%;
+      width: 68%;
       height: 450px;
       display: flex;
       justify-content: center;
@@ -127,6 +127,11 @@
       font-size: 50px;
       margin: 0;
       z-index: 1;
+      transition: box-shadow 0.3s;
+      cursor: pointer;
+    }
+    .box h1:hover {
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     }
     .inner-box {
       display: flex;
@@ -299,29 +304,35 @@
         padding-bottom: 100px;
         top: 20px;
         background-size: cover;
-        background-position:center ;
+        background-position: center;
         animation: backgroundChange 25s infinite;
       }
       @keyframes backgroundChange {
-       0%, 17% {
-        background-image: url("./image/home_img/img1.jpeg");
+        0%,
+        17% {
+          background-image: url("./image/home_img/img1.jpeg");
+        }
+        20%,
+        33% {
+          background-image: url("./image/home_img/img2.jpeg");
+        }
+        40%,
+        48% {
+          background-image: url("./image/home_img/img3.jpg");
+        }
+        60%,
+        65% {
+          background-image: url("./image/home_img/img4.jpeg");
+        }
+        80%,
+        81% {
+          background-image: url("./image/home_img/img5.jpeg");
+        }
+        100%,
+        100% {
+          background-image: url("./image/home_img/img6.jpeg");
+        }
       }
-      20%, 33% {
-        background-image: url("./image/home_img/img2.jpeg");
-      }
-      40%, 48% {
-        background-image: url("./image/home_img/img3.jpg");
-      }
-      60%, 65% {
-        background-image: url("./image/home_img/img4.jpeg");
-      }
-      80%, 81% {
-        background-image: url("./image/home_img/img5.jpeg");
-      }
-      100%, 100% {
-        background-image: url("./image/home_img/img6.jpeg");
-      }
-    }
       .container img {
         display: none;
       }
@@ -346,6 +357,110 @@
       .box {
         display: none;
       }
+      .carrier-phone {
+        height: 500px;
+        width: 100%;
+        position: relative;
+        top: 250px;
+      }
+      .cont {
+        height: 90%;
+        width: 90%;
+        display: flex;
+        margin: 25px;
+        position: absolute;
+        background-color: #4edcd312;
+        box-shadow: 2px 2px 5px;
+        cursor: pointer;
+        transition: all 0.9s ease;
+        border: 1px solid rgba(0, 0, 0, 0.135);
+        justify-content: center;
+        flex-direction: column;
+      }
+      .cont:hover {
+        transform: scale(1.05);
+        box-shadow: 5px 7px 12px rgba(0, 0, 0, 0.5);
+      }
+
+      .cont h1 {
+        font-family: "myfont", sans-serif;
+        font-size: 30px;
+        position: absolute;
+        top: 5px;
+        left: 25%;
+        color: #ccaf66;
+        transition: color 0.5s ease;
+      }
+      .cont h1:hover {
+        color: #e0a84d;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+      }
+
+      .cont h2 {
+        display: flex;
+        flex-direction: column;
+        line-height: 60px;
+        padding-left: 30px;
+        transition: transform 0.5s ease, color 0.3s ease;
+        font-size: 25px;
+      }
+      .cont h2:hover {
+        color: #6a6a6a;
+      }
+
+      .phone-job {
+        color: #8b9890;
+        cursor: pointer;
+        transition: color 0.3s ease, transform 0.3s ease;
+      }
+      .phone-job:hover {
+        color: black;
+        transform: scale(1.1);
+      }
+
+      .img1 {
+        height: 150px;
+        width: 150px;
+        background-color: #088178;
+        border: 1px solid rgb(0, 0, 0);
+        position: absolute;
+        top: 50px;
+        right: 0px;
+        bottom: 100px;
+        background-image: url("image/home_img/p1.jpg");
+        background-size: cover;
+        background-position: center;
+        box-shadow: inset 0 0 0 10px rgb(255, 255, 255);
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+      }
+      .img1:hover {
+        filter: brightness(0.7);
+        transform: rotate(5deg) scale(1.1);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+      }
+
+      .img2 {
+        height: 150px;
+        width: 150px;
+        background-color: #088178;
+        border: 1px solid black;
+        position: absolute;
+        bottom: 50px;
+        right: 0px;
+        bottom: 100px;
+        background-image: url("image/home_img/p2.jpg");
+        background-size: cover;
+        background-position: center;
+        box-shadow: inset 0 0 0 10px rgb(255, 255, 255);
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+      }
+      .img2:hover {
+        filter: brightness(0.7);
+        transform: rotate(-5deg) scale(1.1);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+      }
     }
     /* tablet */
     @media (min-width: 601px) and (max-width: 800px) {
@@ -356,6 +471,9 @@
         display: none;
       }
       .burger {
+        display: none;
+      }
+      .carrier-phone {
         display: none;
       }
     }
@@ -372,6 +490,9 @@
       }
       .navbar ul li {
         margin-left: 100px;
+      }
+      .carrier-phone {
+        display: none;
       }
     }
   </style>
@@ -465,9 +586,33 @@ Providing Curated Luxury Events for the Pacific NW & Beyond</pre
       </div>
       <div class="inner-box"></div>
     </div>
+    <div class="carrier-phone">
+      <div class="cont">
+        <h1>Work With Us</h1>
+        <div class="phone-job">
+          <h2>
+            <i class="fa-solid fa-arrow-right" style="color: #8b9890"></i>
+            &nbsp;Event Coordinator
+          </h2>
+          <h2>
+            <i class="fa-solid fa-arrow-right" style="color: #8b9890"></i>
+            &nbsp;Event Marketing Specialist
+          </h2>
+          <h2>
+            <i class="fa-solid fa-arrow-right" style="color: #8b9890"></i>
+            &nbsp;Wedding Planner
+          </h2>
+          <h2>
+            <i class="fa-solid fa-arrow-right" style="color: #8b9890"></i>
+            &nbsp;Corporate Event Manager
+          </h2>
+        </div>
+      </div>
+      <div class="img1"></div>
+      <div class="img2"></div>
+    </div>
 
     <pre>
-
 
 
       
