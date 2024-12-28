@@ -41,7 +41,7 @@
     background-color:#ebceca #f1d1c2;
     border: 1px solid #5d776c;
     border-radius: 8px;
-    padding: 30px;
+    padding: 50px;
     width: 300px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
@@ -60,7 +60,7 @@
   
   .package-price {
     font-size: 2.2em;
-    color:#5d776c #ebceca; 
+    color: #ebceca; 
     margin-bottom: 20px;
   }
   
@@ -69,12 +69,12 @@
     text-align: left;
     font-size: 1em;
     color: #333;
-    background-color: #ebceca;
+    background-color:white;
     box-sizing: border-box;
     
   }
   .button-container{
-    background-color:#ebceca #f1d1c2;
+    background-color: #f1d1c2;
     color: white;
     font-size: 20px;
     padding: 15px 30px;
