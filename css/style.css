@@ -1,188 +1,86 @@
 
+<<<<<<< HEAD
+=======
+.{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+>>>>>>> 3a0fe63119b190da3a993c317449b23db84c481f
 body {
- background-color: #d6f2e3ab;
+  font-family: Arial, sans-serif;
+  background-color: #f1d1c2;
+  color: #333;
 }
-.top {
-  position: sticky;
-  top: 0px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  filter:drop-shadow(0px 0px 8px rgb(198, 139, 61)) ;
-  z-index: 1;
+
+h1, h2 {
+  font-family: 'Georgia', serif;
 }
-.top {
+.pricing-section {
+  text-align: center;
+  padding: 50px 20px;
+ background-color:#ebceca;
+}
+.pricing-title {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.pricing-subtitle {
+  font-size: 1.2em;
+  margin-bottom: 40px;
+  color:#5d776c;
+  background-color: #ebceca #f1d1c2;
+}
+
+.pricing-container {
   display: flex;
-  height: 45px;
-  background-color:#dfbc61;
-  color: #5d776c;
-  width: 100%;
+  justify-content: space-around;
   flex-wrap: wrap;
-  position: sticky;
-  top: 0px;
-  font-family: "myfont", sans-serif;
-  word-spacing: 10px;
-  font-weight: normal;
-  
+  gap: 30px;
 }
-.top input {
-  position: absolute;
-  justify-content: center;
-  height: 25px;
-  width: 250px;
-  border-radius: 10px;
-  border: none;
-  right:5px;
-  top:10px;
-  margin-right: 80px;
-  cursor:pointer;
-  transition: 0.3s;
+.pricing-card {
+  background-color:#ebceca #f1d1c2;
+  border: 1px solid #5d776c;
+  border-radius: 8px;
+  padding: 30px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+ 
 }
-.top input:hover{
-  height: 30px;
-  width: 265px;
-}
-.top label {
-  padding-left: px;
-  font-size: 20px;
-  font-weight:600;
-color:  #088178;
-}
-#search::placeholder
-{ 
-  font-size: 18px;
-  padding-left: 15px;
-  color: rgba(0, 0, 0, 0.726);
-  font-family: "crimson Pro";
-}
-#search-icon
-{
-    height: 25px;
-    width: 25px;
-    position: absolute;
-    right:5px;
-  top:10px;
-  margin-right: 350px;
-   
-    cursor: pointer;
-    transition:  0.3s;
-    padding: 2px;
-   
-}
-#search-icon:hover
-{
-  height: 30px;
-  width: 30px;
+.pricing-card:hover {
+  transform: translateY(-10px);
 }
 
-#login
-{
-    height: 25px;
-    width: 25px;
-    position: absolute;
-    right:5px;
-    top:7px;
-    margin-right: 20px;
-    cursor: pointer;
-    transition:  0.3s;
-  
+.package-title {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  color: #333;
+  background-color: #ebceca #f1d1c2;
 }
-#login:hover
-{
-  height: 30px;
-  width: 30px;
-}
-/* phone */
-@media (max-width: 600px) {
-  
-  .navbar ul {
-    display: none;
-  }
-  .top input {
-    display: none;
-  }
-  #nav-pop {
-    background-color: rgba(198, 139, 61, 0.598);
-    position: fixed;
-    margin-top: 45px;
-    height: 100vh;
-    width: 150px;
-    font-size: 25px;
-    list-style-type: none;
-    line-height: 100px;
-    border: 1px solid black;
-    padding-left: 10px;
-    font-weight: 600;
-    border: none;
-    font-family: "crimson Pro";
-  }
-  .burger {
-    position: fixed;
-    top: 10px;
-    left: 10px; 
-    z-index: 1000; 
-  }
 
-  .burger button {
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 5px;
-  }
+.package-price {
+  font-size: 2.2em;
+  color:#5d776c #ebceca; 
+  margin-bottom: 20px;
+}
 
-  .burger img {
-    height: 25px;
-    width: 25px;
-  }
-  .burger img:hover
-  {
-      height: 27px;
-      width: 27px;
-  }
-  #login
-  {
-    margin-right: 20px;
-  }
-  #search-icon
-  {
-    margin-left: 15px;
-  }
-  .top label {
-    padding-left: 10px;
-    font-size: 14px;
-    font-weight: 600;
-  }
-  #search-icon
-  {
-    display: none;
-  }
+.package-details {
+  list-style-type: none;
+  text-align: left;
+  font-size: 1em;
+  color: #333;
+  background-color: #ebceca;
 }
-/* tablet */
-@media (min-width: 601px) and (max-width: 800px) {
-  .top img {
-    display: none;
-  }
-  #nav-pop {
-    display: none;
-  }
-  .burger{
-    display: none;
-  }
+
+.package-details li {
+  margin-bottom: 10px;
 }
-/* laptop */
-@media (min-width: 801px) and (max-width: 2000px) {
-  #b img {
-    display: none;
-  }
-  #nav-pop {
-    display: none;
-  }
-  .burger {
-    display: none;
-  }
-  .navbar ul li
-  {
-    margin-left: 100px;
-    
+
+@media (max-width: 768px) {
+  .pricing-container {
+      flex-direction: column;
+      align-items: center;
   }
 }
