@@ -11,6 +11,7 @@ img{
 
 .receipt-body{
     position: relative;
+    height: 500px;
 }
 
 .receipt-container{
@@ -64,16 +65,24 @@ span{
     width: 200px;
 }
 
+
+.stamp-container{
+    position: absolute;
+    right: 0;
+    bottom: -20px;
+
+}
+
 .signature{
     text-align: right;
-    margin: 50px;
+    margin: 40px;
     color: gray;
 }
 
 .stamp{
     height: 150px;
     position: absolute;
-    right: 0;
-    bottom: -20px;
+    right: 10px;
+    bottom: 30px;
     transform: rotate(10deg);
 }
