@@ -27,6 +27,7 @@ img{
 
 .receipt-header{
     background-color: #f1d1c2;
+    border-radius: 5px;
 
 }
 
@@ -90,4 +91,62 @@ span{
 
 .receipt-footer{
     border-top: 2px dashed grey;
+}
+
+.receipt-end{
+    height: 60px;
+    background-color: #f1d1c2;
+    color: #5d776c;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 5px;
+    padding: 30px 0;
+}
+
+@media screen and (max-width:520px) {
+    img{
+       
+        height: 80px;
+       
+    }
+
+    span{
+        padding: 5px;
+    }
+    
+    .title{
+        font-size: 15px;
+    }
+
+    .detail-key{
+        font-size: 10px;
+    }
+    
+    .detail-value{
+        font-size: 10px;
+        width: 100px;
+    }
+
+    .signature{
+       font-size: 10px;
+    }
+    
+    .stamp{
+        height: 70px;
+    }   
+    
+    .receipt-body{
+        height: 400px;
+    }
+
+    .receipt-footer p{
+        font-size: 8px;
+    }
+
+    .receipt-end{
+        height: 20px;
+        font-size: 15px;
+    }
+
+    
 }
