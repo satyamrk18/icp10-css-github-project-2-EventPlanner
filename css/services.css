@@ -40,3 +40,21 @@
     font-size: 0.9rem;
     color: #5c5c3d;
 }
+
+footer {
+    background-color: #5d776c ;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    color: #333; 
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+footer a {
+    color: #ff6b6b;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 5px; 
+    font-size: 1.2rem;
+}
