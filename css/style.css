@@ -2,7 +2,17 @@
   margin: 0px;
   padding: 0px;
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+.{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+=======
+>>>>>>> 6efe4930bf96fb61ba808c0f42e5395a4a103fd5
 }
+>>>>>>> 3a0fe63119b190da3a993c317449b23db84c481f
 body {
  background-color: #d6f2e3ab;
 }
