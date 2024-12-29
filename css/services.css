@@ -71,3 +71,32 @@ footer a:hover {
     color: #ff6b6b;
     text-decoration: underline;
 }
+
+  /*Phones*/
+@media (max-width: 480px) {
+    .services-list {
+        flex-direction: column; 
+        padding: 10px;
+    }
+
+    .service {
+        width: 100%; 
+    }
+
+    .service img {
+        width: 150px; 
+        height: 150px;
+    }
+
+    .service h3 {
+        font-size: 1rem; 
+    }
+
+    .service p {
+        font-size: 0.8rem;
+    }
+
+    footer a {
+        font-size: 1rem;
+    }
+}
