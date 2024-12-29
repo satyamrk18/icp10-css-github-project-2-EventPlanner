@@ -121,6 +121,7 @@
     .box:hover {
       transition: box-shaow 0.9s;
       box-shadow: 5px 7px 12px;
+      
     }
     .box h1 {
       font-size: 100px;
@@ -131,11 +132,12 @@
       font-size: 50px;
       margin: 0;
       z-index: 1;
-      transition: box-shadow 0.3s;
+      transition:  0.3s;
       cursor: pointer;
     }
     .box h1:hover {
       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+      transform: scale(1.1);
     }
     .inner-box {
       display: flex;
@@ -154,6 +156,7 @@
     .inner-box:hover {
       transition: all ease-in-out 0.5s;
       filter: brightness(0.7);
+      transform: scale(1.1);
     }
     .header {
       display: flex;
@@ -161,6 +164,12 @@
       justify-content: center;
       align-items: center;
       margin-top: 10px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .header:hover{
+      transform: scale(1.1);
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     }
     @font-face {
       font-family: myfont;
@@ -207,7 +216,8 @@
       transition: 0.3s;
     }
     .job h2:hover {
-      color: rgba(0, 0, 0, 0.877);
+      color: rgba(0, 0, 0, 0.954);
+      transform: scale(1.1);
     }
     .back-img {
       height: 400px;
@@ -227,6 +237,7 @@
     .back-img:hover {
       transition: all ease-in-out 0.5s;
       filter: brightness(0.7);
+      transform: scale(1.1);
     }
     .events {
       margin-top: 100px;
