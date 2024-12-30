@@ -140,6 +140,28 @@ height: 135px;
     color: rgb(173, 6, 31);
     position: relative;
     bottom: 100px;
-    margin-left: 70px;
+    margin-left: 50px;
     font-size: 27px;
+}
+
+#H1{
+    position: relative;
+    bottom: 18px;
+    margin-left: 50px;
+    font-size: 28px;
+}
+
+#H2{
+    position: relative;
+    bottom: 55px;
+    margin-left: 55px;
+    font-size: 28px;   
+}
+
+.post1{
+    color: rgb(173, 6, 31);
+    position: relative;
+    bottom: 85px;
+    margin-left: 30px;
+    font-size: 25px;
 }
