@@ -37,7 +37,7 @@
 .simple-header h2 {
     margin: 0;
     font-size: 25px;
-    color: #5d776c; 
+    color: #b38600; 
     cursor: pointer;
 }
 .simple-header h2:hover{
@@ -45,3 +45,5 @@
     transform: scale(1.1);
 
 }
+
+
