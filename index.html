@@ -35,6 +35,10 @@
       position: relative;
       top: 150px;
     }
+    .navbar ul li a {
+      text-decoration: none;
+      color: #088179bd;
+    }
     .navbar img {
       height: 150px;
       padding-left: 10px;
@@ -261,12 +265,12 @@
       top: 15px;
       font-size: 25px;
       font-family: "myfont";
-      color:antiquewhite;
+      color: antiquewhite;
       cursor: pointer;
       transition: 0.3s;
     }
-    .E1 b:hover{
-      text-shadow: 2px 2px 4px#ccaf66; 
+    .E1 b:hover {
+      text-shadow: 2px 2px 4px#ccaf66;
       transform: scale(1.1);
     }
     #event-1 {
@@ -278,9 +282,11 @@
       margin-left: 150px;
       transition: 0.3s;
       cursor: pointer;
+     
     }
     #event-1:hover {
       transform: scale(1.1);
+    
     }
     #event-2 {
       background-image: url("image/home_img/wedding.jpeg");
@@ -293,6 +299,7 @@
     }
     #event-2:hover {
       transform: scale(1.1);
+      
     }
     #event-3 {
       background-image: url("image/home_img/ring_ceremony.jpeg");
@@ -306,6 +313,7 @@
     }
     #event-3:hover {
       transform: scale(1.1);
+     
     }
     #event-4 {
       background-image: url("image/home_img/birthday.jpeg");
@@ -317,6 +325,7 @@
     }
     #event-4:hover {
       transform: scale(1.1);
+     
     }
     #event-5 {
       background-image: url("image/home_img/consort.jpeg");
@@ -327,6 +336,7 @@
     }
     #event-5:hover {
       transform: scale(1.1);
+    
     }
     #event-6 {
       background-image: url("image/home_img/Conference.jpeg");
@@ -338,6 +348,7 @@
     }
     #event-6:hover {
       transform: scale(1.1);
+      
     }
     .event-select {
       position: absolute;
@@ -350,6 +361,7 @@
       font-weight: 600;
       cursor: pointer;
       transition: 0.3s;
+      
     }
     .event-select p:hover {
       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
@@ -363,7 +375,7 @@
         display: none;
       }
       #nav-pop {
-        background-color: rgba(198, 139, 61, 0.694);
+        background-color: rgba(198, 139, 61, 0.879);
         position: fixed;
         margin-top: 45px;
         height: 100vh;
@@ -376,6 +388,19 @@
         font-weight: 600;
         border: none;
         font-family: "crimson Pro";
+      }
+      #nav-pop ul li a {
+text-decoration: none;
+color: #088178;
+      }
+      #nav-pop ul li:hover{
+        transition: 0.2s;
+      padding: 7px;
+      font-size: 27px;
+      text-decoration: underline;
+      text-underline-offset: 7px;
+      text-decoration-thickness: 3px;
+      color: #088178;
       }
       .burger {
         position: fixed;
@@ -626,10 +651,10 @@
           </button>
           <div id="nav-pop" popover>
             <ul>
-              <li>ABOUT</li>
-              <li>SERVICES</li>
-              <li>GALLERY</li>
-              <li>CONTACT</li>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="./pages/services.html">SERVICES</a></li>
+              <li><a href="./pages/gallery.html">GALLERY</a></li>
+              <li><a href="./pages/contact.html">CONTACT</a></li>
             </ul>
           </div>
         </div>
@@ -644,11 +669,11 @@
     <!-- navbar -->
     <div class="navbar">
       <ul>
-        <li>ABOUT</li>
-        <li>SERVICES</li>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="./pages/services.html">SERVICES</a></li>
         <img src="././icons/logo.png" />
-        <li>GALLERY</li>
-        <li>CONTACT</li>
+        <li><a href="./pages/gallery.html">GALLERY</a></li>
+        <li><a href="./pages/contact.html">CONTACT</a></li>
       </ul>
     </div>
     <div class="container-1">
@@ -737,7 +762,7 @@ Providing Curated Luxury Events for the Pacific NW & Beyond</pre
       <div class="E1" id="event-3"><b>Ring Ceremony</b></div>
       <div class="E1" id="event-4"><b>Birthday Party</b></div>
       <div class="E1" id="event-5"><b>Concert</b></div>
-      <div class="E1" id="event-6"><b>Official Meetings</b></div>
+      <div class="E1" id="event-6"><b>Offficial Meetings</b></div>
     </div>
 
     <pre>

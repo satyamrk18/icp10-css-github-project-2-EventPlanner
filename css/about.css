@@ -86,4 +86,22 @@ height: 135px;
       src: url("./../fonts/font.otf");
     }
   
+.container{
+    height: 1000px;
+    width: 1270px; 
+    position: relative;
+    right: 245px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 35px;
 
+    background-color: tomato;
+}
+
+.team_member{
+    height: 300px;
+    width: 270px;
+    border: 2px solid black;
+    margin: 5px;
+    
+}
