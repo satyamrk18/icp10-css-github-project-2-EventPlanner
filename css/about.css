@@ -20,7 +20,6 @@
 
 .navbar1{
     background-color:  #f1d1c2 ;
-    
      display: flex;
      justify-content: space-evenly;
      position: sticky;
@@ -38,7 +37,7 @@
 }
 
 .nav-content:hover{
-  transition: 0.2s;
+  transition: 0.3s;
       padding-top: 40px;
       font-size: 25px;
       text-decoration: underline;
@@ -76,7 +75,7 @@ height: 135px;
       
   }
   .heading{
-      font-size: 40px;
+      font-size: 50px;
       color: #dfbc61;
       font-family: myfont;
       text-align: center;
@@ -101,19 +100,21 @@ height: 135px;
 .team_member{
     height: 350px;
     width: 1250px;
-    border: 2px solid black;
-    margin: 5px;
     display: flex;
+    position: relative;
+    bottom: 15px;
     
 }
 
 .member{
     height: 320px;
     width: 250px;
-    border: 2px solid black;
+    border: 1px solid grey;
+    border-radius: 20px;
     margin: 10px;
     display: flex;
     flex-wrap: wrap;
+    box-shadow: 0px 1px 3px 1px rgb(138, 136, 136);
 }
 
 .ceo{
@@ -164,4 +165,10 @@ height: 135px;
     bottom: 85px;
     margin-left: 30px;
     font-size: 25px;
+}
+
+.member:hover{
+    padding: 10px;
+    transition: 0.3s;
+
 }
