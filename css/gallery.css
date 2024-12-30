@@ -1,9 +1,10 @@
-.container{
+
+  .container{
 
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    background-color: #ebceca;
+    background-color: #d6f2e3ab;
 }
 .item{
     width: 300px;
@@ -20,13 +21,14 @@
     border-radius:5px;
     cursor: pointer;
     transition: 0.3s;
+    
+    
 }
 .simple-header {
-    background-color: #f4e4d4; 
+  
     padding: 5px;
     text-align: center;
-    border-top: 1px solid #d2a679;;
-    border-bottom: 1px solid #d2a679; 
+    background-color: aliceblue;
     box-shadow: 0 2px 5px  rgba(0, 0, 0, 0.1);
     cursor: pointer;
 }
