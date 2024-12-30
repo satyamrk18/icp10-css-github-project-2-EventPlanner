@@ -22,17 +22,15 @@
     />
   </head>
   <title>Event Planner</title>
-
   <style>
     @import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Playwrite+AU+VIC+Guides&family=Playwrite+CO+Guides&family=Playwrite+IE+Guides&family=Yatra+One&display=swap");
     @import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;600;700&display=swap");
   </style>
   <style>
     .navbar {
-      background-image: url("././image/home_img/flower_poster.jpg");
+      background-image: url("././image/home_img/poster-flower-Photoroom.png");
       position: relative;
     }
-
     .navbar ul {
       position: relative;
       top: 150px;
@@ -72,7 +70,6 @@
       text-decoration-thickness: 3px;
       color: #088178;
     }
-
     .container-1 {
       display: flex;
       height: 620px;
@@ -131,11 +128,12 @@
       font-size: 50px;
       margin: 0;
       z-index: 1;
-      transition: box-shadow 0.3s;
+      transition: 0.3s;
       cursor: pointer;
     }
     .box h1:hover {
       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+      transform: scale(1.1);
     }
     .inner-box {
       display: flex;
@@ -154,6 +152,7 @@
     .inner-box:hover {
       transition: all ease-in-out 0.5s;
       filter: brightness(0.7);
+      transform: scale(1.1);
     }
     .header {
       display: flex;
@@ -161,6 +160,12 @@
       justify-content: center;
       align-items: center;
       margin-top: 10px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .header:hover {
+      transform: scale(1.1);
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     }
     @font-face {
       font-family: myfont;
@@ -207,7 +212,8 @@
       transition: 0.3s;
     }
     .job h2:hover {
-      color: rgba(0, 0, 0, 0.877);
+      color: rgba(0, 0, 0, 0.954);
+      transform: scale(1.1);
     }
     .back-img {
       height: 400px;
@@ -227,6 +233,126 @@
     .back-img:hover {
       transition: all ease-in-out 0.5s;
       filter: brightness(0.7);
+      transform: scale(1.1);
+    }
+    .events {
+      margin-top: 100px;
+      height: 800px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      position: relative;
+    }
+    .E1 {
+      color: white;
+      margin-left: 50px;
+      margin-right: 50px;
+      width: 300px;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      /* align-items: center; */
+      border-radius: 10px;
+      font-size: 1.2rem;
+    }
+    .E1 b {
+      position: relative;
+      top: 15px;
+      font-size: 25px;
+      font-family: "myfont";
+      color:antiquewhite;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .E1 b:hover{
+      text-shadow: 2px 2px 4px#ccaf66; 
+      transform: scale(1.1);
+    }
+    #event-1 {
+      background-image: url("image/home_img/Haldi.jpeg");
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      top: 45px;
+      margin-left: 150px;
+      transition: 0.3s;
+      cursor: pointer;
+    }
+    #event-1:hover {
+      transform: scale(1.1);
+    }
+    #event-2 {
+      background-image: url("image/home_img/wedding.jpeg");
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      top: 45px;
+      transition: 0.3s;
+      cursor: pointer;
+    }
+    #event-2:hover {
+      transform: scale(1.1);
+    }
+    #event-3 {
+      background-image: url("image/home_img/ring_ceremony.jpeg");
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      margin-right: 150px;
+      top: 45px;
+      transition: 0.3s;
+      cursor: pointer;
+    }
+    #event-3:hover {
+      transform: scale(1.1);
+    }
+    #event-4 {
+      background-image: url("image/home_img/birthday.jpeg");
+      background-size: cover;
+      background-position: center;
+      margin-left: 150px;
+      transition: 0.3s;
+      cursor: pointer;
+    }
+    #event-4:hover {
+      transform: scale(1.1);
+    }
+    #event-5 {
+      background-image: url("image/home_img/consort.jpeg");
+      background-size: cover;
+      background-position: center;
+      transition: 0.3s;
+      cursor: pointer;
+    }
+    #event-5:hover {
+      transform: scale(1.1);
+    }
+    #event-6 {
+      background-image: url("image/home_img/Conference.jpeg");
+      background-size: cover;
+      background-position: center;
+      margin-right: 150px;
+      transition: 0.3s;
+      cursor: pointer;
+    }
+    #event-6:hover {
+      transform: scale(1.1);
+    }
+    .event-select {
+      position: absolute;
+      top: 10px;
+    }
+    .event-select p {
+      font-size: 50px;
+      font-family: "myfont";
+      color: #e0a84d;
+      font-weight: 600;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .event-select p:hover {
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     }
     /* phone */
     @media (max-width: 600px) {
@@ -257,14 +383,12 @@
         left: 10px;
         z-index: 1000;
       }
-
       .burger button {
         background: none;
         border: none;
         cursor: pointer;
         padding: 5px;
       }
-
       .burger img {
         height: 25px;
         width: 25px;
@@ -340,7 +464,6 @@
       .container img {
         display: none;
       }
-
       /* heading */
       .header {
         position: relative;
@@ -356,7 +479,6 @@
         margin: 5px;
         word-spacing: 5px;
       }
-
       /* carrier */
       .box {
         display: none;
@@ -385,7 +507,6 @@
         transform: scale(1.05);
         box-shadow: 5px 7px 12px rgba(0, 0, 0, 0.5);
       }
-
       .cont h1 {
         font-family: "myfont", sans-serif;
         font-size: 30px;
@@ -399,7 +520,6 @@
         color: #e0a84d;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
       }
-
       .cont h2 {
         display: flex;
         flex-direction: column;
@@ -411,7 +531,6 @@
       .cont h2:hover {
         color: #6a6a6a;
       }
-
       .phone-job {
         color: #8b9890;
         cursor: pointer;
@@ -421,7 +540,6 @@
         color: black;
         transform: scale(1.1);
       }
-
       .img1 {
         height: 150px;
         width: 150px;
@@ -443,7 +561,6 @@
         transform: rotate(5deg) scale(1.1);
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
       }
-
       .img2 {
         height: 150px;
         width: 150px;
@@ -465,7 +582,6 @@
         transform: rotate(-5deg) scale(1.1);
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
       }
-      
     }
     /* tablet */
     @media (min-width: 601px) and (max-width: 800px) {
@@ -611,6 +727,17 @@ Providing Curated Luxury Events for the Pacific NW & Beyond</pre
       </div>
       <div class="img1"></div>
       <div class="img2"></div>
+    </div>
+    <div class="events">
+      <div class="event-select">
+        <p>Events</p>
+      </div>
+      <div class="E1" id="event-1"><b>Haldi</b></div>
+      <div class="E1" id="event-2"><b>Wedding</b></div>
+      <div class="E1" id="event-3"><b>Ring Ceremony</b></div>
+      <div class="E1" id="event-4"><b>Birthday Party</b></div>
+      <div class="E1" id="event-5"><b>Concert</b></div>
+      <div class="E1" id="event-6"><b>Official Meetings</b></div>
     </div>
 
     <pre>
