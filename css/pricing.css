@@ -6,7 +6,7 @@
   }
   body {
     font-family: Arial, sans-serif;
-    background-color: #f1d1c2;
+    background-color: #ebceca;
     color: #333;
   }
   
@@ -23,6 +23,11 @@
     font-size: 2.5em;
     margin-bottom: 20px;
     background-color: white;
+    color: #5d776c;
+    
+  }
+  .title-hover{
+    transform: translateY(-10px);
   }
   
   .pricing-subtitle {
@@ -53,8 +58,8 @@
   }
   
   .package-title {
-    font-size: 1.8em;
-    margin-bottom: 15px;
+    font-size: 1.3em;
+    margin-bottom: 10px;
     color: #333;
     background-color: white;
   }
@@ -116,6 +121,9 @@ h1, h2 {
   padding: 50px 20px;
  background-color:white;
 }
+.title-hover{
+  transform: translateY(-10px);
+}
 .pricing-title {
   font-size: 2.5em;
   margin-bottom: 10px;
@@ -149,7 +157,7 @@ h1, h2 {
 }
 
 .package-title {
-  font-size: 1.8em;
+  font-size: 1.6em;
   margin-bottom: 15px;
   color: #333;
   background-color: #ebceca #f1d1c2;
@@ -157,7 +165,7 @@ h1, h2 {
 
 .package-price {
   font-size: 2.2em;
-  color:#5d776c #ebceca; 
+  color:#5d776c ; 
   margin-bottom: 20px;
 }
 
