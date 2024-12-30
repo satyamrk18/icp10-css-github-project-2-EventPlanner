@@ -6,11 +6,14 @@ body {
 .services-intro {
     text-align: center;
     padding: 20px;
-    background-color: #f1d1c2;
     margin-top: 140px;
     margin-bottom: 30px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    color: #b38600;
+}
+.services-intro p {
+    color:#5d776c ;
 }
 
 .services-list {
@@ -40,7 +43,6 @@ body {
     border-radius: 50%; 
     margin-bottom: 10px;
     object-fit: cover; 
-    
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4); 
     transition: transform 0.3s ease, box-shadow 0.3s ease; 
     cursor: pointer;
@@ -48,8 +50,10 @@ body {
 
 .service h3 {
     font-size: 1.2rem;
-    color: #3d3d29;
+    color: #b38600;
     margin-bottom: 10px;
+    background-color: #f1d1c2;
+   
 }
 
 .service p {
