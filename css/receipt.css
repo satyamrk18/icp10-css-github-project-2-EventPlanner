@@ -137,14 +137,15 @@ span{
 
     .signature{
        font-size: 10px;
+       margin-right: 10px;
     }
     
     .stamp{
-        height: 70px;
+        height: 80px;
     }   
     
     .receipt-body{
-        height: 400px;
+        height: 350px;
     }
 
     .receipt-footer p{

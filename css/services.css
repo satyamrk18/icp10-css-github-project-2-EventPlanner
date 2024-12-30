@@ -1,25 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; 
+}
 .services-intro {
     text-align: center;
     padding: 20px;
-    background-color: #fff;
-    margin-bottom: 20px;
+    margin-top: 140px;
+    margin-bottom: 30px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    color: #b38600;
+}
+.services-intro p {
+    color:#5d776c ;
 }
 
 .services-list {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 20px;
-    background-color: #ebceca ;
+    padding: 30px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    border-radius: 8px;
 }
 
 .service {
     width: 30%;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    padding: 15px;
+    background-color:#5d776c ;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 8px; 
 }
+
 
 .service img {
     width: 200px; 
@@ -34,43 +50,23 @@
 
 .service h3 {
     font-size: 1.2rem;
-    color: #3d3d29;
+    color: #b38600;
     margin-bottom: 10px;
+    background-color: #f1d1c2;
+   
 }
 
 .service p {
     font-size: 0.9rem;
-    color: #5c5c3d;
+    color: #fff;
 }
 
 .service img:hover{
     transform: scale(1.1); 
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5); 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4); 
 
 }
 
-footer {
-    background-color: #5d776c ;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    color: #333; 
-    text-decoration: none;
-    margin-right: 10px;
-}
-
-footer a {
-    color: #ff6b6b;
-    text-decoration: none;
-    font-weight: bold;
-    margin-right: 5px; 
-    font-size: 1.2rem;
-}
-
-footer a:hover {
-    color: #ff6b6b;
-    text-decoration: underline;
-}
 
   /*Phones*/
 @media (max-width: 480px) {
@@ -96,7 +92,46 @@ footer a:hover {
         font-size: 0.8rem;
     }
 
-    footer a {
-        font-size: 1rem;
+    
+}
+
+  /* Tablets */
+@media (min-width:481px) and (max-width: 768px) {
+    .services-list {
+        justify-content: space-between;
+        padding: 15px;
+    }
+
+    .service {
+        width: 45%; 
+    }
+
+    .service img {
+        width: 175px; 
+        height: 175px;
+    }
+
+    .service h3 {
+        font-size: 1.1rem;
+    }
+
+    .service p {
+        font-size: 0.85rem;
+    }
+}
+
+  /* Laptops */
+@media (min-width:769px) and (max-width: 1024px) {
+    .services-list {
+        justify-content: space-around;
+    }
+
+    .service {
+        width: 30%; 
+    }
+
+    .service img {
+        width: 190px;
+        height: 190px;
     }
 }
