@@ -86,7 +86,6 @@
       margin-top: 25px;
       width: 68%;
       height: 450px;
-      display: flex;
       justify-content: center;
       gap: 50px;
       position: relative;
@@ -158,8 +157,13 @@
       filter: brightness(0.7);
       transform: scale(1.1);
     }
-    .header {
+    .main
+    {
       display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .header {
       flex-direction: column;
       justify-content: center;
       align-items: center;
@@ -168,6 +172,7 @@
       transition: 0.3s;
       position: relative;
       top: 230px;
+      display:inline-flex;
     }
     .header:hover {
       transform: scale(1.1);
@@ -608,10 +613,10 @@
       }
       /* event-select */
       .event-select {
-        display: none;
+      display: none;
       }
       .events {
-        display: none;
+       display: none;
       }
     }
     /* tablet */
@@ -626,6 +631,14 @@
         display: none;
       }
       .carrier-phone {
+        display: none;
+      }
+      .p-events
+      {
+        display: none;
+      }
+      .p-event-select
+      {
         display: none;
       }
     }
@@ -692,11 +705,13 @@
         <img src="./image/home_img/img6.jpeg" id="img6" />
       </div>
     </div>
-    <div class="header">
-      <pre id="H1">Elevating  Every  Occasion</pre>
-      <pre id="H2">
-Providing Curated Luxury Events for the Pacific NW & Beyond</pre
-      >
+    <div class="main">
+      <div class="header">
+        <pre id="H1">Elevating  Every  Occasion</pre>
+        <pre id="H2">
+  Providing Curated Luxury Events for the Pacific NW & Beyond</pre
+        >
+      </div>
     </div>
     <div class="box">
       <div class="back-img"></div>
@@ -770,6 +785,19 @@ Providing Curated Luxury Events for the Pacific NW & Beyond</pre
       <div class="E1" id="event-5"><b>Concert</b></div>
       <div class="E1" id="event-6"><b>Offficial Meetings</b></div>
     </div>
+    <!-- event for mobile -->
+     <div class="p-events">
+      <div class="p-event-select">
+<p>Events</p>
+      </div>
+      <div class="P-E1" id="P-event-1"><b>Haldi</b></div>
+      <div class="P-E1" id="P-event-1"><b>Haldi</b></div>
+      <div class="P-E1" id="P-event-1"><b>Haldi</b></div>
+      <div class="P-E1" id="P-event-1"><b>Haldi</b></div>
+      <div class="P-E1" id="P-event-1"><b>Haldi</b></div>
+      <div class="P-E1" id="P-event-1"><b>Haldi</b></div>
+      <div class="P-E1" id="P-event-1"><b>Haldi</b></div>
+     </div>
 
     <pre>
 
