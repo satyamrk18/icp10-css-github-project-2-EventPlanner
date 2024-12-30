@@ -101,3 +101,28 @@ footer a:hover {
         font-size: 1rem;
     }
 }
+
+  /* Tablets */
+@media (min-width:481px) and (max-width: 768px) {
+    .services-list {
+        justify-content: space-between;
+        padding: 15px;
+    }
+
+    .service {
+        width: 45%; 
+    }
+
+    .service img {
+        width: 175px; 
+        height: 175px;
+    }
+
+    .service h3 {
+        font-size: 1.1rem;
+    }
+
+    .service p {
+        font-size: 0.85rem;
+    }
+}
