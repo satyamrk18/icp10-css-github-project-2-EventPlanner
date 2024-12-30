@@ -75,7 +75,7 @@ height: 135px;
       
   }
   .heading{
-      font-size: 40px;
+      font-size: 50px;
       color: #dfbc61;
       font-family: myfont;
       text-align: center;
@@ -114,7 +114,7 @@ height: 135px;
     margin: 10px;
     display: flex;
     flex-wrap: wrap;
-    box-shadow: 0px 2px 7px 2px rgb(138, 136, 136);
+    box-shadow: 0px 1px 3px 1px rgb(138, 136, 136);
 }
 
 .ceo{
@@ -165,4 +165,10 @@ height: 135px;
     bottom: 85px;
     margin-left: 30px;
     font-size: 25px;
+}
+
+.member:hover{
+    padding: 10px;
+    transition: 0.3s;
+
 }
