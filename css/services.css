@@ -126,3 +126,19 @@ footer a:hover {
         font-size: 0.85rem;
     }
 }
+
+  /* Laptops */
+@media (min-width:769px) and (max-width: 1024px) {
+    .services-list {
+        justify-content: space-around;
+    }
+
+    .service {
+        width: 30%; 
+    }
+
+    .service img {
+        width: 190px;
+        height: 190px;
+    }
+}
