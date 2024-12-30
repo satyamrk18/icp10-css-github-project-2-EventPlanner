@@ -31,17 +31,19 @@
     text-align: center;
     background-color:  #ebceca;
     cursor: pointer;
-    font-family: myfont;
+    transition: 0.5s;
 }
 
 .simple-header h2 {
     margin: 0;
-    font-size: 2.5em;
-    color: #088178; 
-    font-family: myfont;
+    font-size: 25px;
+    color: #b38600; 
     cursor: pointer;
 }
-@font-face {
-    font-family: myfont;
-    src: url("./fonts/font.otf");
-  }
+.simple-header h2:hover{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+
+}
+
+
