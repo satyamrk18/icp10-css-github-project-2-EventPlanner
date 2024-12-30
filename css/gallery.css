@@ -21,3 +21,20 @@
     cursor: pointer;
     transition: 0.3s;
 }
+.simple-header {
+    background-color: #f4e4d4; 
+    padding: 5px;
+    text-align: center;
+    border-top: 1px solid #d2a679;;
+    border-bottom: 1px solid #d2a679; 
+    box-shadow: 0 2px 5px  rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.simple-header h2 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #088178; 
+    font-family: 'Cursive', serif;
+    cursor: pointer;
+}
