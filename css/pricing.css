@@ -6,7 +6,7 @@
   }
   body {
     font-family: Arial, sans-serif;
-    background-color: #f1d1c2;
+    background-color: #ebceca;
     color: #333;
   }
   
@@ -23,12 +23,17 @@
     font-size: 2.5em;
     margin-bottom: 20px;
     background-color: white;
+    color: #5d776c;
+    
+  }
+  .title-hover{
+    transform: translateY(-10px);
   }
   
   .pricing-subtitle {
     font-size: 1.2em;
     margin-bottom: 20px;
-    color:#5d776c;
+    color:#ebceca;
     background-color:white;
   }
   
@@ -39,7 +44,7 @@
     gap: 30px;
   }
   .pricing-card {
-    background-color:#ebceca #f1d1c2;
+    background-color:white;
     border: 1px solid #5d776c;
     border-radius: 8px;
     padding: 50px;
@@ -53,10 +58,10 @@
   }
   
   .package-title {
-    font-size: 1.8em;
-    margin-bottom: 15px;
+    font-size: 1.3em;
+    margin-bottom: 10px;
     color: #333;
-    background-color: #ebceca #f1d1c2;
+    background-color: white;
   }
   
   .package-price {
@@ -104,7 +109,7 @@
 }
 body {
   font-family: Arial, sans-serif;
-  background-color:#E0F4F2;
+  background-color:#ebceca;
   color: #333;
 }
 
@@ -114,7 +119,10 @@ h1, h2 {
 .pricing-section {
   text-align: center;
   padding: 50px 20px;
- background-color:#ebceca;
+ background-color:white;
+}
+.title-hover{
+  transform: translateY(-10px);
 }
 .pricing-title {
   font-size: 2.5em;
@@ -149,7 +157,7 @@ h1, h2 {
 }
 
 .package-title {
-  font-size: 1.8em;
+  font-size: 1.6em;
   margin-bottom: 15px;
   color: #333;
   background-color: #ebceca #f1d1c2;
@@ -157,7 +165,7 @@ h1, h2 {
 
 .package-price {
   font-size: 2.2em;
-  color:#5d776c #ebceca; 
+  color:#5d776c ; 
   margin-bottom: 20px;
 }
 
@@ -166,7 +174,7 @@ h1, h2 {
   text-align: left;
   font-size: 1em;
   color: #333;
-  background-color: #ebceca;
+  background-color:white;
 }
 
 .package-details li {
