@@ -144,7 +144,7 @@ h1, h2 {
   width: 30px;
 }
 .navbar {
-  background-image: url("././image/home_img/poster-flower-Photoroom.png");
+  background-image: url("./../image/home_img/poster_flower_Photoroom.png");
   position: relative;
 }
 .navbar ul {
