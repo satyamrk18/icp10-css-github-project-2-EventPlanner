@@ -8,6 +8,39 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />"
 </head>
 <body>
+    <div class="top">
+        <div class="heading">
+          <div class="burger">
+            <button id="burger-button" popovertarget="nav-pop">
+              <img src="./icons/burger_menu.png" alt="Menu" id="b" />
+            </button>
+            <div id="nav-pop" popover>
+              <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="./pages/services.html">SERVICES</a></li>
+                <li><a href="./pages/gallery.html">GALLERY</a></li>
+                <li><a href="./pages/contact.html">CONTACT</a></li>
+              </ul>
+            </div>
+          </div>
+          <form>
+            <label id="head">Elevate Your Events, Elevate Your Dreams...!</label>
+            <input id="search" type="text" name="name" placeholder="search..." />
+            <img src="././icons/search.png" alt="search img" id="search-icon" />
+            <img src="././icons/account.png" alt="person image" id="login" />
+          </form>
+        </div>
+      </div>
+      <!-- navbar -->
+      <div class="navbar">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="./pages/services.html">SERVICES</a></li>
+          <img src="././icons/logo.png" />
+          <li><a href="./pages/gallery.html">GALLERY</a></li>
+          <li><a href="./pages/contact.html">CONTACT</a></li>
+        </ul>
+      </div>
     <div class="container">
         <div class="contact">
         <h1>Contact Us</h1>
@@ -17,15 +50,11 @@
             <form>
                 <div class="form-group">
                     <label for="fullname" class="label">Name:</label>
-                    <input type="text" name="name" placeholder="Your Name">
-                </div>
-                <div class="form-group">
+                    <input type="text" id="fullname" placeholder="Your Name"><br><br>
                     <label for="email" class="label">Email:</label>
-                    <input type="email" name="email" placeholder="Your Email">
-                </div>
-                <div class="form-group">
+                    <input type="email" id="email" placeholder="Your Email"><br><br>
                     <label for="message" class="label">Message:</label>
-                    <textarea name="message" placeholder="Your Message"></textarea>
+                    <textarea id="message" placeholder="Your Message"></textarea>
                 </div>
                 <button class="btn" type="submit">Send Message</button>
             </form>

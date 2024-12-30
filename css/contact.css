@@ -98,21 +98,41 @@ input,textarea{
     .form-group{
         margin-bottom:18px;
     }
+    .contact h1{
+        font-size:30px;
+        margin-bottom:30px;
+        color: #312b2b;
+    }
  }
  @media (min-width: 801px) and (max-width: 2000px) {
     .container{
-        padding:20px;
+        min-height:100vh;
+        background-color:#f1d1c2 ;
+        padding:50px;
+        text-align:center;
     }
-    .contact-wrapper{
-        display:flex;
+    .contact-form{
+        text-align:left;
+    }
+    .contact-form h3{
+        font-size:25px;
+        margin-bottom:20px;
+        color:rgb(92, 87, 87);
+    }
+    .form-group{
+        margin-bottom:20px;
+        font-size:20px;
     }
    }
 @media (max-width: 600px) { 
-    .container{
-        padding:10px;
+    .contact-page1{
+        height:80px;
+        width:90px;
+        background-color:#ebceca;
     }
     .contact-wrapper{
         display:flex;
+        flex-direction:column;
     }
  }
 
