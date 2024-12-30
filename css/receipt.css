@@ -96,6 +96,10 @@ span{
     
 }
 
+.bottom{
+    margin-top: 5px;
+}
+
 .receipt-end{
     height: 60px;
     background-color: #f1d1c2;
