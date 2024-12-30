@@ -36,6 +36,7 @@ img{
     width: 80%;
     margin: 0 auto;
     background-color: #5d776c;
+    
 }
 
 span{
@@ -91,6 +92,7 @@ span{
 
 .receipt-footer{
     border-top: 2px dashed grey;
+    
 }
 
 .receipt-end{
