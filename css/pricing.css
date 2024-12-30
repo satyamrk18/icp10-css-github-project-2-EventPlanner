@@ -9,7 +9,37 @@
     background-color: #ebceca;
     color: #333;
   }
-  
+  .navbar1{
+    background-color:  #f1d1c2 ;
+     display: flex;
+     justify-content: space-evenly;
+     position: sticky;
+     height: 150px;
+  }
+  .logo{
+    height: 135px;
+          padding-left: 10px;
+          position: relative;
+          top:10px;
+  }
+  .nav-content{
+    font-size: 25px;
+    font-family: "crimson Pro";
+    color: #088179bd;
+    text-decoration: none;
+    transition: 0.3s;
+    font-weight: 600;
+    padding-top: 50px;
+}
+
+.nav-content:hover{
+transition: 0.3s;
+    padding-top: 40px;
+    font-size: 25px;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    color: #088178;
+}
   h1, h2 {
     font-family: 'Georgia', serif;
   }
