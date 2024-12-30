@@ -18,7 +18,7 @@
 }
 
 
-.navbar{
+.navbar1{
     background-color:  #f1d1c2 ;
     
      display: flex;
@@ -86,7 +86,7 @@ height: 135px;
       src: url("./../fonts/font.otf");
     }
   
-.container{
+.container1{
     height: 800px;
     width: 1270px; 
     position: relative;
