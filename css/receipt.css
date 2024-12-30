@@ -27,7 +27,8 @@ img{
 
 .receipt-header{
     background-color: #f1d1c2;
-    border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 
 }
 
