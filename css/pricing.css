@@ -81,6 +81,7 @@
   }
   .button-container{
     background-color: #f1d1c2;
+    text-align: center;
     color: white;
     font-size: 20px;
     padding: 15px 30px;
@@ -127,6 +128,7 @@ h1, h2 {
 .pricing-title {
   font-size: 2.5em;
   margin-bottom: 10px;
+  color: darkgoldenrod;
 }
 
 .pricing-subtitle {
@@ -144,7 +146,7 @@ h1, h2 {
 }
 .pricing-card {
   background-color:#ebceca #f1d1c2;
-  border: 1px solid #5d776c;
+  border: 10px solid #5d776c;
   border-radius: 8px;
   padding: 30px;
   width: 300px;
@@ -157,14 +159,14 @@ h1, h2 {
 }
 
 .package-title {
-  font-size: 1.6em;
+  font-size: 2.0em;
   margin-bottom: 15px;
-  color: #333;
+  color: darkgoldenrod;
   background-color: #ebceca #f1d1c2;
 }
 
 .package-price {
-  font-size: 2.2em;
+  font-size: 2.7em;
   color:#5d776c ; 
   margin-bottom: 20px;
 }
@@ -173,7 +175,7 @@ h1, h2 {
   list-style-type: none;
   text-align: left;
   font-size: 1em;
-  color: #333;
+  color: #5d776c;
   background-color:white;
 }
 
