@@ -20,7 +20,6 @@
 
 .navbar1{
     background-color:  #f1d1c2 ;
-    
      display: flex;
      justify-content: space-evenly;
      position: sticky;
@@ -38,7 +37,7 @@
 }
 
 .nav-content:hover{
-  transition: 0.2s;
+  transition: 0.3s;
       padding-top: 40px;
       font-size: 25px;
       text-decoration: underline;
