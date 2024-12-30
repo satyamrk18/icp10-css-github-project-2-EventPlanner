@@ -82,13 +82,21 @@ input,textarea{
 }
 @media (min-width: 601px) and (max-width: 800px) { 
     .container{
-        padding:20px;
+        min-height:90vh;
+        background-color:#efa197 ;
+        padding:50px;
+        text-align:center;
     }
-    .contact-wrapper{
-        display:flex;
+    .contact-form{
+        text-align:left;
     }
-    .contact-page2{
-        flex-direction:column;
+    .contact-form h3{
+        font-size:23px;
+        margin-bottom:15px;
+        color:rgb(57, 55, 55);
+    }
+    .form-group{
+        margin-bottom:18px;
     }
  }
  @media (min-width: 801px) and (max-width: 2000px) {
