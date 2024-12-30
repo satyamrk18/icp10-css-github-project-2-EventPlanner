@@ -2,23 +2,68 @@
     font-family: myfont;
     src: url("./../fonts/font.otf");
   }
+  body{
+    background-color: #ebceca ;
+  }
+  .review-head{
+    position: relative;
+    top: 150px;
+    text-align: center;
+    font-family: myfont;
+    src: url("./../fonts/font.otf");
+    color:  #dfbc61;
+    font-size: 65px;
+    padding-bottom:none;
+    padding-top: 15px;
+  }
+  .review-smallhead{
+    position: relative;
+    top: 150px;
+    text-align: center;
+    font-family: myfont;
+    src: url("./../fonts/font.otf");
+    color:  #088178;
+    font-size: 25px;
+    padding-top:none ;
+    padding: bottom 15px ;
+    margin-bottom: 25px;
+  }
   .review-container{
     position: relative;
     top: 150px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 10px;
+    justify-content: space-evenly;
+    
     
 }
 .container{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     border: 1px black solid;
     border-radius:10px ;
-    height: 370px;
-    width: 310px;
-    padding: 10px;
-   
-    margin-bottom:15px ;
+    height: 300px;
+    width: 410px;
+    background-color: #5d776c;
+    box-shadow: 5px 6px 12px;;
+    
+    
+    
+}
+.container,head{
+ 
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  
+  
+}
+.head-discription{
+
+ 
+  padding: 10px;
+  text-align: justify;
+  font-family: "Crimson Pro", serif;
 }
