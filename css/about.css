@@ -87,7 +87,7 @@ height: 135px;
     }
   
 .container{
-    height: 1000px;
+    height: 850px;
     width: 1270px; 
     position: relative;
     right: 245px;
@@ -99,8 +99,8 @@ height: 135px;
 }
 
 .team_member{
-    height: 300px;
-    width: 270px;
+    height: 400px;
+    width: 1250px;
     border: 2px solid black;
     margin: 5px;
     
