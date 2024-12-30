@@ -1,13 +1,48 @@
+<<<<<<< HEAD
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+=======
 * {
   margin: 0px;
   padding: 0px;
+>>>>>>> 0240c07b42f10764e888d975f61729f4a556fdcb
 }
 body {
   background-color: #d6f2e3ab;
 }
+<<<<<<< HEAD
+
+h1, h2 {
+  font-family: 'Georgia', serif;
+}
+.pricing-section {
+  text-align: center;
+  padding: 30px;
+ background-color:white;
+ margin-top: 60px;
+}
+.pricing-title {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+.pricing-subtitle {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  color:#5d776c;
+  background-color:white;
+}
+
+.pricing-container {
+=======
 .top {
   position: sticky;
   top: 0px;
+>>>>>>> 0240c07b42f10764e888d975f61729f4a556fdcb
   display: flex;
   align-items: center;
   justify-content: center;
@@ -56,6 +91,28 @@ body {
   color: rgba(0, 0, 0, 0.726);
   font-family: "crimson Pro";
 }
+<<<<<<< HEAD
+
+.package-details {
+  list-style-type: none;
+  text-align: left;
+  font-size: 1em;
+  color: #333;
+  background-color: #ebceca;
+  box-sizing: border-box;
+  
+}
+.button-container{
+  background-color:#ebceca #f1d1c2;
+  color: white;
+  font-size: 20px;
+  padding: 15px 30px;
+  border: #333;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease,transform 0.3s ease;
+
+=======
 #search-icon {
   height: 25px;
   width: 25px;
@@ -66,6 +123,7 @@ body {
   cursor: pointer;
   transition: 0.3s;
   padding: 2px;
+>>>>>>> 0240c07b42f10764e888d975f61729f4a556fdcb
 }
 #search-icon:hover {
   height: 30px;
