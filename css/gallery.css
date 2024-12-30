@@ -21,19 +21,27 @@
     cursor: pointer;
     transition: 0.3s;
 }
+.event1:hover{
+    color: black;
+    transform: scale(1.1);
+}
 .simple-header {
   
     padding: 5px;
     text-align: center;
     background-color:  #ebceca;
-    box-shadow: 0 2px 5px  rgba(0, 0, 0, 0.1);
     cursor: pointer;
+    font-family: myfont;
 }
 
 .simple-header h2 {
     margin: 0;
     font-size: 2.5em;
     color: #088178; 
-    font-family: 'Cursive', serif;
+    font-family: myfont;
     cursor: pointer;
 }
+@font-face {
+    font-family: myfont;
+    src: url("./fonts/font.otf");
+  }
