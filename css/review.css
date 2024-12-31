@@ -71,9 +71,11 @@
   position: relative;
   bottom: 30px;
   padding: 10px;
+  padding-top: none;
   text-align: justify;
   font-family: "Crimson Pro", serif;
   color:#dfbc61 ;
+  font-size: 17px;
 }
 .img{
   width: 130px;
