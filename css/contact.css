@@ -5,7 +5,7 @@
 }
 .container{
     min-height:100vh;
-    background-color:#ebceca ;
+    background-color:#ebceca;
     padding:50px;
     text-align:center;
 }
@@ -124,7 +124,7 @@ input,textarea{
  @media (min-width: 801px) and (max-width: 2000px) {
     .container{
         min-height:100vh;
-        background-color:#f1d1c2 ;
+        background-color:#ebceca ;
         padding:50px;
         text-align:center;
     }
