@@ -21,10 +21,12 @@ body {
 }
 .services-intro p {
     color:#5d776c ;
+    
 }
 
 .services-intro h1{
     font-family: myfont;
+    font-size: 40px;
 }
 .services-list {
     display: flex;
@@ -62,7 +64,7 @@ body {
    
 }
 .service h3 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: #b38600;
     margin-bottom: 10px;
     background-color: #f1d1c2;
