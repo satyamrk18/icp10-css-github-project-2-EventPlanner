@@ -113,6 +113,42 @@ body {
     .service p {
         font-size: 0.8rem;
     }  
+
+    .footer {
+        display: none;
+      }
+      .p-footer {
+        height: 450px;
+        width: 100%;
+        background-color: rgb(252, 219, 176);
+        position: relative;
+        top: 250px;
+        display: flex;
+        justify-content: center;
+      }
+      .p-footer-line {
+        height: 10px;
+        width: 80%;
+        background-color: #088178;
+      }
+      .p-footer-btns {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: 20px;
+        gap: 50px;
+      }
+      .p-footer-btns button {
+        height: 35px;
+        width: 150px;
+        font-size: 13px;
+        font-family: sans-serif;
+        font-weight: 600;
+        border-radius: 8px;
+        border: none;
+        background-color: #088178;
+        color: white;
+      }
 }
 
   /* Tablets */
@@ -138,6 +174,11 @@ body {
     .service p {
         font-size: 0.85rem;
     }
+
+    p-footer {
+        display: none;
+      }
+    
 }
 
   /* Laptops */
@@ -154,4 +195,7 @@ body {
         width: 190px;
         height: 190px;
     }
+    .p-footer {
+        display: none;
+      }
 }
