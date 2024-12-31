@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Playwrite+AU+VIC+Guides&family=Playwrite+CO+Guides&family=Playwrite+IE+Guides&family=Yatra+One&display=swap");
 
 body {
     margin: 0;
@@ -6,11 +5,7 @@ body {
     background-color: #f9f9f9; 
    
 }
-#head{
-    font-family: "myfont", sans-serif;
-    word-spacing: 10px;
-    font-weight: normal;
-  }
+
 
 .services-intro {
     text-align: center;
@@ -28,6 +23,9 @@ body {
     color:#5d776c ;
 }
 
+.services-intro h1{
+    font-family: myfont;
+}
 .services-list {
     display: flex;
     justify-content: space-around;
@@ -52,7 +50,6 @@ body {
     
 }
 
-
 .service img {
     width: 200px; 
     height: 200px; 
@@ -64,13 +61,12 @@ body {
     cursor: pointer;
    
 }
-
 .service h3 {
     font-size: 1.2rem;
     color: #b38600;
     margin-bottom: 10px;
     background-color: #f1d1c2;
-    font-family: "myfont", sans-serif;
+    font-family: myfont;
     
 }
 .service a{
@@ -87,7 +83,10 @@ body {
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4); 
 
 }
-
+@font-face {
+    font-family: myfont;
+    src: url("./../fonts/font.otf");
+  }
 
   /*Phones*/
 @media (max-width: 480px) {
@@ -111,9 +110,7 @@ body {
 
     .service p {
         font-size: 0.8rem;
-    }
-
-    
+    }  
 }
 
   /* Tablets */
