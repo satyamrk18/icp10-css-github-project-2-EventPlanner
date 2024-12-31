@@ -4,12 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Career</title>
+    <link rel="stylesheet" href="./../css/career.css">
+    <link rel="stylesheet" href="./../css/.css">
 </head>
 <body>
     <header>
+        <div class="navbar1">
+           <a href="./../index.html" class="nav-content">HOME</a> 
+           <a href="services.html" class="nav-content">SERVICES</a> 
+           <img src="./../icons/logo.png" alt="logo" class="logo">
+           <a href="gallery.html" class="nav-content">GALLERY</a> 
+           <a href="contact.html" class="nav-content">CONTACT</a><br>
+           <a href="career.html" class="nav-content">Career</a><br>
+          </div>
         <h1>Careers at Event Planner</h1>
         <p>Join our dynamic team and help us create unforgettable events!</p>
     </header>
+    <main>
+        <section class="job-listings">
+            <h2>Open Positions</h2>
+            <div class="job">
+                <h3>Event Coordinator</h3>
+                <p>Location: New York, NY</p>
+                <p>Responsibilities include coordinating events, managing client relationships, and overseeing event setup and execution.</p>
+                <button>Apply Now</a>
+            </div>
+            <div class="job">
+                <h3>Marketing Specialist</h3>
+                <p>Location: Los Angeles, CA</p>
+                <p>Responsibilities include developing marketing strategies, managing social media accounts, and creating promotional materials.</p>
+                <button>Apply Now</a>
+            </div>
+        </section>
+        <section class="application-form">
+            <h2>Apply Now</h2>
+            <form>
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="position">Position</label>
+                <select id="position" name="position" required>
+                    <option value="event-coordinator">Event Coordinator</option>
+                    <option value="marketing-specialist">Marketing Specialist</option>
+                </select>
+                <br>
+                <div class="terms-container">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">
+                        I agree to the <a href="terms.html" target="_blank">terms and conditions</a>
+                    </label>
+                </div>
+
+                <label for="resume">Upload Resume</label>
+                <input type="file" id="resume" name="resume" required>
+
+                <button type="submit">Submit Application</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Event Planner. All rights reserved.</p>
+        <p>Follow us on:
+        
+            <a href="#" target="_blank"><i class="fab fa-facebook"></i> Facebook</a> | 
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i> Instagram</a> | 
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+        </p>
     
+    </footer>
+   
+    <script src="https://kit.fontawesome.com/97270005ce.js" crossorigin="anonymous"></script>
 </body>
 </html>
