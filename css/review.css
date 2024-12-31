@@ -20,10 +20,11 @@
     position: relative;
     top: 150px;
     text-align: center;
-    font-family: myfont;
-    src: url("./../fonts/font.otf");
+    /* font-family: myfont; */
+    /* src: url("./../fonts/font.otf"); */
+    font-family: "Crimson Pro", serif;
     color:  #088178;
-    font-size: 25px;
+    font-size: 18px;
     padding-top:none ;
     padding: bottom 15px ;
     margin-bottom: 25px;
@@ -75,7 +76,7 @@
   padding-bottom: none;
   text-align: justify;
   font-family: "Crimson Pro", serif;
-  color:#dfbc61 ;
+  color:white ;
   font-size: 17px;
 }
 .img{
