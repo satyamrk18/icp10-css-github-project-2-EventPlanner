@@ -416,6 +416,12 @@ transform:scale(1.1);
     #btn-2:hover{
       transform:scale(1.1);
     }
+    .footer img{
+      height:150px;
+      width:150px;
+      position: absolute;
+      right:100px;
+    }
     /* phone */
     @media (max-width: 600px) {
       .navbar ul li {
@@ -944,8 +950,8 @@ transform:scale(1.1);
  <footer class="footer">
 <div class="footer-events">
   <div class="footer-btns">
-<button id="btn-1">Feedback</button>
-<button id="btn-2">Terms And Conditions</button>
+<a href="./pages/"><button id="btn-1">Feedback</button></a>  
+<a href="./pages/terms.html" target="new"><button id="btn-2">Terms And Conditions</button></a>
   </div>
 <ul> <b>BRIDLE</b>
   <li>Wedding</li>
@@ -963,6 +969,7 @@ transform:scale(1.1);
   <li>Company Awards</li>
 </ul>
 </div>
+<img src="./icons/logo.png" alt="footer logo">
  </footer>
   </body>
 </html>
