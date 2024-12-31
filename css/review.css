@@ -5,10 +5,7 @@
   body{
     background-color: #ebceca ;
   }
-  .main-head{
-    transition: 0.3s;
-    
-  }
+
   .review-head{
     position: relative;
     top: 130px;
@@ -19,8 +16,8 @@
     font-size: 65px;
     padding-bottom:none;
     padding-top: 15px;
-    /* cursor: pointer;   */
-    transition: 0.1s;
+    cursor: pointer;  
+    transition: 0.3s;
   }
   .review-smallhead{
     position: relative;
@@ -59,7 +56,8 @@
     position: relative;
     padding: 10px;
     margin: 10px;
-    
+    transition: 0.3s;
+    cursor: pointer;
     
 }
 .head{
@@ -114,8 +112,13 @@
   color: gold;
 }
 
-.main-head:hover{
+.review-head:hover{
   transform: scale(1.1);
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 
+}
+
+.container:hover{
+  transform: scale(1.05);
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3); 
 }
