@@ -1,21 +1,33 @@
+
 body {
     margin: 0;
     padding: 0;
     background-color: #f9f9f9; 
+   
 }
+
+
 .services-intro {
     text-align: center;
     padding: 20px;
-    margin-top: 140px;
+    margin-top: 150px;
     margin-bottom: 30px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     color: #b38600;
+    background-color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .services-intro p {
     color:#5d776c ;
+    
 }
 
+.services-intro h1{
+    font-family: myfont;
+    font-size: 40px;
+}
 .services-list {
     display: flex;
     justify-content: space-around;
@@ -24,6 +36,9 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin-bottom: 30px;
     border-radius: 8px;
+    background-color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .service {
@@ -34,8 +49,8 @@ body {
     background-color:#5d776c ;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     border-radius: 8px; 
+    
 }
-
 
 .service img {
     width: 200px; 
@@ -46,14 +61,18 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4); 
     transition: transform 0.3s ease, box-shadow 0.3s ease; 
     cursor: pointer;
+   
 }
-
 .service h3 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: #b38600;
     margin-bottom: 10px;
     background-color: #f1d1c2;
-   
+    font-family: myfont;
+    
+}
+.service a{
+    text-decoration: none;
 }
 
 .service p {
@@ -66,7 +85,10 @@ body {
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4); 
 
 }
-
+@font-face {
+    font-family: myfont;
+    src: url("./../fonts/font.otf");
+  }
 
   /*Phones*/
 @media (max-width: 480px) {
@@ -90,9 +112,7 @@ body {
 
     .service p {
         font-size: 0.8rem;
-    }
-
-    
+    }  
 }
 
   /* Tablets */
@@ -121,7 +141,7 @@ body {
 }
 
   /* Laptops */
-@media (min-width:769px) and (max-width: 1024px) {
+@media (min-width:769px) and (max-width: 2000px) {
     .services-list {
         justify-content: space-around;
     }

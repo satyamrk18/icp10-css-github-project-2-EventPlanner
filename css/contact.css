@@ -2,11 +2,10 @@
     margin:0px;
     padding:0px;
     box-sizing:border-box;
-    font-family:sans-serif;
 }
 .container{
     min-height:100vh;
-    background-color:#ebceca ;
+    background-color:#ebceca;
     padding:50px;
     text-align:center;
 }
@@ -17,7 +16,9 @@
 .contact h1{
     font-size:36px;
     margin-bottom:40px;
-    color: #333;
+    color: #b38600;
+    font-family: myfont;
+    src: url("./../fonts/font.otf");
 }
 .contact-wrapper{
     display:grid;
@@ -36,8 +37,8 @@
     margin-bottom:20px;
 }
 .form-group:hover{
-    box-shadow:0 0 5px 0 grey;
-    transition:0.10px;
+    box-shadow:0 0 10px 0 grey;
+    transition:1.10px;
 }
 input,textarea{
     width:400px;
@@ -46,6 +47,9 @@ input,textarea{
     border:none;
     background-color: aliceblue;
     color:rgb(45, 40, 40);
+    transform: scale(1.1); 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4); 
+    cursor: pointer;
 }
 .btn{
     font-size:15px;
@@ -56,8 +60,8 @@ input,textarea{
     border-radius:5px;
 }
 .btn:hover{
-    box-shadow:0 0 5px 0 #5d776c;
-    transition:0.10px;
+    box-shadow:0 0 10px 0 #5d776c;
+    transition:1.10px;
 }
 .contact-page2{
     text-align:left;
@@ -65,12 +69,16 @@ input,textarea{
 .contact-page2 h3{
     font-size:25px;
     margin-bottom:20px;
-    color:black;
+    color:#b38600;
+    font-family: myfont;
+    src: url("./../fonts/font.otf");
 }
 .contact-page1 h3{
     font-size:25px;
     margin-bottom:20px;
-    color:black;
+    color:#b38600;
+    font-family: myfont;
+    src: url("./../fonts/font.otf");
 }
 .par{
     margin-bottom:10px;
@@ -80,6 +88,15 @@ input,textarea{
     padding:10px;
     color:#5d776c;
 }
+
+#submit{
+    color:white;
+    text-decoration:none;
+}
+@font-face {
+    font-family: myfont;
+    src: url("./../fonts/font.otf");
+  }
 @media (min-width: 601px) and (max-width: 800px) { 
     .container{
         min-height:90vh;
@@ -107,7 +124,7 @@ input,textarea{
  @media (min-width: 801px) and (max-width: 2000px) {
     .container{
         min-height:100vh;
-        background-color:#f1d1c2 ;
+        background-color:#ebceca ;
         padding:50px;
         text-align:center;
     }
@@ -130,9 +147,10 @@ input,textarea{
         width:90px;
         background-color:#ebceca;
     }
-    .contact-wrapper{
+    .container{
         display:flex;
         flex-direction:column;
+        padding:5px;
     }
  }
 
