@@ -70,10 +70,10 @@ body{
 }
 
 .member{
-    background-color: #5d776c;
+    background-color: rgb(238, 229, 229);
     height: 310px;
     width: 240px;
-    border: 0.5px solid white;
+    border: 0.5px solid #5d776c ;
     margin: 6px;
    border-radius: 10px;
     box-shadow: 0px 1px 2px 0.5px gray;
@@ -96,56 +96,55 @@ body{
 .name{
     margin-left: 70px;
     font-size: 25px;
-    color: white;
 }
 
 .surname{
     margin-left: 50px;
     font-size: 25px;
-    color: white;
 }
 
 .post{
     margin-left: 40px;
     font-size: 30px;
-    color: rgb(198, 139, 61);
+    color: #c22e1b;
 }
 .name1{
     margin-left: 65px;
     font-size: 25px;
-    color: white;
+    
 }
 
 .surname1{
     margin-left: 65px;
     font-size: 25px;
-    color: white;
 }
 
 .post1{
     margin-left: 35px;
     font-size: 27px;
-    color: rgb(198, 139, 61);
+    color: #c22e1b;
 }
 
 .producer{
     margin-left: 28px;
+    color: #c22e1b;
 }
 
 .post2{
     margin-left: 10px;
     font-size: 25px;
-    color: rgb(198, 139, 61);
+    color: #c22e1b;
 }
 
 .producer1{
     margin-left: 50px;
+    color: #c22e1b;
 }
 
 .post3{
     margin-left: 10px;
     font-size: 25px;
-    color: rgb(198, 139, 61);
+    color: #c22e1b;
 }
 
 .name2{
@@ -162,7 +161,7 @@ body{
     margin-top: 7px;
     margin-left: 25px;
     font-size: 27px;
-    color: rgb(198, 139, 61);
+    color: #c22e1b;
 }
 
 .name3{
@@ -179,7 +178,7 @@ body{
     margin-top: 7px;
     margin-left: 15px;
     font-size: 27px;
-    color: rgb(198, 139, 61); 
+    color: #c22e1b;
 }
 
 .surname4{
@@ -189,8 +188,8 @@ body{
 .post6{
     margin-top: 7px;
    margin-left: 4px;
-    font-size: 25px;
-    color: rgb(198, 139, 61); 
+    font-size: 25px; 
+    color: #c22e1b;
 }
 
 #mission{
@@ -233,9 +232,7 @@ body{
         display: flex;
         flex-direction: column; 
         align-items: center; 
-    }
-
-    
+    } 
     .member {
         width: 95%;
         height: auto; 
@@ -249,7 +246,6 @@ body{
         margin-top: 10px;
     }
 
-    
     .name, .surname, .post {
         font-size: 30px; 
         text-align: center
@@ -265,27 +261,25 @@ body{
         margin-left: 15px;
     }
 
+    
     .post1, .post2, .post3, .post4, .post5, .post6 {
         font-size: 20px;
-        margin-left: 10px;
+        margin-left: 20px;
     }
-
+   
     .name, .surname, .post {
         margin: 5px 0; 
     }
-
-    
-    .producer, .producer1 {
+   .producer, .producer1 {
         font-size: 18px;
         display: block;
         margin-top: 5px;
-        margin-left: 10px;
     }
 
-    .member {
+     .member {
         display: flex;
         flex-direction: column; 
-        align-items: center; 
+        align-items: center;
         text-align: center; 
     }
 }
