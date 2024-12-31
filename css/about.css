@@ -1,8 +1,13 @@
+body{
+    background-color: #ebceca;
+}
+
 .main_heading{
     padding-left: 20px;
+    padding-right: 10px;
     padding-top: 25px;
-    color: #088179bd;
-    font-size: 55px;
+    color: #5d776c;
+    font-size: 50px;
     font-family: "Playfair Display", serif;
   position: relative;
   bottom: 50px;
@@ -17,48 +22,16 @@
    margin-top: 40px;
 }
 
-
-.navbar1{
-    background-color:  #f1d1c2 ;
-     display: flex;
-     justify-content: space-evenly;
-     position: sticky;
-     height: 150px;
-}
-
-.nav-content{
-      font-size: 25px;
-      font-family: "crimson Pro";
-      color: #088179bd;
-      text-decoration: none;
-      transition: 0.3s;
-      font-weight: 600;
-      padding-top: 50px;
-}
-
-.nav-content:hover{
-  transition: 0.3s;
-      padding-top: 40px;
-      font-size: 25px;
-      text-decoration: underline;
-      text-decoration-thickness: 3px;
-      color: #088178;
-}
-
-.logo{
-height: 135px;
-      padding-left: 10px;
-      position: relative;
-      top:10px;
-      
-      
-}
-
-.group_photo{
-      height: 120px;
+.group_photo img{
+      height: 430px;
       padding-top: 20px;
       padding-right: 30px;
       
+  }
+
+  .table{
+     position: relative;
+     top: 150px;
   }
 
   .team{
@@ -67,11 +40,11 @@ height: 135px;
   }
   
   .team_info{
-      border: #00b3b3;
+      
       height: 50px;
       width: 800px;
       margin: auto;
-      margin-top: 20px;
+      margin-top: 90px;
       
   }
   .heading{
@@ -107,12 +80,13 @@ height: 135px;
 }
 
 .member{
-    height: 320px;
+    height: 300px;
     width: 250px;
     border: 1px solid grey;
     border-radius: 20px;
     margin: 10px;
     display: flex;
+   
     flex-wrap: wrap;
     box-shadow: 0px 1px 3px 1px rgb(138, 136, 136);
 }
@@ -173,8 +147,49 @@ height: 135px;
 
 }
 
-.social_heading{
-    margin-left: 500px;
+/* phone */
+@media (max-width: 600px) {
+  .main_heading{
+    padding-left: 5px;
+    padding-top: 30px;
+    color: #088179bd;
+    font-size: 25px;
+    font-family: "Playfair Display", serif;
+  
+  }
+
+  .team_info{
+      width: auto;
+      font-size: 15px;
+      margin-left:7px;
+      margin-top: 10px;
+  }
+
+  .heading{
+    font-size: 40px;
+  }
+
+.team{
+    font-size: 20px;
 }
 
 
+    /* Adjust container width */
+    .container1 {
+        width: 100%;
+        margin-right: 0;
+        padding: 10px;
+        display: flex;
+        
+    }
+
+    /* Adjust team_member layout to be in a column */
+    .team_member {
+        width: 100%;
+        display: flex;
+        
+    }
+
+
+
+}

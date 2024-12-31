@@ -4,21 +4,46 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
-    <link rel="stylesheet" href="./../css/about.css">
+    <link rel="stylesheet" href="./../css/style.css">
+   <link rel="stylesheet" href="./../css/about.css">
     
 </head>
 <body>
-
-    <div class="navbar1">
-       <a href="./../index.html" class="nav-content">HOME</a> 
-       <a href="services.html" class="nav-content">SERVICES</a> 
-       <img src="./../icons/logo.png" alt="logo" class="logo">
-       <a href="gallery.html" class="nav-content">GALLERY</a> 
-       <a href="contact.html" class="nav-content">CONTACT</a>
+ 
+  <div class="top">
+    <div class="heading">
+      <div class="burger">
+        <button id="burger-button" popovertarget="nav-pop">
+          <img src="./icons/burger_menu.png" alt="Menu" id="b" />
+        </button>
+        <div id="nav-pop" popover>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="./pages/services.html">SERVICES</a></li>
+            <li><a href="./pages/gallery.html">GALLERY</a></li>
+            <li><a href="./pages/contact.html">CONTACT</a></li>
+          </ul>
+        </div>
       </div>
-      <hr style="color:#f0e2e0  ; text-decoration-thickness: 5px;">
-
-    <table>
+      <form>
+        <label id="head">Elevate Your Events, Elevate Your Dreams...!</label>
+        <input id="search" type="text" name="name" placeholder="search..." />
+        <img src="./../icons/search.png" alt="search img" id="search-icon" />
+        <img src="./../icons/account.png" alt="person image" id="login" />
+      </form>
+    </div>
+  </div>
+  <!-- navbar -->
+  <div class="navbar">
+    <ul>
+      <li><a href="./../index.html" target="new">HOME</a></li>
+      <li><a href="./../pages/services.html" target="new">SERVICES</a></li>
+      <img src="./../icons/logo.png" />
+      <li><a href="./../pages/gallery.html">GALLERY</a></li>
+      <li><a href="./../pages/contact.html">CONTACT</a></li>
+    </ul>
+  </div>
+    <table class="table">
         <tr>
            <td class="main_heading">We see your events through a <span style="color: #dfbc61; font-family: myfont;">fresh</span> set of eyes
                <p class="paragraph">JIVA SOIREE Events offers innovative ideas and fundraising solutions that help your nonprofit achieve a fundraising goal you thought was out of reach.</p>
@@ -129,14 +154,7 @@
         
     </div>
     
-    <div class="social">
-      <h1 class="social_heading">We're Pretty <span style="font-family: myfont; color: #d6ab3e;"> Social! </span></h1>
-      <i class="fa-brands fa-facebook " style="color: #088179bd; font-size: 50px; margin-left: 10px;"></i>
-      <i class="fa-brands fa-square-instagram" style="color: #088179bd;"></i>
-      <i class="fa-brands fa-linkedin icon" style="color: #088179bd;"></i>
-
-      <script src="https://kit.fontawesome.com/6e11b7a1ab.js" crossorigin="anonymous"></script>
-    </div>
+    
 </div>
   </div>
 
