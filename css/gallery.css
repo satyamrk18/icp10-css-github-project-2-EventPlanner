@@ -46,15 +46,17 @@
 
 }
 
- /* phone */
- @media (max-width: 500px) {
+
+
+/* Mobile */
+@media screen and (max-width: 599px) {
     .container {
-        flex-direction: column; 
-        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
     }
 
     .item {
-        width: 90%; 
+        width: 90%;
     }
 
     .simple-header h2 {
@@ -62,9 +64,8 @@
     }
 }
 
-
-/* tablet */
-@media (min-width: 601px) and (max-width: 800px){
+/* Tablet */
+@media screen and (min-width: 600px) and (max-width: 992px) {
     .container {
         flex-direction: row;
         flex-wrap: wrap;
@@ -72,27 +73,26 @@
     }
 
     .item {
-        width: 45%;
+        width: 45%; /* Adjust width to fit two items per row */
     }
 
     .simple-header h2 {
-        font-size: 22px; 
+        font-size: 22px;
     }
 }
 
-   /* laptop */
-   @media (min-width: 801px) and (max-width: 2000px) {
+/* Laptop */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
     .container {
-        justify-content: space-evenly; 
+        justify-content: space-evenly;
     }
 
     .item {
-        width: 300px; 
+        width: 300px;
     }
 
     .simple-header h2 {
-        font-size: 25px; 
+        font-size: 25px;
     }
 }
-
 
