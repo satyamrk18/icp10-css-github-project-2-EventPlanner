@@ -18,6 +18,7 @@
     padding-top: 15px;
     cursor: pointer;  
     transition: 0.3s;
+
   }
   .review-smallhead{
     position: relative;
@@ -122,3 +123,30 @@
   transform: scale(1.05);
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3); 
 }
+
+ /* phone */
+ @media (max-width: 600px){.review-head{
+ 
+  position: relative;
+  top: 130px;
+  text-align: center;
+  font-family: myfont;
+  src: url("./../fonts/font.otf");
+  color:  #dfbc61;
+  font-size: 65px;
+  padding-bottom:none;
+  padding-top: 15px;
+  cursor: pointer;  
+  transition: 0.3s;
+}.navbar{
+  background-image: url("./../image/home_img/poster_flower_Photoroom.png");
+  z-index: 1;
+}
+
+ }
+ /* destop */
+@media (min-width: 801px) and (max-width: 2000px) { 
+  .poster-img{
+    display: none;
+  }
+ }
