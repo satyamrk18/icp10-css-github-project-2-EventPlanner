@@ -734,6 +734,9 @@ transform:scale(1.1);
         bottom: 100px;
         font-size: 35px;
       }
+      .p-events a {
+text-decoration: none;
+      }
       .p-events b:hover {
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
       }
@@ -782,6 +785,70 @@ transform:scale(1.1);
         background-image: url("./image/home_img/Conference.jpeg");
         background-size: cover;
         background-position: center;
+      }
+      .footer 
+      {
+        display: none;
+      }
+      .p-footer
+      {
+        height: 500px;
+        width: 100%;
+        background-color:rgb(252, 219, 176);
+        position: relative;
+        top:250px;
+        display: flex;
+        justify-content: center;
+      }
+      .p-footer-line
+      {
+        height: 10px;
+        width:80%;
+        background-color:#088178;
+      }
+      .p-footer-btns
+      {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top:20px;
+        gap:50px;
+      }
+      .p-footer-btns button
+      {
+        height:35px;
+        width:150px;
+        font-size:13px;
+        font-family:sans-serif;
+        font-weight:600;
+        border-radius:8px;
+        border:1px solid rgba(0, 0, 0, 0.299);
+        background-color: #088178;
+        color: white;
+      }
+      .list
+      {
+        display: flex;
+        align-items: center;
+        justify-self:center;
+        position: absolute;
+        left:50px;
+        top:100px;
+        flex-wrap: wrap;
+        font-size: 15px;
+        color: #088178;
+      }
+      .list ul {
+      margin:20px;
+      }
+      .list ul li
+      {
+        font-size:20px;
+      }
+      .list img 
+      {
+        height:150px;
+        width:150px;
       }
     }
     /* tablet */
@@ -970,7 +1037,7 @@ transform:scale(1.1);
   <div class="footer-line"></div>
 <div class="footer-events">
   <div class="footer-btns">
-<a href="./pages/"><button id="btn-1">Feedback</button></a>  
+<a href="./pages/review.html" target="new"><button id="btn-1">Feedback</button></a>  
 <a href="./pages/terms.html" target="new"><button id="btn-2">Terms And Conditions</button></a>
   </div>
 <ul> <b>BRIDLE</b>
@@ -990,6 +1057,31 @@ transform:scale(1.1);
 </ul>
 </div>
 <img src="./icons/logo.png" alt="footer logo">
+ </footer>
+ <footer class="p-footer">
+  <div class="p-footer-line"></div>
+  <div class="p-footer-btns">
+    <a href="./pages/review.html" target="new"><button id="btn-1">Feedback</button></a>  
+    <a href="./pages/terms.html" target="new"><button id="btn-2">Terms And Conditions</button></a>
+      </div>
+      <div class="list">
+        <ul> <b>BRIDLE</b>
+          <li>Wedding</li>
+          <li>Haldi</li>
+          <li>Ring Ceremony</li>
+        </ul>
+        <ul> <b>CELEBRATIONS</b>
+          <li>Party</li>
+          <li>Concert</li>
+          <li>Birthday Celebration</li>
+        </ul>
+        <ul> <b>Ofiicials</b>
+          <li>Official Meeting</li>
+          <li>Company anniversary</li>
+          <li>Company Awards</li>
+        </ul>
+        <img src="./icons/logo.png" alt="footer logo">
+      </div>
  </footer>
   </body>
 </html>
