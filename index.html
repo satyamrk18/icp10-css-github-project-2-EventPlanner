@@ -222,16 +222,15 @@
       cursor: pointer;
       transition: 0.3s;
     }
-    .job a 
-    {
+    .job a {
       text-decoration: none;
       color: #6a6a6a;
-      transition:0.3s;
+      transition: 0.3s;
       cursor: pointer;
     }
-    .job a:hover{
-transform: scale(1.1);
-color: #088178;
+    .job a:hover {
+      transform: scale(1.1);
+      color: #088178;
     }
     .job h2:hover {
       color: rgba(0, 0, 0, 0.954);
@@ -377,61 +376,79 @@ color: #088178;
     .event-select p:hover {
       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     }
-    .footer
-    {
+    .footer {
       width: 100%;
-      height:250px;
-      background-color:rgb(252, 219, 176);
-      position:relative;
-      top:300px;
+      height: 250px;
+      background-color: rgb(252, 219, 176);
+      position: relative;
+      top: 300px;
       display: flex;
       align-items: center;
       justify-content: center;
-      flex-direction:row;
+      flex-direction: row;
     }
-    .footer-events 
-    {
+    .footer-events {
       display: flex;
       flex-direction: row;
-      gap:70px;
+      gap: 70px;
       position: relative;
       right: 100px;
     }
     .footer-events ul {
-font-size: 20px;
-line-height: 35px;
-color: #088178;
+      font-size: 20px;
+      line-height: 35px;
+      color: #088178;
     }
-    .footer-btns{
+    .footer-btns {
       display: flex;
       flex-direction: column;
-      justify-content:space-between;
-      position:relative;
-      right:150px;
+      justify-content: space-between;
+      position: relative;
+      right: 150px;
+      flex-wrap: wrap;
     }
-    .footer-btns button{
-      background-color: #e0a84d65;
+    .footer-btns button {
+      background-color: #088178;
       height: 50px;
-      width:250px;
-      font-size:20px;
-      font-family:sans-serif;
+      width: 250px;
+      font-size: 20px;
+      font-family: sans-serif;
       font-weight: 700;
-      color: #088178;
-      border-radius:8px;
+      color: white;
+      border-radius: 8px;
       cursor: pointer;
-      transition:0.3s;
+      transition: 0.3s;
     }
-    #btn-1:hover{
-transform:scale(1.1);
+    #btn-1:hover {
+      transform: scale(1.1);
     }
-    #btn-2:hover{
-      transform:scale(1.1);
+    #btn-2:hover {
+      transform: scale(1.1);
     }
-    .footer img{
-      height:150px;
-      width:150px;
+    .footer img {
+      height: 150px;
+      width: 150px;
       position: absolute;
-      right:100px;
+      right: 100px;
+    }
+    .footer-line {
+      height: 10px;
+      width: 80%;
+      background-color: #088178;
+      position: absolute;
+      top: 0px;
+    }
+    .media 
+    {
+      display: flex;
+      gap:15px;
+      position:absolute;
+      bottom:25px;
+      text-decoration:none;
+    }
+    .media a{
+      text-decoration:none;
+      color: #088178;
     }
     /* phone */
     @media (max-width: 600px) {
@@ -636,7 +653,7 @@ transform:scale(1.1);
       .phone-job i {
         padding-top: 10px;
         padding-bottom: 10px;
-        font-size: 20px;
+        font-size:18px;
         line-height: 50px;
         color: #5d776c;
       }
@@ -725,6 +742,9 @@ transform:scale(1.1);
         bottom: 100px;
         font-size: 35px;
       }
+      .p-events a {
+        text-decoration: none;
+      }
       .p-events b:hover {
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
       }
@@ -774,6 +794,62 @@ transform:scale(1.1);
         background-size: cover;
         background-position: center;
       }
+      .footer {
+        display: none;
+      }
+      .p-footer {
+        height: 500px;
+        width: 100%;
+        background-color: rgb(252, 219, 176);
+        position: relative;
+        top: 250px;
+        display: flex;
+        justify-content: center;
+      }
+      .p-footer-line {
+        height: 10px;
+        width: 80%;
+        background-color: #088178;
+      }
+      .p-footer-btns {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: 20px;
+        gap: 50px;
+      }
+      .p-footer-btns button {
+        height: 35px;
+        width: 150px;
+        font-size: 13px;
+        font-family: sans-serif;
+        font-weight: 600;
+        border-radius: 8px;
+        border: 1px solid rgba(0, 0, 0, 0.299);
+        background-color: #088178;
+        color: white;
+      }
+      .list {
+        display: flex;
+        align-items: center;
+        justify-self: center;
+        position: absolute;
+        left: 50px;
+        top: 100px;
+        flex-wrap: wrap;
+        font-size: 15px;
+        color: #088178;
+      }
+      .list ul {
+        margin: 20px;
+      }
+      .list ul li {
+        font-size: 20px;
+      }
+      .list img {
+        height: 150px;
+        width: 150px;
+      }
     }
     /* tablet */
     @media (min-width: 601px) and (max-width: 800px) {
@@ -795,7 +871,9 @@ transform:scale(1.1);
       .p-event-select {
         display: none;
       }
-     
+      .p-footer {
+        display: none;
+      }
     }
     /* laptop */
     @media (min-width: 801px) and (max-width: 2000px) {
@@ -820,6 +898,9 @@ transform:scale(1.1);
       .p-event-select {
         display: none;
       }
+      .p-footer {
+        display: none;
+      }
     }
   </style>
   <body>
@@ -842,7 +923,9 @@ transform:scale(1.1);
           <label id="head">Elevate Your Events, Elevate Your Dreams...!</label>
           <input id="search" type="text" name="name" placeholder="search..." />
           <img src="././icons/search.png" alt="search img" id="search-icon" />
-          <a href="./pages/about.html"><img src="././icons/account.png" alt="person image" id="login" /></a>
+          <a href="./pages/about.html"
+            ><img src="././icons/account.png" alt="person image" id="login"
+          /></a>
         </form>
       </div>
     </div>
@@ -888,24 +971,34 @@ transform:scale(1.1);
       </h3>
       <div class="job">
         <h2>
-         <a href="./pages/career.html" target="new"><i class="fa-solid fa-arrow-right" style="color: #8b9890"></i>
-          &nbsp;Event Planner</a>
+          <a href="./pages/career.html" target="new"
+            ><i class="fa-solid fa-arrow-right" style="color: #8b9890"></i>
+            &nbsp;Event Planner</a
+          >
         </h2>
         <h2>
-          <a href="./pages/career.html" target="new"><i class="fa-solid fa-arrow-right" style="color: #8b9890"></i>
-            &nbsp;Event Coordinator</a>
+          <a href="./pages/career.html" target="new"
+            ><i class="fa-solid fa-arrow-right" style="color: #8b9890"></i>
+            &nbsp;Event Coordinator</a
+          >
         </h2>
         <h2>
-        <a href="./pages/career.html" target="new"><i class="fa-solid fa-arrow-right" style="color: #8b9890"></i>
-          &nbsp;Event Marketing Specialist</a>
+          <a href="./pages/career.html" target="new"
+            ><i class="fa-solid fa-arrow-right" style="color: #8b9890"></i>
+            &nbsp;Event Marketing Specialist</a
+          >
         </h2>
         <h2>
-          <a href="./pages/career.html" target="new"><i class="fa-solid fa-arrow-right" style="color: #8b9890"></i>
-            &nbsp;Wedding Planner</a>
+          <a href="./pages/career.html" target="new"
+            ><i class="fa-solid fa-arrow-right" style="color: #8b9890"></i>
+            &nbsp;Wedding Planner</a
+          >
         </h2>
         <h2>
-          <a href="./pages/career.html" target="new"><i class="fa-solid fa-arrow-right" style="color: #8b9890"></i>
-            &nbsp;Corporate Event Manager</a>
+          <a href="./pages/career.html" target="new"
+            ><i class="fa-solid fa-arrow-right" style="color: #8b9890"></i>
+            &nbsp;Corporate Event Manager</a
+          >
         </h2>
       </div>
       <div class="inner-box"></div>
@@ -915,70 +1008,159 @@ transform:scale(1.1);
         <h1>Work With Us</h1>
         <div class="phone-job">
           <h2>
-          <a href="./pages/career.html" target="new"><i class="fa-solid fa-arrow-right"> &nbsp; Event Coordinator</i></a>
+            <a href="./pages/career.html" target="new"
+              ><i class="fa-solid fa-arrow-right">
+                &nbsp; Event Coordinator</i
+              ></a
+            >
           </h2>
           <h2>
-           <a href="./pages/career.html" target="new"> <i class="fa-solid fa-arrow-right">
-            &nbsp; Event Marketing Specialist</i></a>
+            <a href="./pages/career.html" target="new">
+              <i class="fa-solid fa-arrow-right">
+                &nbsp; Event Marketing Specialist</i
+              ></a
+            >
           </h2>
           <h2>
-            <a href="./pages/career.html" target="new"><i class="fa-solid fa-arrow-right"> &nbsp;Wedding Planner</i></a>
+            <a href="./pages/career.html" target="new"
+              ><i class="fa-solid fa-arrow-right"> &nbsp;Wedding Planner</i></a
+            >
           </h2>
           <h2>
-         <a href="./pages/career.html" target="new"><i class="fa-solid fa-arrow-right">&nbsp;Corporate Event Manager</i></a>
+            <a href="./pages/career.html" target="new"
+              ><i class="fa-solid fa-arrow-right"
+                >&nbsp;Corporate Event Manager</i
+              ></a
+            >
           </h2>
         </div>
       </div>
       <div class="img1"></div>
       <div class="img2"></div>
     </div>
+    <!-- event-laptop -->
     <div class="events">
       <div class="event-select">
         <p>Events</p>
       </div>
-      <div class="E1" id="event-1"><b>Haldi</b></div>
-      <div class="E1" id="event-2"><b>Wedding</b></div>
-      <div class="E1" id="event-3"><b>Ring Ceremony</b></div>
-      <div class="E1" id="event-4"><b>Birthday Party</b></div>
-      <div class="E1" id="event-5"><b>Concert</b></div>
-      <div class="E1" id="event-6"><b>Offficial Meetings</b></div>
+      <div class="E1" id="event-1">
+        <a href="./pages/price.html" target="new"><b>Haldi</b></a>
+      </div>
+      <div class="E1" id="event-2">
+        <a href="./pages/price.html" target="new"><b>Wedding</b></a>
+      </div>
+      <div class="E1" id="event-3">
+        <a href="./pages/price.html" target="new"><b>Ring Ceremony</b></a>
+      </div>
+      <div class="E1" id="event-4">
+        <a href="./pages/price.html" target="new"><b>Birthday Party</b></a>
+      </div>
+      <div class="E1" id="event-5">
+        <a href="./pages/price.html" target="new"><b>Concert</b></a>
+      </div>
+      <div class="E1" id="event-6">
+        <a href="./pages/price.html" target="new"><b>Offficial Meetings</b></a>
+      </div>
     </div>
     <!-- event for mobile -->
     <div class="p-events">
       <div class="p-event-select">
         <p>Events</p>
       </div>
-      <div class="P-E1" id="P-event-1"><b>Haldi</b></div>
-      <div class="P-E1" id="P-event-2"><b>Wedding</b></div>
-      <div class="P-E1" id="P-event-3"><b>Ring Ceremony</b></div>
-      <div class="P-E1" id="P-event-4"><b>Birthday party</b></div>
-      <div class="P-E1" id="P-event-5"><b>Concert</b></div>
-      <div class="P-E1" id="P-event-6"><b>Offficial Meetings</b></div>
+      <div class="P-E1" id="P-event-1">
+        <a href="./pages/price.html" target="new"><b>Haldi</b></a>
+      </div>
+      <div class="P-E1" id="P-event-2">
+        <a href="./pages/price.html" target="new"><b>Wedding</b></a>
+      </div>
+      <div class="P-E1" id="P-event-3">
+        <a href="./pages/price.html" target="new"><b>Ring Ceremony</b></a>
+      </div>
+      <div class="P-E1" id="P-event-4">
+        <a href="./pages/price.html" target="new"><b>Birthday Party</b></a>
+      </div>
+      <div class="P-E1" id="P-event-5">
+        <a href="./pages/price.html" target="new"><b>Concert</b></a>
+      </div>
+      <div class="P-E1" id="P-event-6">
+        <a href="./pages/price.html" target="new"><b>Offficial Meetings</b></a>
+      </div>
     </div>
-<!-- footer -->
- <footer class="footer">
-<div class="footer-events">
-  <div class="footer-btns">
-<a href="./pages/"><button id="btn-1">Feedback</button></a>  
-<a href="./pages/terms.html" target="new"><button id="btn-2">Terms And Conditions</button></a>
-  </div>
-<ul> <b>BRIDLE</b>
-  <li>Wedding</li>
-  <li>Haldi</li>
-  <li>Ring Ceremony</li>
-</ul>
-<ul> <b>CELEBRATIONS</b>
-  <li>Party</li>
-  <li>Concert</li>
-  <li>Birthday Celebration</li>
-</ul>
-<ul> <b>Ofiicials</b>
-  <li>Official Meeting</li>
-  <li>Company anniversary</li>
-  <li>Company Awards</li>
-</ul>
-</div>
-<img src="./icons/logo.png" alt="footer logo">
- </footer>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-line"></div>
+      <div class="footer-events">
+        <div class="footer-btns">
+          <a href="./pages/review.html" target="new"
+            ><button id="btn-1">Feedback</button></a
+          >
+          <a href="./pages/terms.html" target="new"
+            ><button id="btn-2">Terms And Conditions</button></a
+          >
+        </div>
+        <ul>
+          <b>BRIDLE</b>
+          <li>Wedding</li>
+          <li>Haldi</li>
+          <li>Ring Ceremony</li>
+        </ul>
+        <ul>
+          <b>CELEBRATIONS</b>
+          <li>Party</li>
+          <li>Concert</li>
+          <li>Birthday Celebration</li>
+        </ul>
+        <ul>
+          <b>OFFICIALS</b>
+          <li>Official Meeting</li>
+          <li>Company anniversary</li>
+          <li>Company Awards</li>
+        </ul>
+      </div>
+      <img src="./icons/logo.png" alt="footer logo" />
+      <div class="media">
+        <a href="https://www.instagram.com/satyam_katkade18/?__pwa=1" target="new"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+        <a href="https://www.facebook.com/satyam.katkade.9" target="new"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+        <a href="https://github.com/satyamrk18/icp10-css-github-project-2-EventPlanner.git" target="new"><i class="fa-brands fa-github fa-2xl"></i></a>
+        <a href="linkedin.com/in/satyam-katkade-4ba389279" target="new"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+        <a href="https://x.com/?lang=en" target="new"><i class="fa-brands fa-twitter fa-2xl"></i></a>
+      </div>
+    </footer>
+    <!-- phone footer -->
+    <footer class="p-footer">
+      <div class="p-footer-line"></div>
+      <div class="p-footer-btns">
+        <a href="./pages/review.html" target="new"
+          ><button id="btn-1">Feedback</button></a
+        >
+        <a href="./pages/terms.html" target="new"
+          ><button id="btn-2">Terms And Conditions</button></a
+        >
+      </div>
+      <div class="list">
+        <ul>
+          <b>BRIDLE</b>
+          <li>Wedding</li>
+          <li>Haldi</li>
+          <li>Ring Ceremony</li>
+        </ul>
+        <ul>
+          <b>CELEBRATIONS</b>
+          <li>Party</li>
+          <li>Concert</li>
+          <li>Birthday Celebration</li>
+        </ul>
+        <ul>
+          <b>OFFICIALS</b>
+          <li>Official Meeting</li>
+          <li>Company anniversary</li>
+          <li>Company Awards</li>
+        </ul>
+        <img src="./icons/logo.png" alt="footer logo" />
+      </div>
+      <div class="p-media">
+        <i class="fa-brands fa-instagram fa-2xl"></i>
+      </div>
+    </footer>
   </body>
 </html>
