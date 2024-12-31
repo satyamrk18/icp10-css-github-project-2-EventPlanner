@@ -5,9 +5,13 @@
   body{
     background-color: #ebceca ;
   }
+  .main-head{
+    transition: 0.3s;
+    
+  }
   .review-head{
     position: relative;
-    top: 150px;
+    top: 130px;
     text-align: center;
     font-family: myfont;
     src: url("./../fonts/font.otf");
@@ -15,10 +19,12 @@
     font-size: 65px;
     padding-bottom:none;
     padding-top: 15px;
+    /* cursor: pointer;   */
+    transition: 0.1s;
   }
   .review-smallhead{
     position: relative;
-    top: 150px;
+    top: 130px;
     text-align: center;
     /* font-family: myfont; */
     /* src: url("./../fonts/font.otf"); */
@@ -28,6 +34,7 @@
     padding-top:none ;
     padding: bottom 15px ;
     margin-bottom: 25px;
+    transition: 0.3s;
   }
   .review-container{
     position: relative;
@@ -50,9 +57,9 @@
     background-color: #5d776c;
     box-shadow: 5px 6px 12px;;
     position: relative;
-    
     padding: 10px;
     margin: 10px;
+    
     
 }
 .head{
@@ -105,4 +112,10 @@
   text-align: center;
   word-spacing: 3px;
   color: gold;
+}
+
+.main-head:hover{
+  transform: scale(1.1);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+
 }
