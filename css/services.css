@@ -1,9 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Playwrite+AU+VIC+Guides&family=Playwrite+CO+Guides&family=Playwrite+IE+Guides&family=Yatra+One&display=swap");
+
 body {
     margin: 0;
     padding: 0;
     background-color: #f9f9f9; 
    
 }
+#head{
+    font-family: "myfont", sans-serif;
+    word-spacing: 10px;
+    font-weight: normal;
+  }
+
 .services-intro {
     text-align: center;
     padding: 20px;
@@ -41,6 +49,7 @@ body {
     background-color:#5d776c ;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     border-radius: 8px; 
+    
 }
 
 
@@ -53,6 +62,7 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4); 
     transition: transform 0.3s ease, box-shadow 0.3s ease; 
     cursor: pointer;
+   
 }
 
 .service h3 {
@@ -60,7 +70,11 @@ body {
     color: #b38600;
     margin-bottom: 10px;
     background-color: #f1d1c2;
-   
+    font-family: "myfont", sans-serif;
+    
+}
+.service a{
+    text-decoration: none;
 }
 
 .service p {
@@ -73,10 +87,6 @@ body {
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4); 
 
 }
-@font-face {
-    font-family: myfont;
-    src: url("./fonts/font.otf");
-  }
 
 
   /*Phones*/
@@ -132,7 +142,7 @@ body {
 }
 
   /* Laptops */
-@media (min-width:769px) and (max-width: 1024px) {
+@media (min-width:769px) and (max-width: 2000px) {
     .services-list {
         justify-content: space-around;
     }
