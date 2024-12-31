@@ -2,15 +2,17 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f9f9f9; 
+   
 }
 .services-intro {
     text-align: center;
     padding: 20px;
-    margin-top: 140px;
+    margin-top: 150px;
     margin-bottom: 30px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     color: #b38600;
+    background-color: #fff;
 }
 .services-intro p {
     color:#5d776c ;
@@ -24,6 +26,7 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin-bottom: 30px;
     border-radius: 8px;
+    background-color: #fff;
 }
 
 .service {
@@ -66,6 +69,10 @@ body {
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4); 
 
 }
+@font-face {
+    font-family: myfont;
+    src: url("./fonts/font.otf");
+  }
 
 
   /*Phones*/
