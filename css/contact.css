@@ -36,8 +36,8 @@
     margin-bottom:20px;
 }
 .form-group:hover{
-    box-shadow:0 0 5px 0 grey;
-    transition:0.10px;
+    box-shadow:0 0 10px 0 grey;
+    transition:1.10px;
 }
 input,textarea{
     width:400px;
@@ -56,8 +56,8 @@ input,textarea{
     border-radius:5px;
 }
 .btn:hover{
-    box-shadow:0 0 5px 0 #5d776c;
-    transition:0.10px;
+    box-shadow:0 0 10px 0 #5d776c;
+    transition:1.10px;
 }
 .contact-page2{
     text-align:left;
@@ -79,6 +79,11 @@ input,textarea{
     margin-right:10px;
     padding:10px;
     color:#5d776c;
+}
+
+#submit{
+    color:white;
+    text-decoration:none;
 }
 @media (min-width: 601px) and (max-width: 800px) { 
     .container{
@@ -130,9 +135,10 @@ input,textarea{
         width:90px;
         background-color:#ebceca;
     }
-    .contact-wrapper{
+    .container{
         display:flex;
         flex-direction:column;
+        padding:5px;
     }
  }
 

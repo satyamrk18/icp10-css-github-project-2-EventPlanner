@@ -6,7 +6,7 @@
   }
   body {
     font-family: Arial, sans-serif;
-    background-color: #ebceca;
+    background-color: #5d776c;
     color: #333;
   }
   .navbar1{
@@ -104,13 +104,13 @@ transition: 0.3s;
     list-style-type: none;
     text-align: left;
     font-size: 1em;
-    color: #333;
-    background-color:#5d776c;
+    color:#ebceca;
+    background-color:#ebceca;
     box-sizing: border-box;
     
   }
   .button-container{
-    background-color: #f1d1c2;
+    background-color: #ebceca;
     text-align: center;
     color: white;
     font-size: 20px;

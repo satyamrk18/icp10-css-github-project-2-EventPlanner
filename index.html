@@ -105,14 +105,14 @@
       display: flex;
       height: 500px;
       width: 70%;
-      border: 9px solid#5d776c ;
+      border: 9px solid#5d776c;
       margin-top: 50px;
       margin-left: 50px;
       justify-content: center;
       align-items: center;
       position: relative;
       flex-wrap: wrap;
-      background-color:white;
+      background-color: white;
       box-shadow: 2px 2px 5px;
       cursor: pointer;
       transition: 0.9s;
@@ -187,7 +187,7 @@
       font-weight: 900;
       word-spacing: 10px;
       color: #ccaf66;
-      z-index:1;
+      z-index: 1;
     }
     #H2 {
       font-size: 15px;
@@ -221,6 +221,16 @@
       line-height: 50px;
       cursor: pointer;
       transition: 0.3s;
+    }
+    .job a {
+      text-decoration: none;
+      color: #6a6a6a;
+      transition: 0.3s;
+      cursor: pointer;
+    }
+    .job a:hover {
+      transform: scale(1.1);
+      color: #088178;
     }
     .job h2:hover {
       color: rgba(0, 0, 0, 0.954);
@@ -366,6 +376,80 @@
     .event-select p:hover {
       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     }
+    .footer {
+      width: 100%;
+      height: 250px;
+      background-color: rgb(252, 219, 176);
+      position: relative;
+      top: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+    }
+    .footer-events {
+      display: flex;
+      flex-direction: row;
+      gap: 70px;
+      position: relative;
+      right: 100px;
+    }
+    .footer-events ul {
+      font-size: 20px;
+      line-height: 35px;
+      color: #088178;
+    }
+    .footer-btns {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+      right: 150px;
+      flex-wrap: wrap;
+    }
+    .footer-btns button {
+      background-color: #088178;
+      height: 50px;
+      width: 250px;
+      font-size: 20px;
+      font-family: sans-serif;
+      font-weight: 700;
+      color: white;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    #btn-1:hover {
+      transform: scale(1.1);
+    }
+    #btn-2:hover {
+      transform: scale(1.1);
+    }
+    .footer img {
+      height: 150px;
+      width: 150px;
+      position: absolute;
+      right: 100px;
+    }
+    .footer-line {
+      height: 10px;
+      width: 80%;
+      background-color: #088178;
+      position: absolute;
+      top: 0px;
+    }
+    .media 
+    {
+      display: flex;
+      gap:15px;
+      position:absolute;
+      bottom:25px;
+      text-decoration:none;
+    }
+    .media a{
+      text-decoration:none;
+      color: #088178;
+    }
     /* phone */
     @media (max-width: 600px) {
       .navbar ul li {
@@ -497,6 +581,7 @@
       #H1 {
         font-size: 25px;
         position: absolute;
+        color: #e0a84d;
       }
       #H2 {
         position: absolute;
@@ -524,7 +609,7 @@
         box-shadow: 2px 2px 5px;
         cursor: pointer;
         transition: all 0.9s ease;
-        border: 1px solid rgba(0, 0, 0, 0.135);
+        border: 8px solid #5d776c;
         justify-content: center;
         flex-direction: column;
       }
@@ -548,9 +633,9 @@
       .cont h2 {
         display: flex;
         flex-direction: column;
-       align-items: center;
-       justify-content:center;
-       gap:30px;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
         transition: transform 0.5s ease, color 0.3s ease;
         font-size: 25px;
         color: #6a6a6a;
@@ -566,17 +651,18 @@
         transition: color 0.3s ease, transform 0.3s ease;
       }
       .phone-job i {
-        padding-top:10px;
-        padding-bottom:10px ;
-font-size:20px;
-line-height:50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size:18px;
+        line-height: 50px;
+        color: #5d776c;
       }
       .phone-job:hover {
         color: black;
         transform: scale(1.1);
       }
-      .img1 {
-        /* height: 125px;
+      /* .img1 {
+        height: 125px;
         width: 125px;
         background-color: #088178;
         border: 1px solid rgb(0, 0, 0);
@@ -589,15 +675,15 @@ line-height:50px;
         background-position: center;
         box-shadow: inset 0 0 0 10px rgb(255, 255, 255);
         cursor: pointer;
-        transition: all 0.3s ease-in-out; */
-      }
+        transition: all 0.3s ease-in-out;
+      } */
       .img1:hover {
         filter: brightness(0.7);
         transform: rotate(5deg) scale(1.1);
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
       }
-      .img2 {
-        /* height: 125px;
+      /* .img2 {
+         height: 125px;
         width: 125px;
         background-color: #088178;
         border: 1px solid black;
@@ -610,18 +696,21 @@ line-height:50px;
         background-position: center;
         box-shadow: inset 0 0 0 10px rgb(255, 255, 255);
         cursor: pointer;
-        transition: all 0.3s ease-in-out; */
-      }
-      .img2:hover {
+        transition: all 0.3s ease-in-out; 
+      }  */
+      /* .img2:hover {
         filter: brightness(0.7);
         transform: rotate(-5deg) scale(1.1);
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-      }
+      } */
       /* event-select */
       .event-select {
         display: none;
       }
       .events {
+        display: none;
+      }
+      .events b {
         display: none;
       }
       .p-events {
@@ -632,9 +721,8 @@ line-height:50px;
         flex-direction: column;
         align-items: center;
         gap: 20px;
-        color: black;
+        color: #e0a84d;
       }
-      
       .p-event-select {
         margin-bottom: 20px;
         text-align: center;
@@ -643,9 +731,21 @@ line-height:50px;
         font-weight: 600;
         cursor: pointer;
         transition: 0.3s;
-        
       }
       .p-event-select:hover {
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+      }
+      .p-events b {
+        color: #e0a84d;
+        font-family: "myfont";
+        position: relative;
+        bottom: 100px;
+        font-size: 35px;
+      }
+      .p-events a {
+        text-decoration: none;
+      }
+      .p-events b:hover {
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
       }
       .P-E1 {
@@ -654,7 +754,7 @@ line-height:50px;
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 2px solid black;
+        border: 1px solid black;
         border-radius: 10px;
         box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.05);
         cursor: pointer;
@@ -662,6 +762,7 @@ line-height:50px;
       }
       .P-E1:hover {
         transform: scale(1.05);
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);
       }
       #P-event-1 {
         background-image: url("./image/home_img/Haldi.jpeg");
@@ -693,6 +794,81 @@ line-height:50px;
         background-size: cover;
         background-position: center;
       }
+      .footer {
+        display: none;
+      }
+      .p-footer {
+        height: 450px;
+        width: 100%;
+        background-color: rgb(252, 219, 176);
+        position: relative;
+        top: 250px;
+        display: flex;
+        justify-content: center;
+      }
+      .p-footer-line {
+        height: 10px;
+        width: 80%;
+        background-color: #088178;
+      }
+      .p-footer-btns {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: 20px;
+        gap: 50px;
+      }
+      .p-footer-btns button {
+        height: 35px;
+        width: 150px;
+        font-size: 13px;
+        font-family: sans-serif;
+        font-weight: 600;
+        border-radius: 8px;
+        border: 1px solid rgba(0, 0, 0, 0.299);
+        background-color: #088178;
+        color: white;
+      }
+      .list {
+        display: flex;
+        align-items: center;
+        justify-self: center;
+        position: absolute;
+        left: 50px;
+        top: 100px;
+        flex-wrap: wrap;
+        font-size: 15px;
+        color: #088178;
+      }
+      .list ul {
+        margin: 20px;
+      }
+      .list ul li {
+        font-size: 20px;
+      }
+      .list img {
+        height: 150px;
+        width: 150px;
+      }
+      .media 
+    {
+     display: none;
+    }
+    .media a{
+      display:none;
+    }
+    .p-media 
+    {
+      display: flex;
+      gap:15px;
+      position:absolute;
+      bottom:20px;
+      text-decoration:none;
+    }
+    .p-media a{
+      text-decoration:none;
+      color: #088178;
+    }
     }
     /* tablet */
     @media (min-width: 601px) and (max-width: 800px) {
@@ -712,6 +888,9 @@ line-height:50px;
         display: none;
       }
       .p-event-select {
+        display: none;
+      }
+      .p-footer {
         display: none;
       }
     }
@@ -738,6 +917,9 @@ line-height:50px;
       .p-event-select {
         display: none;
       }
+      .p-footer {
+        display: none;
+      }
     }
   </style>
   <body>
@@ -752,7 +934,7 @@ line-height:50px;
               <li><a href="index.html">HOME</a></li>
               <li><a href="./pages/services.html">SERVICES</a></li>
               <li><a href="./pages/gallery.html">GALLERY</a></li>
-              <li><a href="./pages/contact.html">CONTACT</a></li>
+              <li><a href="./pages/contact.html" target="new">CONTACT</a></li>
             </ul>
           </div>
         </div>
@@ -760,7 +942,9 @@ line-height:50px;
           <label id="head">Elevate Your Events, Elevate Your Dreams...!</label>
           <input id="search" type="text" name="name" placeholder="search..." />
           <img src="././icons/search.png" alt="search img" id="search-icon" />
-          <img src="././icons/account.png" alt="person image" id="login" />
+          <a href="./pages/about.html"
+            ><img src="././icons/account.png" alt="person image" id="login"
+          /></a>
         </form>
       </div>
     </div>
@@ -771,7 +955,7 @@ line-height:50px;
         <li><a href="./pages/services.html" target="new">SERVICES</a></li>
         <img src="././icons/logo.png" />
         <li><a href="./pages/gallery.html">GALLERY</a></li>
-        <li><a href="./pages/contact.html">CONTACT</a></li>
+        <li><a href="./pages/contact.html" target="new">CONTACT</a></li>
       </ul>
     </div>
     <div class="container-1">
@@ -787,7 +971,7 @@ line-height:50px;
     <div class="main">
       <div class="header">
         <pre id="H1">Elevating  Every  Occasion</pre>
-        <pre id="H2" style="">
+        <pre id="H2">
   Providing Curated Luxury Events for the Pacific NW & Beyond</pre
         >
       </div>
@@ -806,24 +990,34 @@ line-height:50px;
       </h3>
       <div class="job">
         <h2>
-          <i class="fa-solid fa-arrow-right" style="color: #8b9890"></i>
-          &nbsp;Event Planner
+          <a href="./pages/career.html" target="new"
+            ><i class="fa-solid fa-arrow-right" style="color: #8b9890"></i>
+            &nbsp;Event Planner</a
+          >
         </h2>
         <h2>
-          <i class="fa-solid fa-arrow-right" style="color: #8b9890"></i>
-          &nbsp;Event Coordinator
+          <a href="./pages/career.html" target="new"
+            ><i class="fa-solid fa-arrow-right" style="color: #8b9890"></i>
+            &nbsp;Event Coordinator</a
+          >
         </h2>
         <h2>
-          <i class="fa-solid fa-arrow-right" style="color: #8b9890"></i>
-          &nbsp;Event Marketing Specialist
+          <a href="./pages/career.html" target="new"
+            ><i class="fa-solid fa-arrow-right" style="color: #8b9890"></i>
+            &nbsp;Event Marketing Specialist</a
+          >
         </h2>
         <h2>
-          <i class="fa-solid fa-arrow-right" style="color: #8b9890"></i>
-          &nbsp;Wedding Planner
+          <a href="./pages/career.html" target="new"
+            ><i class="fa-solid fa-arrow-right" style="color: #8b9890"></i>
+            &nbsp;Wedding Planner</a
+          >
         </h2>
         <h2>
-          <i class="fa-solid fa-arrow-right" style="color: #8b9890"></i>
-          &nbsp;Corporate Event Manager
+          <a href="./pages/career.html" target="new"
+            ><i class="fa-solid fa-arrow-right" style="color: #8b9890"></i>
+            &nbsp;Corporate Event Manager</a
+          >
         </h2>
       </div>
       <div class="inner-box"></div>
@@ -833,125 +1027,163 @@ line-height:50px;
         <h1>Work With Us</h1>
         <div class="phone-job">
           <h2>
-            <i class="fa-solid fa-arrow-right"> &nbsp; Event Coordinator</i>
+            <a href="./pages/career.html" target="new"
+              ><i class="fa-solid fa-arrow-right">
+                &nbsp; Event Coordinator</i
+              ></a
+            >
           </h2>
           <h2>
-            <i class="fa-solid fa-arrow-right"> &nbsp; Event Marketing Specialist</i>
+            <a href="./pages/career.html" target="new">
+              <i class="fa-solid fa-arrow-right">
+                &nbsp; Event Marketing Specialist</i
+              ></a
+            >
           </h2>
           <h2>
-            <i class="fa-solid fa-arrow-right"> &nbsp;Wedding Planner</i>
-           
+            <a href="./pages/career.html" target="new"
+              ><i class="fa-solid fa-arrow-right"> &nbsp;Wedding Planner</i></a
+            >
           </h2>
           <h2>
-            <i class="fa-solid fa-arrow-right"> &nbsp;Corporate Event Manager</i>
-         
+            <a href="./pages/career.html" target="new"
+              ><i class="fa-solid fa-arrow-right"
+                >&nbsp;Corporate Event Manager</i
+              ></a
+            >
           </h2>
         </div>
       </div>
       <div class="img1"></div>
       <div class="img2"></div>
     </div>
+    <!-- event-laptop -->
     <div class="events">
       <div class="event-select">
         <p>Events</p>
       </div>
-      <div class="E1" id="event-1"><b>Haldi</b></div>
-      <div class="E1" id="event-2"><b>Wedding</b></div>
-      <div class="E1" id="event-3"><b>Ring Ceremony</b></div>
-      <div class="E1" id="event-4"><b>Birthday Party</b></div>
-      <div class="E1" id="event-5"><b>Concert</b></div>
-      <div class="E1" id="event-6"><b>Offficial Meetings</b></div>
+      <div class="E1" id="event-1">
+        <a href="./pages/price.html" target="new"><b>Haldi</b></a>
+      </div>
+      <div class="E1" id="event-2">
+        <a href="./pages/price.html" target="new"><b>Wedding</b></a>
+      </div>
+      <div class="E1" id="event-3">
+        <a href="./pages/price.html" target="new"><b>Ring Ceremony</b></a>
+      </div>
+      <div class="E1" id="event-4">
+        <a href="./pages/price.html" target="new"><b>Birthday Party</b></a>
+      </div>
+      <div class="E1" id="event-5">
+        <a href="./pages/price.html" target="new"><b>Concert</b></a>
+      </div>
+      <div class="E1" id="event-6">
+        <a href="./pages/price.html" target="new"><b>Offficial Meetings</b></a>
+      </div>
     </div>
     <!-- event for mobile -->
     <div class="p-events">
       <div class="p-event-select">
         <p>Events</p>
       </div>
-      <div class="P-E1" id="P-event-1"><b>Haldi</b></div>
-      <div class="P-E1" id="P-event-2"><b>Haldi</b></div>
-      <div class="P-E1" id="P-event-3"><b>Haldi</b></div>
-      <div class="P-E1" id="P-event-4"><b>Haldi</b></div>
-      <div class="P-E1" id="P-event-5"><b>Haldi</b></div>
-      <div class="P-E1" id="P-event-6"><b>Haldi</b></div>
+      <div class="P-E1" id="P-event-1">
+        <a href="./pages/price.html" target="new"><b>Haldi</b></a>
+      </div>
+      <div class="P-E1" id="P-event-2">
+        <a href="./pages/price.html" target="new"><b>Wedding</b></a>
+      </div>
+      <div class="P-E1" id="P-event-3">
+        <a href="./pages/price.html" target="new"><b>Ring Ceremony</b></a>
+      </div>
+      <div class="P-E1" id="P-event-4">
+        <a href="./pages/price.html" target="new"><b>Birthday Party</b></a>
+      </div>
+      <div class="P-E1" id="P-event-5">
+        <a href="./pages/price.html" target="new"><b>Concert</b></a>
+      </div>
+      <div class="P-E1" id="P-event-6">
+        <a href="./pages/price.html" target="new"><b>Offficial Meetings</b></a>
+      </div>
     </div>
-
-    <pre>
-
-
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        .
-      </pre
-    >
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-line"></div>
+      <div class="footer-events">
+        <div class="footer-btns">
+          <a href="./pages/review.html" target="new"
+            ><button id="btn-1">Feedback</button></a
+          >
+          <a href="./pages/terms.html" target="new"
+            ><button id="btn-2">Terms And Conditions</button></a
+          >
+        </div>
+        <ul>
+          <b>BRIDLE</b>
+          <li>Wedding</li>
+          <li>Haldi</li>
+          <li>Ring Ceremony</li>
+        </ul>
+        <ul>
+          <b>CELEBRATIONS</b>
+          <li>Party</li>
+          <li>Concert</li>
+          <li>Birthday Celebration</li>
+        </ul>
+        <ul>
+          <b>OFFICIALS</b>
+          <li>Official Meeting</li>
+          <li>Company anniversary</li>
+          <li>Company Awards</li>
+        </ul>
+      </div>
+      <img src="./icons/logo.png" alt="footer logo" />
+      <div class="media">
+        <a href="https://www.instagram.com/satyam_katkade18/?__pwa=1" target="new"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+        <a href="https://www.facebook.com/satyam.katkade.9" target="new"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+        <a href="https://github.com/satyamrk18/icp10-css-github-project-2-EventPlanner.git" target="new"><i class="fa-brands fa-github fa-2xl"></i></a>
+        <a href="linkedin.com/in/satyam-katkade-4ba389279" target="new"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+        <a href="https://x.com/?lang=en" target="new"><i class="fa-brands fa-twitter fa-2xl"></i></a>
+      </div>
+    </footer>
+    <!-- phone footer -->
+    <footer class="p-footer">
+      <div class="p-footer-line"></div>
+      <div class="p-footer-btns">
+        <a href="./pages/review.html" target="new"
+          ><button id="btn-1">Feedback</button></a
+        >
+        <a href="./pages/terms.html" target="new"
+          ><button id="btn-2">Terms And Conditions</button></a
+        >
+      </div>
+      <div class="list">
+        <ul>
+          <b>BRIDLE</b>
+          <li>Wedding</li>
+          <li>Haldi</li>
+          <li>Ring Ceremony</li>
+        </ul>
+        <ul>
+          <b>CELEBRATIONS</b>
+          <li>Party</li>
+          <li>Concert</li>
+          <li>Birthday Celebration</li>
+        </ul>
+        <ul>
+          <b>OFFICIALS</b>
+          <li>Official Meeting</li>
+          <li>Company anniversary</li>
+          <li>Company Awards</li>
+        </ul>
+        <img src="./icons/logo.png" alt="footer logo" />
+      </div>
+      <div class="p-media">
+        <a href="https://www.instagram.com/satyam_katkade18/?__pwa=1" target="new"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+        <a href="https://www.facebook.com/satyam.katkade.9" target="new"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+        <a href="https://github.com/satyamrk18/icp10-css-github-project-2-EventPlanner.git" target="new"><i class="fa-brands fa-github fa-2xl"></i></a>
+        <a href="linkedin.com/in/satyam-katkade-4ba389279" target="new"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+        <a href="https://x.com/?lang=en" target="new"><i class="fa-brands fa-twitter fa-2xl"></i></a>
+      </div>
+    </footer>
   </body>
 </html>
