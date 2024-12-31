@@ -67,9 +67,10 @@
     }
 
     .simple-header h2 {
-        font-size: 20px;
+        font-size: 25px;
     }
-    .container .item:nth-last-child(-n+2) {
+    .container .item:nth-last-child(-n+2) 
+    {
         display: none;
     }
 }
@@ -87,8 +88,9 @@
     }
 
     .simple-header h2 {
-        font-size: 22px;
+        font-size: 25px;
     }
+    
 }
 
 /* Laptop */
