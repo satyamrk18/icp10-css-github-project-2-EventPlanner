@@ -44,14 +44,15 @@ body{
       height: 50px;
       width: 800px;
       margin: auto;
-      margin-top: 90px;
+      margin-top: 165px;
       
   }
   .heading{
       font-size: 50px;
-      color: #dfbc61;
+      color:rgb(198, 139, 61);
       font-family: myfont;
       text-align: center;
+      
   }  
   @font-face {
       font-family: myfont;
