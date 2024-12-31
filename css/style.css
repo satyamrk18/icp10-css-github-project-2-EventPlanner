@@ -218,3 +218,170 @@ body {
   .navbar ul li {
     margin-left: 100px;
   }}
+    /* tablet */
+    @media (min-width: 601px) and (max-width: 800px) {
+      .p-footer {
+              display: none;
+            }
+          }
+      /*desktop*/
+      
+      @media (min-width: 801px) and (max-width: 2000px) {
+      .p-footer {
+              display: none;
+            }
+          }
+      
+        /* phone */
+          @media (max-width: 600px) {
+       .footer {
+              display: none;
+            }
+            .p-footer {
+              height: 450px;
+              width: 100%;
+              background-color: rgb(252, 219, 176);
+              position: relative;
+              top: 250px;
+              display: flex;
+              justify-content: center;
+            }
+            .p-footer-line {
+              height: 10px;
+              width: 80%;
+              background-color: #088178;
+            }
+            .p-footer-btns {
+              display: flex;
+              flex-direction: row;
+              position: absolute;
+              top: 20px;
+              gap: 50px;
+            }
+            .p-footer-btns button {
+              height: 35px;
+              width: 150px;
+              font-size: 13px;
+              font-family: sans-serif;
+              font-weight: 600;
+              border-radius: 8px;
+              border: none;
+              background-color: #088178;
+              color: white;
+            }
+            .list {
+              display: flex;
+              align-items: center;
+              justify-self: center;
+              position: absolute;
+              left: 50px;
+              top: 100px;
+              flex-wrap: wrap;
+              font-size: 15px;
+              color: #088178;
+            }
+            .list ul {
+              margin: 20px;
+            }
+            .list ul li {
+              font-size: 20px;
+            }
+            .list img {
+              height: 150px;
+              width: 150px;
+            }
+            .media {
+              display: none;
+            }
+            .media a {
+              display: none;
+            }
+            .p-media {
+              display: flex;
+              gap: 15px;
+              position: absolute;
+              bottom: 20px;
+              text-decoration: none;
+            }
+            .p-media a {
+              text-decoration: none;
+              color: #088178;
+            }
+          }
+      
+      /*normal css */
+      
+       .footer {
+            width: 100%;
+            height: 250px;
+            background-color: rgb(252, 219, 176);
+            position: relative;
+            top: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+          }
+          .footer-events {
+            display: flex;
+            flex-direction: row;
+            gap: 70px;
+            position: relative;
+            right: 100px;
+          }
+          .footer-events ul {
+            font-size: 20px;
+            line-height: 35px;
+            color: #088178;
+          }
+          .footer-btns {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            position: relative;
+            right: 150px;
+            flex-wrap: wrap;
+          }
+          .footer-btns button {
+            background-color: #088178;
+            height: 50px;
+            width: 250px;
+            font-size: 20px;
+            font-family: sans-serif;
+            font-weight: 700;
+            color: white;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s;
+            border:none;
+          }
+          #btn-1:hover {
+            transform: scale(1.1);
+          }
+          #btn-2:hover {
+            transform: scale(1.1);
+          }
+          .footer img {
+            height: 150px;
+            width: 150px;
+            position: absolute;
+            right: 100px;
+          }
+          .footer-line {
+            height: 10px;
+            width: 80%;
+            background-color: #088178;
+            position: absolute;
+            top: 0px;
+          }
+          .media {
+            display: flex;
+            gap: 15px;
+            position: absolute;
+            bottom: 25px;
+            text-decoration: none;
+          }
+          .media a {
+            text-decoration: none;
+            color: #088178;
+          }

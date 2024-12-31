@@ -376,80 +376,6 @@
     .event-select p:hover {
       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     }
-    .footer {
-      width: 100%;
-      height: 250px;
-      background-color: rgb(252, 219, 176);
-      position: relative;
-      top: 300px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: row;
-    }
-    .footer-events {
-      display: flex;
-      flex-direction: row;
-      gap: 70px;
-      position: relative;
-      right: 100px;
-    }
-    .footer-events ul {
-      font-size: 20px;
-      line-height: 35px;
-      color: #088178;
-    }
-    .footer-btns {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      position: relative;
-      right: 150px;
-      flex-wrap: wrap;
-    }
-    .footer-btns button {
-      background-color: #088178;
-      height: 50px;
-      width: 250px;
-      font-size: 20px;
-      font-family: sans-serif;
-      font-weight: 700;
-      color: white;
-      border-radius: 8px;
-      cursor: pointer;
-      transition: 0.3s;
-    }
-    #btn-1:hover {
-      transform: scale(1.1);
-    }
-    #btn-2:hover {
-      transform: scale(1.1);
-    }
-    .footer img {
-      height: 150px;
-      width: 150px;
-      position: absolute;
-      right: 100px;
-    }
-    .footer-line {
-      height: 10px;
-      width: 80%;
-      background-color: #088178;
-      position: absolute;
-      top: 0px;
-    }
-    .media 
-    {
-      display: flex;
-      gap:15px;
-      position:absolute;
-      bottom:25px;
-      text-decoration:none;
-    }
-    .media a{
-      text-decoration:none;
-      color: #088178;
-    }
     /* phone */
     @media (max-width: 600px) {
       .navbar ul li {
@@ -653,7 +579,7 @@
       .phone-job i {
         padding-top: 10px;
         padding-bottom: 10px;
-        font-size:18px;
+        font-size: 18px;
         line-height: 50px;
         color: #5d776c;
       }
@@ -794,81 +720,6 @@
         background-size: cover;
         background-position: center;
       }
-      .footer {
-        display: none;
-      }
-      .p-footer {
-        height: 450px;
-        width: 100%;
-        background-color: rgb(252, 219, 176);
-        position: relative;
-        top: 250px;
-        display: flex;
-        justify-content: center;
-      }
-      .p-footer-line {
-        height: 10px;
-        width: 80%;
-        background-color: #088178;
-      }
-      .p-footer-btns {
-        display: flex;
-        flex-direction: row;
-        position: absolute;
-        top: 20px;
-        gap: 50px;
-      }
-      .p-footer-btns button {
-        height: 35px;
-        width: 150px;
-        font-size: 13px;
-        font-family: sans-serif;
-        font-weight: 600;
-        border-radius: 8px;
-        border: 1px solid rgba(0, 0, 0, 0.299);
-        background-color: #088178;
-        color: white;
-      }
-      .list {
-        display: flex;
-        align-items: center;
-        justify-self: center;
-        position: absolute;
-        left: 50px;
-        top: 100px;
-        flex-wrap: wrap;
-        font-size: 15px;
-        color: #088178;
-      }
-      .list ul {
-        margin: 20px;
-      }
-      .list ul li {
-        font-size: 20px;
-      }
-      .list img {
-        height: 150px;
-        width: 150px;
-      }
-      .media 
-    {
-     display: none;
-    }
-    .media a{
-      display:none;
-    }
-    .p-media 
-    {
-      display: flex;
-      gap:15px;
-      position:absolute;
-      bottom:20px;
-      text-decoration:none;
-    }
-    .p-media a{
-      text-decoration:none;
-      color: #088178;
-    }
     }
     /* tablet */
     @media (min-width: 601px) and (max-width: 800px) {
@@ -888,12 +739,9 @@
         display: none;
       }
       .p-event-select {
-        display: none;
-      }
-      .p-footer {
-        display: none;
-      }
+        display: none
     }
+  }
     /* laptop */
     @media (min-width: 801px) and (max-width: 2000px) {
       #b img {
@@ -915,9 +763,6 @@
         display: none;
       }
       .p-event-select {
-        display: none;
-      }
-      .p-footer {
         display: none;
       }
     }
@@ -1138,11 +983,23 @@
       </div>
       <img src="./icons/logo.png" alt="footer logo" />
       <div class="media">
-        <a href="https://www.instagram.com/satyam_katkade18/?__pwa=1" target="new"><i class="fa-brands fa-instagram fa-2xl"></i></a>
-        <a href="https://www.facebook.com/satyam.katkade.9" target="new"><i class="fa-brands fa-facebook fa-2xl"></i></a>
-        <a href="https://github.com/satyamrk18/icp10-css-github-project-2-EventPlanner.git" target="new"><i class="fa-brands fa-github fa-2xl"></i></a>
-        <a href="linkedin.com/in/satyam-katkade-4ba389279" target="new"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
-        <a href="https://x.com/?lang=en" target="new"><i class="fa-brands fa-twitter fa-2xl"></i></a>
+        <a href="https://www.instagram.com/" target="new"
+          ><i class="fa-brands fa-instagram fa-2xl"></i
+        ></a>
+        <a href="https://www.facebook.com/" target="new"
+          ><i class="fa-brands fa-facebook fa-2xl"></i
+        ></a>
+        <a
+          href="https://github.com/satyamrk18/icp10-css-github-project-2-EventPlanner.git"
+          target="new"
+          ><i class="fa-brands fa-github fa-2xl"></i
+        ></a>
+        <a href="https://www.linkedin.com/" target="new"
+          ><i class="fa-brands fa-linkedin fa-2xl"></i
+        ></a>
+        <a href="https://x.com/?lang=en" target="new"
+          ><i class="fa-brands fa-twitter fa-2xl"></i
+        ></a>
       </div>
     </footer>
     <!-- phone footer -->
@@ -1178,11 +1035,23 @@
         <img src="./icons/logo.png" alt="footer logo" />
       </div>
       <div class="p-media">
-        <a href="https://www.instagram.com/satyam_katkade18/?__pwa=1" target="new"><i class="fa-brands fa-instagram fa-2xl"></i></a>
-        <a href="https://www.facebook.com/satyam.katkade.9" target="new"><i class="fa-brands fa-facebook fa-2xl"></i></a>
-        <a href="https://github.com/satyamrk18/icp10-css-github-project-2-EventPlanner.git" target="new"><i class="fa-brands fa-github fa-2xl"></i></a>
-        <a href="linkedin.com/in/satyam-katkade-4ba389279" target="new"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
-        <a href="https://x.com/?lang=en" target="new"><i class="fa-brands fa-twitter fa-2xl"></i></a>
+        <a href="https://www.instagram.com/" target="new"
+          ><i class="fa-brands fa-instagram fa-2xl"></i
+        ></a>
+        <a href="https://www.facebook.com/" target="new"
+          ><i class="fa-brands fa-facebook fa-2xl"></i
+        ></a>
+        <a
+          href="https://github.com/satyamrk18/icp10-css-github-project-2-EventPlanner.git"
+          target="new"
+          ><i class="fa-brands fa-github fa-2xl"></i
+        ></a>
+        <a href="https://www.linkedin.com/" target="new"
+          ><i class="fa-brands fa-linkedin fa-2xl"></i
+        ></a>
+        <a href="https://x.com/?lang=en" target="new"
+          ><i class="fa-brands fa-twitter fa-2xl"></i
+        ></a>
       </div>
     </footer>
   </body>
