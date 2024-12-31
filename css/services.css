@@ -13,6 +13,8 @@ body {
     border-radius: 8px;
     color: #b38600;
     background-color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .services-intro p {
     color:#5d776c ;
@@ -27,6 +29,8 @@ body {
     margin-bottom: 30px;
     border-radius: 8px;
     background-color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .service {
