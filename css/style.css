@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #d6f2e3ab;
+  background-color: #ebceca ;
 }
 .top {
   display: flex;
@@ -93,7 +93,7 @@ body {
 }
 .navbar ul li a {
   text-decoration: none;
-  color: #088179bd;
+  color: #5d776c
 }
 .navbar img {
   height: 150px;
@@ -113,13 +113,16 @@ body {
   position: relative;
   justify-content: space-evenly;
   list-style-type: none;
-  color: #088179bd;
+  color:#5d776c;
   font-size: 25px;
   font-family: "crimson Pro";
   padding-top: 15px;
   cursor: pointer;
   transition: 0.3s;
   font-weight: 600;
+}
+.navbar ul li a:hover{
+  color: #5d776c;
 }
 .navbar ul li:hover {
   transition: 0.2s;

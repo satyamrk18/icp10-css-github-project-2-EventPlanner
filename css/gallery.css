@@ -1,14 +1,14 @@
-.container{
+
+  .container{
 
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    background-color: #ebceca;
+    background-color:  #ebceca;
 }
 .item{
     width: 300px;
-    height: 200px;
-    background-color: aliceblue;
+    height: 200px; 
     margin: 10px;
     border-radius: 10px;
     border: solid rgb(228, 227, 227);
@@ -21,3 +21,29 @@
     cursor: pointer;
     transition: 0.3s;
 }
+.event1:hover{
+    color: black;
+    transform: scale(1.1);
+}
+.simple-header {
+  
+    padding: 5px;
+    text-align: center;
+    background-color:  #ebceca;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.simple-header h2 {
+    margin: 0;
+    font-size: 25px;
+    color: #b38600; 
+    cursor: pointer;
+}
+.simple-header h2:hover{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+
+}
+
+
