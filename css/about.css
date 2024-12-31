@@ -70,9 +70,10 @@ body{
 }
 
 .member{
+    background-color: #5d776c;
     height: 310px;
     width: 240px;
-    border: 0.5px solid #9c857a;
+    border: 0.5px solid white;
     margin: 6px;
    border-radius: 10px;
     box-shadow: 0px 1px 2px 0.5px gray;
@@ -95,32 +96,36 @@ body{
 .name{
     margin-left: 70px;
     font-size: 25px;
+    color: white;
 }
 
 .surname{
     margin-left: 50px;
     font-size: 25px;
+    color: white;
 }
 
 .post{
     margin-left: 40px;
     font-size: 30px;
-    color: #b43120;
+    color: rgb(198, 139, 61);
 }
 .name1{
     margin-left: 65px;
     font-size: 25px;
+    color: white;
 }
 
 .surname1{
     margin-left: 65px;
     font-size: 25px;
+    color: white;
 }
 
 .post1{
     margin-left: 35px;
     font-size: 27px;
-    color: #b43120;
+    color: rgb(198, 139, 61);
 }
 
 .producer{
@@ -130,7 +135,7 @@ body{
 .post2{
     margin-left: 10px;
     font-size: 25px;
-    color: #b43120;
+    color: rgb(198, 139, 61);
 }
 
 .producer1{
@@ -140,7 +145,7 @@ body{
 .post3{
     margin-left: 10px;
     font-size: 25px;
-    color: #b43120;
+    color: rgb(198, 139, 61);
 }
 
 .name2{
@@ -157,7 +162,7 @@ body{
     margin-top: 7px;
     margin-left: 25px;
     font-size: 27px;
-    color: #b43120;
+    color: rgb(198, 139, 61);
 }
 
 .name3{
@@ -174,7 +179,7 @@ body{
     margin-top: 7px;
     margin-left: 15px;
     font-size: 27px;
-    color: #b43120; 
+    color: rgb(198, 139, 61); 
 }
 
 .surname4{
@@ -185,7 +190,7 @@ body{
     margin-top: 7px;
    margin-left: 4px;
     font-size: 25px;
-    color: #b43120; 
+    color: rgb(198, 139, 61); 
 }
 
 #mission{
@@ -212,12 +217,76 @@ body{
   }
 
   .heading{
-    font-size: 40px;
+    font-size: 30px;
   }
 
 .team{
     font-size: 20px;
 }
 
+    .container1 {
+        width: 100%;
+        height: auto;
+        margin-top: 150px;
+        margin-left: 3px;
+        margin-right: 3px;
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+    }
 
+    
+    .member {
+        width: 95%;
+        height: auto; 
+        margin: 10px 0; 
+    }
+
+    .image {
+        width: 150; 
+        height: 150px;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    
+    .name, .surname, .post {
+        font-size: 30px; 
+        text-align: center
+        
+    }
+
+    .name1, .name2, .name3 {
+        font-size: 22px;
+        margin-left: 15px;
+    }
+    .surname1, .surname2, .surname3, .surname4 {
+        font-size: 22px;
+        margin-left: 15px;
+    }
+
+    .post1, .post2, .post3, .post4, .post5, .post6 {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    .name, .surname, .post {
+        margin: 5px 0; 
+    }
+
+    
+    .producer, .producer1 {
+        font-size: 18px;
+        display: block;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+
+    .member {
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        text-align: center; 
+    }
 }
+
