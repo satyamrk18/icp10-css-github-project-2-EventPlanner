@@ -3,10 +3,42 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
-    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="./../css/contact.css">
+    <link rel="stylesheet" href="./../css/style.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />"
-</head>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Playwrite+AU+VIC+Guides&family=Playwrite+CO+Guides&family=Playwrite+IE+Guides&family=Yatra+One&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;600;700&display=swap");
+      @font-face {
+      font-family: myfont;
+      src: url("./fonts/font.otf");
+    }
+    </style>
+  </head>
 <body>
+  <div class="top">
+    <div class="heading">
+      <div class="burger">
+        <button id="burger-button" popovertarget="nav-pop">
+          <img src="./../icons/burger_menu.png" alt="Menu" id="b" />
+        </button>
+        <div id="nav-pop" popover>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href=".././pages/services.html">SERVICES</a></li>
+            <li><a href=".././pages/gallery.html">GALLERY</a></li>
+            <li><a href=".././pages/contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+      <form>
+        <label id="head">Elevate Your Events, Elevate Your Dreams...!</label>
+        <input id="search" type="text" name="name" placeholder="search..." />
+        <img src="./../icons/search.png" alt="search img" id="search-icon" />
+        <a href="./../pages/about.html"><img src="./../icons/account.png" alt="person image" id="login" /></a>
+      </form>
+    </div>
+  </div>
     <div class="container">
         <div class="contact">
         <h1>Contact Us</h1>
@@ -15,22 +47,24 @@
             <h3>Send Us Message</h3>
             <form>
                 <div class="form-group">
-                    <input type="text" name="name" placeholder="Your Name">
+                    <label for="fullname" class="label">Name:</label>
+                    <input type="text" id="fullname" placeholder="Your Name"><br><br>
+                    <label for="email" class="label">Email:</label>
+                    <input type="email" id="email" placeholder="Your Email"><br><br>
+                    <label for="message" class="label">Message:</label>
+                    <textarea id="message" placeholder="Your Message"></textarea>
                 </div>
-                <div class="form-group">
-                    <input type="email" name="email" placeholder="Your Email">
-                </div>
-                <div class="form-group">
-                    <textarea name="message" placeholder="Your Message"></textarea>
-                </div>
-                <button class="btn" type="submit">Send Message</button>
+                <a href="./../index.html">
+                <button  class="btn" type="submit" >
+                  <a href="./../index.html"  id="submit">Send Message</a>
+                </button>
             </form>
         </div>
         <div class="contact-page2">
             <h3>Contact Information</h3>
-            <p><a class="par" href="tel:+1 123 456 789"><i class="fa-solid fa-phone"></i>+1 123 456 789</a></p>
-            <p><a class="par" href="email:eventplanner@gmail.com"><i class="fa-solid fa-envelope"></i>eventplanner@gmail.com</a></p>
-            <p><a class="par" href="address:432 xyz,Pune,Maharashtra"><i class="fa-solid fa-location-dot"></i>432 xyz,Pune,Maharashtra</a></p>  
+            <p><a class="par" href="tel:+919284787831"><i class="fa-solid fa-phone"></i>+919284787831</a></p>
+            <p><a class="par" href="sarikasj2004@gmail.com"><i class="fa-solid fa-envelope"></i>sarikasj2004@gmail.com</a></p>
+            <p><a class="par"><i class="fa-solid fa-location-dot"></i> 401, Abhipreet Residency, Pan Card Club Rd, Baner, Pune, Maharashtra 411045</a></p>  
         </div>
     </div>
     </div>
