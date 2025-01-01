@@ -37,7 +37,7 @@
 .simple-header h2 {
     margin: 0;
     Font-family:myfont;
-    font-size: 25px;
+    font-size: 40px;
     color: #b38600; 
     cursor: pointer;
 }
@@ -67,7 +67,7 @@
     }
 
     .simple-header h2 {
-        font-size: 25px;
+        font-size: 40px;
     }
     .container .item:nth-last-child(-n+2) 
     {
@@ -88,7 +88,7 @@
     }
 
     .simple-header h2 {
-        font-size: 25px;
+        font-size: 40px;
     }
     
 }
@@ -104,7 +104,7 @@
     }
 
     .simple-header h2 {
-        font-size: 25px;
+        font-size: 40px;
     }
 }
 
