@@ -32,6 +32,11 @@ img{
 
 }
 
+.address{
+    text-align: center;
+    color: #5d776c;
+}
+
 .color-box{
     height: 10px;
     width: 80%;
