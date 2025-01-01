@@ -183,6 +183,11 @@
   
 }
  }
+
+ /* tablet */
+ @media  (min-width:601px) and (max-width:800px){ 
+  
+ }
  /* destop */
 @media (min-width: 801px) and (max-width: 2000px) { 
   .poster-img{
