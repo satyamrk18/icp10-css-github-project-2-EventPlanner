@@ -2,41 +2,44 @@ body{
     background-color: #ebceca;
 }
 
-.main_heading{
-    padding-left: 20px;
-    padding-right: 10px;
-    padding-top: 25px;
-    color: #5d776c;
+.container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 20px;
+}
+
+.text-content {
+    flex: 1; 
+    padding-right: 20px;
+}
+
+.main_heading {
     font-size: 50px;
+    color: #5d776c;
     font-family: "Playfair Display", serif;
-  position: relative;
-  bottom: 50px;
+   margin-top: 50px;
 }
 
-
-.paragraph{
-    margin-left: 12px;
-    margin-right: 15px;
-    color: black;
+.paragraph {
     font-size: 30px;
-   margin-top: 40px;
+    color: black;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-.group_photo img{
-      height: 430px;
-      padding-top: 20px;
-      padding-right: 30px;
-      
-  }
-
-  .table{
-     position: relative;
-     top: 150px;
-  }
+.group_photo img {
+    height: 450px;
+    max-width: 100%;
+    margin-top: 150px;
+}
 
   .team{
-      font-size: 28px;
+      font-size: 25px;
       text-align: center;
+      margin-bottom: 10px;
   }
   
   .team_info{
@@ -44,7 +47,7 @@ body{
       height: 50px;
       width: 800px;
       margin: auto;
-      margin-top: 170px;
+      margin-top: 25px;
       
   }
   .heading{
@@ -65,14 +68,16 @@ body{
     margin-top: 160px;
     margin-left: 45px;
     display: flex;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     
 }
 
 .member{
+    background-color: rgb(238, 229, 229);
     height: 310px;
     width: 240px;
-    border: 0.5px solid #9c857a;
+    border: 0.5px solid #5d776c ;
     margin: 6px;
    border-radius: 10px;
     box-shadow: 0px 1px 2px 0.5px gray;
@@ -93,23 +98,25 @@ body{
 }
 
 .name{
-    margin-left: 70px;
+    margin-left: 75px;
     font-size: 25px;
 }
 
 .surname{
-    margin-left: 50px;
+    margin-left: 55px;
     font-size: 25px;
 }
 
 .post{
-    margin-left: 40px;
-    font-size: 30px;
-    color: #b43120;
+    margin-left: 55px;
+    font-size: 25px;
+    margin-top: 10px;
+    color: #c22e1b;
 }
 .name1{
     margin-left: 65px;
     font-size: 25px;
+    
 }
 
 .surname1{
@@ -118,29 +125,31 @@ body{
 }
 
 .post1{
-    margin-left: 35px;
-    font-size: 27px;
-    color: #b43120;
+    margin-left: 45px;
+    font-size: 25px;
+    color: #c22e1b;
 }
 
 .producer{
     margin-left: 28px;
+    color: #c22e1b;
 }
 
 .post2{
     margin-left: 10px;
     font-size: 25px;
-    color: #b43120;
+    color: #c22e1b;
 }
 
 .producer1{
     margin-left: 50px;
+    color: #c22e1b;
 }
 
 .post3{
     margin-left: 10px;
     font-size: 25px;
-    color: #b43120;
+    color: #c22e1b;
 }
 
 .name2{
@@ -157,7 +166,7 @@ body{
     margin-top: 7px;
     margin-left: 25px;
     font-size: 27px;
-    color: #b43120;
+    color: #c22e1b;
 }
 
 .name3{
@@ -173,8 +182,8 @@ body{
 .post5{
     margin-top: 7px;
     margin-left: 15px;
-    font-size: 27px;
-    color: #b43120; 
+    font-size: 25px;
+    color: #c22e1b;
 }
 
 .surname4{
@@ -184,12 +193,13 @@ body{
 .post6{
     margin-top: 7px;
    margin-left: 4px;
-    font-size: 25px;
-    color: #b43120; 
+    font-size: 25px; 
+    color: #c22e1b;
 }
 
 #mission{
     margin-top: 35px;
+    
    
 }
 
@@ -212,12 +222,128 @@ body{
   }
 
   .heading{
-    font-size: 40px;
+    font-size: 30px;
   }
 
 .team{
     font-size: 20px;
 }
 
+    .container1 {
+        width: 100%;
+        height: auto;
+        margin-top: 150px;
+        margin-left: 3px;
+        margin-right: 3px;
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+    } 
+    .member {
+        width: 95%;
+        height: auto; 
+        margin: 10px 0; 
+    }
 
+    .image {
+        width: 150; 
+        height: 150px;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .name, .surname, .post {
+        font-size: 22px; 
+        text-align: center
+        
+    }
+
+    .name1, .name2, .name3 {
+        font-size: 22px;
+        margin-left: 15px;
+    }
+    .surname1, .surname2, .surname3, .surname4 {
+        font-size: 22px;
+        margin-left: 15px;
+    }
+
+    
+    .post1, .post2, .post3, .post4, .post5, .post6 {
+        font-size: 20px;
+        margin-left: 20px;
+        margin-bottom: 5px;
+    }
+   
+    .name, .surname, .post {
+        margin: 5px 0; 
+    }
+   .producer, .producer1 {
+        font-size: 18px;
+        display: block;
+        margin-top: 5px;
+        margin-left: 0px;
+    }
+
+     .member {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        text-align: center; 
+    }
+
+    .table {
+        flex-direction: column; 
+        align-items: center; 
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .main_heading {
+        font-size: 28px; 
+        text-align: center; 
+        margin-bottom: 10px;
+    }
+
+    .paragraph {
+        font-size: 18px; 
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        text-align: center; 
+    }
+    .group_photo img {
+        height: 250px; 
+        margin-top: 20px;
+    }
+
+    .container {
+        display: block; 
+        text-align: center; 
+    }
+
+    .text-content {
+        margin-bottom: 20px; 
+    }
+
+    .main_heading {
+        font-size: 28px; 
+        margin-bottom: 10px;
+    }
+    .paragraph {
+        font-size: 18px; 
+        margin-top: 10px;
+        margin-bottom: 20px; 
+    }
+
+    .group_photo img {
+        height: 250px; 
+        margin-top: 20px;
+    }
+}
+
+/* laptop */
+@media (min-width: 801px) and (max-width: 2000px){
+    .container1{
+        display: flex;
+        justify-content: space-evenly;
+    }
 }

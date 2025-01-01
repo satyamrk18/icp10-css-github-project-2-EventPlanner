@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1d1c2; 
+}
+
+header {
+    background-color: #5d776c; 
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+.job-listings, .application-form {
+    margin-bottom: 2rem;
+}
+
+.job-listings h2, .application-form h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #5d776c; 
+}
+
+.job {
+    background-color: white; 
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.job:hover {
+    transform: translateY(-5px);
+}
+
+.job h3 {
+    margin-top: 0;
+}
+
+.job button {
+    background-color: #5d776c; 
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.job button:hover {
+    background-color: #3e5148; 
+}
+
+.application-form form {
+    background-color: #f7ebe9; 
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.application-form label {
+    display: block;
+    margin-top: 1rem;
+    color: #5d776c; 
+}
+
+.application-form input, .application-form select, .application-form button {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.application-form button {
+    background-color: #5d776c; 
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.application-form button:hover {
+    background-color: #3e5148; 
+}
+.terms-container {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.terms-container input[type="checkbox"] {
+    margin-right: 0px; /* space between the checkbox and the label */
+}
+
+.terms-container label {
+    font-size: 1rem;
+    color: #333;
+}
+
+.terms-container a {
+    color: #5d776c;
+    text-decoration: none;
+}
+
+.terms-container a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #5d776c ;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    color: #333; 
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+footer a {
+    color: #ff6b6b;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 5px; 
+    font-size: 1.2rem;
+}
+
+footer a:hover {
+    color: #ff6b6b;
+    text-decoration: underline;
+}
+
+  /*Phones*/
+@media (max-width: 480px) {
+    footer a {
+        font-size: 1rem;
+    }
+}
+
+    
