@@ -339,15 +339,3 @@ body{
     }
 }
 
-/* laptop */
-@media (min-width: 801px) and (max-width: 2000px){
-    .container1 {
-        width: 100%; 
-        height: auto;
-        margin-top: 150px;
-        display: flex;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-    }
-    
-}
