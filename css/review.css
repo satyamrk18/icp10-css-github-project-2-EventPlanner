@@ -36,7 +36,7 @@
   }
   .review-container{
     position: relative;
-    top: 150px;
+    /* top: 150px; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
