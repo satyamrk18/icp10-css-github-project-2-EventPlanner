@@ -4,7 +4,7 @@
     box-sizing:border-box;
 }
 .container{
-    min-height:100vh;
+    min-height:100px;
     background-color:#ebceca;
     padding:50px;
     text-align:center;
@@ -99,7 +99,7 @@ input:hover{
   }
 @media (min-width: 601px) and (max-width: 800px) { 
     .container{
-        min-height:90vh;
+        min-height:100px;
         background-color:#efa197 ;
         padding:50px;
         text-align:center;
@@ -135,7 +135,7 @@ input:hover{
  }
  @media (min-width: 801px) and (max-width: 2000px) {
     .container{
-        min-height:100vh;
+        min-height:100px
         background-color:#ebceca ;
         padding:50px;
         text-align:center;
