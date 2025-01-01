@@ -234,15 +234,13 @@ body {
       
         /* phone */
           @media (max-width: 600px) {
-       .footer {
-              display: none;
-            }
+      
             .p-footer {
               height: 450px;
               width: 100%;
               background-color: rgb(252, 219, 176);
               position: relative;
-              top: 250px;
+              top:50px;
               display: flex;
               justify-content: center;
             }
@@ -307,7 +305,37 @@ body {
               text-decoration: none;
               color: #088178;
             }
+            .footer-events ul
+            {
+              display:none;
+            }
+            .footer {
+              display: none;
+            }
+            .footer-events
+            {
+              display: none;
+            }
+            .footer-events ul
+            {
+              display: none;
+            }
+            .footer-btns
+            {
+              display: none;
+            }
+            .footer-btns button
+            {
+              display: none;
+            }
+            .footer img{
+              display:none;
+            }
+            .footer-line{
+              display: none;
+            }
           }
+          
       
       /*normal css */
       
@@ -316,7 +344,7 @@ body {
             height: 250px;
             background-color: rgb(252, 219, 176);
             position: relative;
-            top: 300px;
+            top:300px;
             display: flex;
             align-items: center;
             justify-content: center;
