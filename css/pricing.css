@@ -3,46 +3,25 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+  
   }
   body {
     font-family: Arial, sans-serif;
     background-color: #5d776c;
     color: #333;
+    background-color:#ebceca; ;
   }
-  .navbar1{
-    background-color:  #f1d1c2 ;
-     display: flex;
-     justify-content: space-evenly;
-     position: sticky;
-     height: 150px;
-  }
-  .logo{
-    height: 135px;
-          padding-left: 10px;
-          position: relative;
-          top:10px;
-  }
-  .nav-content{
-    font-size: 25px;
-    font-family: "crimson Pro";
-    color: #088179bd;
-    text-decoration: none;
-    transition: 0.3s;
-    font-weight: 600;
-    padding-top: 50px;
-}
 
-.nav-content:hover{
-transition: 0.3s;
-    padding-top: 40px;
-    font-size: 25px;
-    text-decoration: underline;
-    text-decoration-thickness: 3px;
-    color: #088178;
-}
-  h1, h2 {
-    font-family: 'Georgia', serif;
+  ul{
+    background-color: #ebceca;
   }
+
+
+  @font-face {
+    font-family: myfont;
+    src: url("./../fonts/font.otf");
+  }
+
   .pricing-section {
     text-align: center;
     padding: 30px;
@@ -50,28 +29,28 @@ transition: 0.3s;
    margin-top: 60px;
   }
   .pricing-title {
-    font-size: 2.5em;
-    margin-bottom: 20px;
+    margin-top: 80px;
     background-color: white;
     color: #5d776c;
+    font-family: myfont;
+    font-size: 40px;
     
   }
   .title-hover{
     transform: translateY(-10px);
   }
   
-  .pricing-subtitle {
-    font-size: 1.2em;
-    margin-bottom: 20px;
-    color:#ebceca;
-    background-color:white;
-  }
   
   .pricing-container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #ebceca
   }
   .pricing-card {
     background-color:white;
@@ -88,6 +67,7 @@ transition: 0.3s;
   }
   
   .package-title {
+    font-family: myfont;
     font-size: 1.3em;
     margin-bottom: 10px;
     color: #333;
@@ -112,7 +92,6 @@ transition: 0.3s;
   .button-container{
     background-color: #ebceca;
     text-align: center;
-    color: white;
     font-size: 20px;
     padding: 15px 30px;
     border:#5d776c;
@@ -121,10 +100,16 @@ transition: 0.3s;
     transition: background-color 0.3s ease,transform 0.3s ease;
   
   }
+
+  a{
+    text-decoration: none;
+    color: #5d776c;
+  }
   
   .package-details li {
     margin-bottom: 10px;
   }
+
   
   @media (max-width: 768px) {
     .pricing-container {
@@ -162,10 +147,9 @@ h1, h2 {
 }
 
 .pricing-subtitle {
-  font-size: 1.2em;
-  margin-bottom: 40px;
   color:#5d776c;
-  background-color: #ebceca #f1d1c2;
+  background-color: #fff;
+  margin-bottom: 20px;
 }
 
 .pricing-container {
@@ -211,6 +195,12 @@ h1, h2 {
 
 .package-details li {
   margin-bottom: 10px;
+}
+
+@media (min-width:769px) and (max-width: 2000px) {
+  .p-footer {
+      display: none;
+    }
 }
 
 @media (max-width: 768px) {
