@@ -14,7 +14,7 @@
     margin:0 auto;
 }
 .contact h1{
-    font-size:30px;
+    font-size:40px;
     margin-bottom:40px;
     color: #b38600;
     font-family: myfont;
@@ -135,7 +135,7 @@ input:hover{
  }
  @media (min-width: 801px) and (max-width: 2000px) {
     .container{
-        min-height:100px
+        min-height:100px;
         background-color:#ebceca ;
         padding:50px;
         text-align:center;

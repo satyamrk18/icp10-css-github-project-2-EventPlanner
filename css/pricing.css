@@ -197,11 +197,6 @@ h1, h2 {
   margin-bottom: 10px;
 }
 
-@media (min-width:769px) and (max-width: 2000px) {
-  .p-footer {
-      display: none;
-    }
-}
 
 @media (max-width: 768px) {
   .pricing-container {
